@@ -1,6 +1,5 @@
 import React from 'react';
 import { NavBar } from '../navbar/NavBar';
-import './Showbiz.css'
 
 export const Showbiz = () => {
     return (

@@ -1,0 +1,123 @@
+.navbar-logo-placeholder {
+    background-color: $primary-color-3;
+    width: 15%;
+    padding: 2%;
+}
+
+.navbar-logo {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+    background-color: $primary-color-1!important;
+    width: 100%!important;
+    padding: 0!important;
+    border-bottom: 1px solid black;
+}
+
+.navbar-nav {
+    text-align: center!important;
+    margin: 0 auto;
+}
+
+.nav-item {
+    margin: 0 auto;
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+.nav-link {
+    color: $secondary-color-1!important;
+    font-weight: bold;
+    height: 100%;
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+.showbizz {
+    border-bottom: 2px solid red;
+}
+
+.zvezde-granda {
+    border-bottom: 2px solid #dda92f;
+}
+
+.nikad-nije-kasno {
+    border-bottom: 2px solid #5a319d;
+}
+
+.prakticna-zena {
+    border-bottom: 2px solid #B17216;
+}
+
+.horoskop {
+    border-bottom: 2px solid #3774A6;
+}
+
+.recepti {
+    border-bottom: 2px solid #886C52;
+}
+
+.grand  {
+    border-bottom: 2px solid #B17216;
+}
+
+.navbar-toggler {
+    color: $secondary-color-1!important;
+    border-color: $primary-color-1!important;
+}
+
+.navbar>.container, .navbar>.container-fluid {
+    align-items:initial;
+    min-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.navbar-user {
+    background-color: $primary-color-3;
+    width: 7%;
+    height: 100%;
+}
+
+.fa-user {
+    color: $secondary-color-1!important;
+    min-width: 100%;
+}
+
+.nav-track {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20%;
+    min-height: 5%;
+    width: 100%;
+    background-color: $primary-color-1;
+    color: gray;
+    border-bottom: 1px solid black;
+}
+
+@media (min-width: 200px) {
+    .nav-link {font-size: small;}
+}
+
+@media (min-width: 600px) {
+    .nav-link {font-size: small;}
+}
+
+@media (min-width: 900px) {
+    .nav-link {font-size: medium;}
+}  
+
+@media (min-width: 1200px) {
+    .nav-link {font-size: large;}
+}
+
+/* @media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{ color: rgb(0, 0, 0);  }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+} */

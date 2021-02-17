@@ -1,6 +1,5 @@
 import React from 'react';
 import { NavBar } from '../navbar/NavBar';
-import './Recepti.css'
 
 export const Recepti = () => {
     return (

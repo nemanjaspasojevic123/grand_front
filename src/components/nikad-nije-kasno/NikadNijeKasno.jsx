@@ -1,6 +1,5 @@
 import React from 'react';
 import { NavBar } from '../navbar/NavBar';
-import './NikadNijeKasno.css'
 
 export const NikadNijeKasno = () => {
     return (

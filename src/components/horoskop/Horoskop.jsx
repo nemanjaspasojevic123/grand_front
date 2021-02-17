@@ -1,6 +1,5 @@
 import React from 'react';
 import { NavBar } from '../navbar/NavBar';
-import './Horoskop.css'
 
 export const Horoskop = () => {
     return (

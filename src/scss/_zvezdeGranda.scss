@@ -1,0 +1,30 @@
+.zvezdeGranda-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: $primary-color-2;
+}
+
+.zvezdeGranda-leftBanner {
+    height: 100vh;
+}
+
+.zvezdeGranda-rightBanner {
+    height: 100vh;
+}
+
+@media (max-width: 300px) {
+    .zvezdeGranda-leftBanner {display: none};
+}
+
+@media (max-width: 1200px) {
+    .zvezdeGranda-leftBanner {display: none};
+}  
+
+@media (max-width: 300px) {
+    .zvezdeGranda-rightBanner {display: none};
+}
+
+@media (max-width: 1200px) {
+    .zvezdeGranda-rightBanner {display: none};
+} 
