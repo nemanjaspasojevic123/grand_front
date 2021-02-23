@@ -1,13 +1,17 @@
 * {
+  font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
 }
 
-.emisije {
+.emisije-content {
   display: flex;
   justify-content: center;
+  width: 100%;
+  background-color: #222222;
+  height: 100vh;
 }
 
 .footer {
@@ -21,9 +25,28 @@
   color: #fff;
 }
 
-.horoskop {
+.grand-content {
   display: flex;
   justify-content: center;
+  width: 100%;
+  background-color: #222222;
+  height: 100vh;
+}
+
+.grandoskop-content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #222222;
+  height: 100vh;
+}
+
+.horoskop-content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #222222;
+  height: 100vh;
 }
 
 .navbar-logo-placeholder {
@@ -57,7 +80,6 @@
 
 .nav-link {
   color: #ffffff !important;
-  font-weight: bold;
   height: 100%;
   padding-left: 0 !important;
   padding-right: 0 !important;
@@ -91,6 +113,38 @@
   border-bottom: 2px solid #B17216;
 }
 
+.dropdown-menu {
+  background-color: #262626 !important;
+}
+
+.dropdown-item {
+  color: #ffffff !important;
+}
+
+.dropdown-item-grandoskop:hover {
+  background-color: #3774A6 !important;
+}
+
+.dropdown-item-horoskop:hover {
+  background-color: #3774A6 !important;
+}
+
+.dropdown-item-emisije:hover {
+  background-color: #B17216 !important;
+}
+
+.dropdown-item-programska-sema:hover {
+  background-color: #B17216 !important;
+}
+
+.dropdown-horoskop {
+  border: 2px solid #3774A6;
+}
+
+.dropdown-grand {
+  border: 2px solid #B17216;
+}
+
 .navbar-toggler {
   color: #ffffff !important;
   border-color: #262626 !important;
@@ -107,13 +161,15 @@
 
 .navbar-user {
   background-color: #E44326;
-  width: 7%;
+  width: 18%;
   height: 100%;
+  padding: 3%;
+  text-align: center;
 }
 
-.fa-user {
+.user-icon {
   color: #ffffff !important;
-  min-width: 100%;
+  height: 3rem;
 }
 
 .nav-track {
@@ -123,8 +179,17 @@
   min-height: 5%;
   width: 100%;
   background-color: #262626;
-  color: gray;
+  color: #c5c5c5;
   border-bottom: 1px solid black;
+}
+
+.nav-track-social {
+  display: flex;
+}
+
+.nav-track-social-icon {
+  height: 1.5rem;
+  margin-left: 1rem;
 }
 
 @media (min-width: 200px) {
@@ -147,30 +212,60 @@
     font-size: large;
   }
 }
+@media screen and (max-width: 300px) {
+  .nav-track {
+    display: none;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .nav-track {
+    display: none;
+  }
+}
 /* @media all and (min-width: 992px) {
 	.navbar .nav-item .dropdown-menu{ display: none; }
 	.navbar .nav-item:hover .nav-link{ color: rgb(0, 0, 0);  }
 	.navbar .nav-item:hover .dropdown-menu{ display: block; }
 	.navbar .nav-item .dropdown-menu{ margin-top:0; }
 } */
-.nikadNijeKasno {
+.nikadNijeKasno-content {
   display: flex;
   justify-content: center;
+  width: 100%;
+  background-color: #222222;
+  height: 100vh;
 }
 
-.prakticnaZena {
+.prakticnaZena-content {
   display: flex;
   justify-content: center;
+  width: 100%;
+  background-color: #222222;
+  height: 100vh;
 }
 
-.recepti {
+.programska-sema-content {
   display: flex;
   justify-content: center;
+  width: 100%;
+  background-color: #222222;
+  height: 100vh;
 }
 
-.showbiz {
+.recepti-content {
   display: flex;
   justify-content: center;
+  width: 100%;
+  background-color: #222222;
+  height: 100vh;
+}
+
+.showbiz-content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #222222;
+  height: 100vh;
 }
 
 .zvezdeGranda-content {
@@ -188,30 +283,40 @@
   height: 100vh;
 }
 
-@media (max-width: 300px) {
-  .zvezdeGranda-leftBanner {
-    display: none;
-  }
+.zvezdeGranda-contentCenter {
+  display: flex;
+  justify-content: space-between;
 }
+
 @media (max-width: 1200px) {
+  .zvezdeGranda-contentCenter {
+    display: block;
+  }
+}
+@media screen and (max-width: 300px) {
   .zvezdeGranda-leftBanner {
     display: none;
   }
 }
-@media (max-width: 300px) {
+@media screen and (max-width: 1200px) {
+  .zvezdeGranda-leftBanner {
+    display: none;
+  }
+}
+@media screen and (max-width: 300px) {
   .zvezdeGranda-rightBanner {
     display: none;
   }
 }
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
   .zvezdeGranda-rightBanner {
     display: none;
   }
 }
 .zvezde-granda-carousel {
   margin: 1%;
-  width: 40rem;
-  height: 29rem;
+  width: 60%;
+  height: 50%;
 }
 
 .carousel {
@@ -225,6 +330,13 @@
 
 .active {
   max-height: 80%;
+}
+
+.zvezde-granda-poll {
+  margin: 1%;
+  width: 40%;
+  height: 50%;
+  background-color: #713FC6;
 }
 
 /*# sourceMappingURL=style.css.map */

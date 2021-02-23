@@ -13,18 +13,26 @@
     height: 100vh;
 }
 
-@media (max-width: 300px) {
-    .zvezdeGranda-leftBanner {display: none};
+.zvezdeGranda-contentCenter {
+    display: flex;
+    justify-content: space-between;
 }
 
 @media (max-width: 1200px) {
+    .zvezdeGranda-contentCenter {display: block};
+} 
+@media screen and (max-width: 300px) {
+    .zvezdeGranda-leftBanner {display: none};
+}
+
+@media screen and (max-width: 1200px) {
     .zvezdeGranda-leftBanner {display: none};
 }  
 
-@media (max-width: 300px) {
+@media screen and (max-width: 300px) {
     .zvezdeGranda-rightBanner {display: none};
 }
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
     .zvezdeGranda-rightBanner {display: none};
 } 

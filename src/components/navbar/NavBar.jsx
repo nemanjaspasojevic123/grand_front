@@ -1,6 +1,12 @@
 import React from "react";
 import logo from "../../assets/logos/Grand_TV_logo.png";
 import { Link } from "react-router-dom";
+import user from "../../assets/logos/user-solid.svg";
+import instagram from "../../assets/logos/instagram-brands.svg";
+import facebook from "../../assets/logos/facebook-f-brands.svg";
+import youtube from "../../assets/logos/youtube-brands.svg";
+import twitter from "../../assets/logos/twitter-brands.svg";
+
 
 export const NavBar = () => {
   return (
@@ -40,42 +46,32 @@ export const NavBar = () => {
                   Praktična žena
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link horoskop" to="/horoskop">
-                  Horoskop
-                </Link>
-              </li>
-              {/* <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href="/horoskop" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+              <li className="nav-item dropdown">
+                                <a className="nav-link dropdown-toggle horoskop" href="/horoskop" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
                                     Horoskop
                                 </a>
-                                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <Link className="dropdown-item" to="/grandoskop">Grandoskop</Link>
-                                    <Link className="dropdown-item" to="/horoskop">Horoskop</Link>
+                                <div className="dropdown-menu dropdown-horoskop" aria-labelledby="navbarDropdown">
+                                    <Link className="dropdown-item dropdown-item-grandoskop" to="/grandoskop">Grandoskop</Link>
+                                    <Link className="dropdown-item dropdown-item-horoskop" to="/horoskop">Horoskop</Link>
                                 </div>
-                            </li> */}
+                            </li>
               <li className="nav-item">
                 <Link className="nav-link recepti" to="/recepti">
                   Recepti
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link grand" to="/grand">
-                  Grand
-                </Link>
-              </li>
-              {/* <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href="/grand" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <li className="nav-item dropdown">
+                                <a className="nav-link dropdown-toggle grand" href="/grand" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Grand
                                 </a>
-                                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <Link className="dropdown-item" to="/emisije">Emisije</Link>
-                                    <Link className="dropdown-item" to="/programska-sema">Programska šema</Link>
+                                <div className="dropdown-menu dropdown-grand" aria-labelledby="navbarDropdown">
+                                    <Link className="dropdown-item dropdown-item-emisije" to="/emisije">Emisije</Link>
+                                    <Link className="dropdown-item dropdown-item-programska-sema" to="/programska-sema">Programska šema</Link>
                                 </div>
-                            </li> */}
+                            </li>
             </ul>
               <Link className="navbar-user" to="/login">
-                <i className="fa fa-user fa-lg"></i>
+              <img src={user} alt="user icon" className="user-icon"></img>
               </Link>
           </div>
         </div>
@@ -85,7 +81,11 @@ export const NavBar = () => {
               Trenutno na programu: Zvezde Granda
           </div>
           <div className="nav-track-social">
-              Pratite nas: <i className="fa fa-instagram fa-lg"></i><i className="fa fa-facebook fa-lg"></i>
+              Pratite nas: 
+              <img src={facebook} alt="facebook icon" className="nav-track-social-icon"></img>
+              <img src={instagram} alt="instagram icon" className="nav-track-social-icon"></img>
+              <img src={youtube} alt="youtube icon" className="nav-track-social-icon"></img>
+              <img src={twitter} alt="twitter icon" className="nav-track-social-icon"></img>
           </div>
       </div>
     </div>
