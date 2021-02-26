@@ -283,7 +283,7 @@
   height: 100vh;
 }
 
-.zvezdeGranda-contentCenter {
+.zvezdeGranda-contentCenterCarousel {
   display: flex;
   justify-content: space-between;
 }
@@ -316,7 +316,7 @@
 .zvezde-granda-carousel {
   margin: 1%;
   width: 60%;
-  height: 50%;
+  height: 45%;
 }
 
 .carousel {
@@ -335,8 +335,25 @@
 .zvezde-granda-poll {
   margin: 1%;
   width: 40%;
-  height: 50%;
   background-color: #713FC6;
+}
+
+.zvezde-granda-news {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.zvezde-granda-newsItems {
+  height: 15%;
+}
+
+.zvezde-granda-newsItem {
+  height: 12rem;
+  width: 18rem;
+}
+
+.zvezde-granda-newsItemTitle {
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
