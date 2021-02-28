@@ -1,7 +1,6 @@
 .navbar-logo-placeholder {
     background-color: $primary-color-3;
     width: 15%;
-    padding: 2%;
 }
 
 .navbar-logo {
@@ -13,7 +12,8 @@
     background-color: $primary-color-1!important;
     width: 100%!important;
     padding: 0!important;
-    border-bottom: 1px solid black;
+    flex-flow: wrap!important;
+    height: 80px;
 }
 
 .navbar-nav {
@@ -34,31 +34,31 @@
     padding-right: 0!important;
 }
 
-.showbizz {
+.showbizzLink {
     border-bottom: 2px solid red;
 }
 
-.zvezde-granda {
+.zvezde-grandaLink {
     border-bottom: 2px solid #dda92f;
 }
 
-.nikad-nije-kasno {
+.nikad-nije-kasnoLink {
     border-bottom: 2px solid #5a319d;
 }
 
-.prakticna-zena {
+.prakticna-zenaLink {
     border-bottom: 2px solid #B17216;
 }
 
-.horoskop {
+.horoskopLink {
     border-bottom: 2px solid #3774A6;
 }
 
-.recepti {
+.receptiLink {
     border-bottom: 2px solid #886C52;
 }
 
-.grand  {
+.grandLink {
     border-bottom: 2px solid #B17216;
 }
 
@@ -102,6 +102,10 @@
     border: 2px solid #B17216;
 }
 
+.navbar-collapse {
+text-align: -webkit-center;
+}
+
 .navbar-toggler {
     color: $secondary-color-1!important;
     border-color: $primary-color-1!important;
@@ -114,68 +118,35 @@
     padding-right: 0;
     margin-left: 0;
     margin-right: 0;
+    border-bottom: 1px solid black;
+    height: 100%;
 }
 
 .navbar-user {
     background-color: $primary-color-3;
-    width: 18%;
-    height: 100%;
-    padding: 3%;
+    width: 17.5%;
     text-align: center;
+    padding-top: 1%;
+    height: -webkit-fill-available
 }
 
 .user-icon {
-    color: $secondary-color-1!important;
-    height: 3rem;
+    fill: $secondary-color-1!important;
 }
 
-.nav-track {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 20%;
-    min-height: 5%;
-    width: 100%;
-    background-color: $primary-color-1;
-    color: $secondary-color-2;
-    border-bottom: 1px solid black;
-}
 
-.nav-track-social {
-    display: flex;
-}
-
-.nav-track-social-icon {
-    height: 1.5rem;
-    margin-left: 1rem;
-}
-
-@media (min-width: 200px) {
-    .nav-link {font-size: small;}
-}
-
-@media (min-width: 600px) {
-    .nav-link {font-size: small;}
-}
-
-@media (min-width: 900px) {
-    .nav-link {font-size: medium;}
+@media screen and (max-width: 576px) {
+    .navbar {height: max-content ;}
 }  
 
-@media (min-width: 1200px) {
-    .nav-link {font-size: large;}
-}
-
-@media screen and (max-width: 300px) {
-    .nav-track {display: none};
-}
-
-@media screen and (max-width: 1200px) {
-    .nav-track {display: none};
+@media screen and (max-width: 574px) {
+    .nav-link {font-size: 100%!important}
 }  
 
-/* @media all and (min-width: 992px) {
-	.navbar .nav-item .dropdown-menu{ display: none; }
-	.navbar .nav-item:hover .nav-link{ color: rgb(0, 0, 0);  }
-	.navbar .nav-item:hover .dropdown-menu{ display: block; }
-	.navbar .nav-item .dropdown-menu{ margin-top:0; }
-} */
+@media screen and (max-width: 840px) {
+    .nav-link {font-size: 60%}
+}  
+
+@media screen and (max-width: 846px) {
+    .navbar-user {padding-bottom: 2%;}
+} 

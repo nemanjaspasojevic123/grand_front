@@ -4,7 +4,7 @@ import { Horoskop } from './components/horoskop/Horoskop';
 import { NikadNijeKasno } from './components/nikad-nije-kasno/NikadNijeKasno';
 import { PrakticnaZena } from './components/prakticna-zena/PrakticnaZena';
 import { Recepti } from './components/recepti/Recepti';
-import { Showbiz } from './components/showbiz/Showbiz';
+import { Showbizz } from './components/showbizz/Showbizz';
 import { ZvezdeGranda } from './components/zvezde-granda/ZvezdeGranda';
 import { Grandoskop } from './components/horoskop/Grandoskop';
 import { Emisije } from './components/grand/Emisije';
@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Switch>
-          <Route component={Showbiz} exact path="/showbiz"></Route>
+          <Route component={Showbizz} exact path="/showbizz"></Route>
           <Route component={ZvezdeGranda} exact path="/zvezde-granda"></Route>
           <Route component={NikadNijeKasno} exact path="/nikad-nije-kasno"></Route>
           <Route component={PrakticnaZena} exact path="/prakticna-zena"></Route>
@@ -24,7 +24,7 @@ function App() {
           <Route component={Recepti} exact path="/recepti"></Route>
           <Route component={Emisije} exact path="/emisije"></Route> 
           <Route component={ProgramskaSema} exact path="/programska-sema"></Route>
-          <Redirect from="/" to="showbiz" />  
+          <Redirect from="/" to="showbizz" />  
         </Switch>
       </BrowserRouter>
     </div>

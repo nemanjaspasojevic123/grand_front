@@ -1,0 +1,23 @@
+.showbizz-news {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.showbizz-newsItems {
+    max-width: 24%;
+}
+
+.showbizz-newsItem {
+    max-width: 100%;
+}
+
+.showbizz-newsItemTitle {
+    color: white;
+}
+
+@media screen and (max-width: 768px){
+    .showbizz-news {
+        display: block;
+    }
+    
+}

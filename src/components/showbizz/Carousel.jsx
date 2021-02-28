@@ -6,7 +6,7 @@ import belgrade from "../../assets/images/most-na-adi-4569762_1280.jpg";
 
 export const Carousel = () => {
   return (
-      <div className="zvezde-granda-carousel">
+      <div className="showbizz-carousel">
     <div
       id="carouselExampleIndicators"
       className="carousel slide"

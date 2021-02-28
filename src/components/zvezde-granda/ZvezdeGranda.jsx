@@ -2,9 +2,6 @@ import React from "react";
 import { NavBar } from "../navbar/NavBar";
 import banner_left from "../../assets/images/sanja_levo.jpg";
 import banner_right from "../../assets/images/voja_desno.jpg";
-import { Carousel } from "./Carousel";
-import { Poll } from "./Poll";
-import { News } from "./News";
 
 export const ZvezdeGranda = () => {
   return (
@@ -17,13 +14,6 @@ export const ZvezdeGranda = () => {
           <img src={banner_left} alt="banner_left"></img>
         </div>
         <div className="zvezdeGranda-contentCenter">
-          <div className="zvezdeGranda-contentCenterCarousel">
-            <Carousel />
-            <Poll />
-          </div>
-          <div className="zvezdeGranda-contentCenterNews">
-            <News />
-          </div>
         </div>
         <div className="zvezdeGranda-rightBanner">
           <img src={banner_right} alt="banner_right"></img>

@@ -5,12 +5,19 @@
 @import 'grandoskop';
 @import 'horoskop';
 @import 'navbar';
+@import 'navTrack';
 @import 'nikadNijeKasno';
 @import 'prakticnaZena';
 @import 'programskaSema';
 @import 'recepti';
-@import 'showbiz';
+@import 'showbizz';
 @import 'zvezdeGranda';
-@import 'zgCarousel';
-@import 'zgPoll';
-@import 'zgNews';
+@import 'sbCarousel';
+@import 'sbPoll';
+@import 'sbNews';
+
+@media screen and (min-width: 768px){
+    section {
+        display: block;
+    }   
+}

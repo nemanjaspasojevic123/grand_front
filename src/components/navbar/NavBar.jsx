@@ -1,17 +1,12 @@
 import React from "react";
-import logo from "../../assets/logos/Grand_TV_logo.png";
+import logo from "../../assets/logos/top-bar-logo.svg";
 import { Link } from "react-router-dom";
-import user from "../../assets/logos/user-solid.svg";
-import instagram from "../../assets/logos/instagram-brands.svg";
-import facebook from "../../assets/logos/facebook-f-brands.svg";
-import youtube from "../../assets/logos/youtube-brands.svg";
-import twitter from "../../assets/logos/twitter-brands.svg";
-
+import user from "../../assets/logos/user.svg";
 
 export const NavBar = () => {
   return (
-    <div className="navbar">
-      <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div className="navigationBar">
+      <nav className="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
         <div className="container nav-container">
           <Link className="navbar-logo-placeholder" to="/">
             <img src={logo} alt="no img" className="navbar-logo" />
@@ -27,27 +22,27 @@ export const NavBar = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <Link className="nav-link showbizz" to="/showbiz">
+                <Link className="nav-link showbizzLink" to="/showbizz">
                   Showbizz
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link zvezde-granda" to="/zvezde-granda">
+                <Link className="nav-link zvezde-grandaLink" to="/zvezde-granda">
                   Zvezde Granda
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link nikad-nije-kasno" to="/nikad-nije-kasno">
+                <Link className="nav-link nikad-nije-kasnoLink" to="/nikad-nije-kasno">
                   Nikad nije kasno
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link prakticna-zena" to="/prakticna-zena">
+                <Link className="nav-link prakticna-zenaLink" to="/prakticna-zena">
                   Praktična žena
                 </Link>
               </li>
               <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle horoskop" href="/horoskop" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                                <a className="nav-link dropdown-toggle horoskopLink" href="/horoskop" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
                                     Horoskop
                                 </a>
                                 <div className="dropdown-menu dropdown-horoskop" aria-labelledby="navbarDropdown">
@@ -56,12 +51,12 @@ export const NavBar = () => {
                                 </div>
                             </li>
               <li className="nav-item">
-                <Link className="nav-link recepti" to="/recepti">
+                <Link className="nav-link receptiLink" to="/recepti">
                   Recepti
                 </Link>
               </li>
               <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle grand" href="/grand" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <a className="nav-link dropdown-toggle grandLink" href="/grand" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Grand
                                 </a>
                                 <div className="dropdown-menu dropdown-grand" aria-labelledby="navbarDropdown">
@@ -70,24 +65,14 @@ export const NavBar = () => {
                                 </div>
                             </li>
             </ul>
-              <Link className="navbar-user" to="/login">
+            <div className="navbar-user">
+              <Link to="/login">
               <img src={user} alt="user icon" className="user-icon"></img>
               </Link>
+            </div>
           </div>
         </div>
       </nav>
-      <div className="nav-track">
-          <div className="nav-track-program">
-              Trenutno na programu: Zvezde Granda
-          </div>
-          <div className="nav-track-social">
-              Pratite nas: 
-              <img src={facebook} alt="facebook icon" className="nav-track-social-icon"></img>
-              <img src={instagram} alt="instagram icon" className="nav-track-social-icon"></img>
-              <img src={youtube} alt="youtube icon" className="nav-track-social-icon"></img>
-              <img src={twitter} alt="twitter icon" className="nav-track-social-icon"></img>
-          </div>
-      </div>
     </div>
   );
 };

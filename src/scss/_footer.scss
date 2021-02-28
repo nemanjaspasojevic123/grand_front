@@ -1,10 +1,11 @@
 .footer {
     height: 200px;
     width: 100%;
-    background-color: rgb(32, 32, 32);
+    background-color: $primary-color-4;
+    margin: 0 auto;
 }
 
 .footer-icons {
     display: flex;
-    color: #fff
+    color: $secondary-color-2;
 }
