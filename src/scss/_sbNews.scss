@@ -4,7 +4,9 @@
 }
 
 .showbizz-newsItems {
-    max-width: 24%;
+    max-width: 25%;
+    box-sizing: border-box;
+    padding: 1rem;
 }
 
 .showbizz-newsItem {
@@ -18,6 +20,5 @@
 @media screen and (max-width: 768px){
     .showbizz-news {
         display: block;
-    }
-    
+    }  
 }

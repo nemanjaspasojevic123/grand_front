@@ -2,10 +2,19 @@
     height: 200px;
     width: 100%;
     background-color: $primary-color-4;
-    margin: 0 auto;
 }
 
 .footer-icons {
+    width: 25%;
     display: flex;
     color: $secondary-color-2;
+    margin: auto;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.footer-copyright {
+    color: $secondary-color-2;
+    text-align: center;
+    padding-top: 2rem;
 }

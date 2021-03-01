@@ -18,12 +18,21 @@
   height: 200px;
   width: 100%;
   background-color: #141414;
-  margin: 0 auto;
 }
 
 .footer-icons {
+  width: 25%;
   display: flex;
   color: #c5c5c5;
+  margin: auto;
+  justify-content: center;
+  padding-top: 3rem;
+}
+
+.footer-copyright {
+  color: #c5c5c5;
+  text-align: center;
+  padding-top: 2rem;
 }
 
 .grand-content {
@@ -201,7 +210,7 @@
 .nav-track {
   display: flex;
   justify-content: space-between;
-  padding: 4px 20%;
+  padding: 4px 17%;
   min-height: 20px;
   width: 100%;
   background-color: #262626;
@@ -274,12 +283,14 @@
 .showbizz-content {
   width: 100%;
   background-color: #222222;
-  padding-top: 30px;
+  padding-top: 34px;
 }
 
 .showbizz-contentCenter {
   width: 70%;
   margin: auto;
+  box-sizing: border-box;
+  padding: 1rem;
 }
 
 .showbizz-leftBanner {
@@ -309,6 +320,13 @@
   justify-content: space-between;
 }
 
+.showbizz-contentCenterFooter {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  box-sizing: border-box;
+}
+
 @media (max-width: 1200px) {
   .showbizz-contentCenter {
     display: block;
@@ -332,6 +350,10 @@
 
   .showbizz-content {
     padding-top: 0;
+  }
+
+  .showbizz-contentCenterCarousel {
+    display: block;
   }
 }
 .zvezdeGranda-content {
@@ -370,37 +392,58 @@
   }
 }
 .showbizz-carousel {
-  margin: 1%;
   width: 60%;
   height: 45%;
+  padding: 1rem;
+  box-sizing: border-box;
 }
 
-.carousel {
-  width: 100%;
-  height: 100%;
+.carousel .carousel-item {
+  height: 400px;
 }
 
-.carousel-inner {
-  height: 100%;
+.carousel-item img {
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  min-height: 400px;
 }
 
-.active {
-  max-height: 80%;
+@media screen and (max-width: 576px) {
+  .showbizz-carousel {
+    width: 100%;
+  }
 }
-
 .showbizz-poll {
-  margin: 1%;
   width: 40%;
-  background-color: #713FC6;
+  height: 432px;
+  box-sizing: border-box;
+  padding: 1rem;
 }
 
+.showbizz-pollItem {
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+  .showbizz-poll {
+    width: 100%;
+  }
+}
 .showbizz-news {
   display: flex;
   justify-content: space-evenly;
 }
 
 .showbizz-newsItems {
-  max-width: 24%;
+  max-width: 25%;
+  box-sizing: border-box;
+  padding: 1rem;
 }
 
 .showbizz-newsItem {

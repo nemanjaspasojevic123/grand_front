@@ -13,6 +13,9 @@ export const Footer = () => {
               <img src={youtube} alt="youtube icon" className="nav-track-social-icon"></img>
               <img src={twitter} alt="twitter icon" className="nav-track-social-icon"></img>
             </div>
+            <div>
+                <h6 className="footer-copyright">© Grand Online 2021</h6>
+            </div>
         </footer>
     )
 }

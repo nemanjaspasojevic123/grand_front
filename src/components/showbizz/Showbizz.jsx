@@ -28,7 +28,9 @@ export const Showbizz = () => {
             <div className="showbizz-contentCenterNews">
               <News />
             </div>
+            <div className="showbizz-contentCenterFooter">
             <Footer />
+            </div>
           </div>
           </div>
         </div>
