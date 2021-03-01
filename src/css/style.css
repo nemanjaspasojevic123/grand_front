@@ -20,13 +20,23 @@
   background-color: #141414;
 }
 
+.footer-links {
+  padding-top: 3rem;
+  text-align: center;
+}
+
+.footer-link {
+  color: #c5c5c5;
+  padding: 0.5rem;
+}
+
 .footer-icons {
   width: 25%;
   display: flex;
   color: #c5c5c5;
   margin: auto;
   justify-content: center;
-  padding-top: 3rem;
+  padding-top: 2rem;
 }
 
 .footer-copyright {
@@ -290,7 +300,9 @@
   width: 70%;
   margin: auto;
   box-sizing: border-box;
-  padding: 1rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .showbizz-leftBanner {
@@ -356,11 +368,16 @@
     display: block;
   }
 }
+.zvezdeGranda {
+  padding-top: 80px;
+}
+
 .zvezdeGranda-content {
   display: flex;
   justify-content: space-between;
   width: 100%;
   background-color: #222222;
+  padding-top: 34px;
 }
 
 .zvezdeGranda-leftBanner {
@@ -436,27 +453,93 @@
   }
 }
 .showbizz-news {
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 0.5rem;
 }
 
 .showbizz-newsItems {
-  max-width: 25%;
+  max-width: 100%;
   box-sizing: border-box;
   padding: 1rem;
 }
 
+.showbizz-newsItemsImage {
+  height: 70%;
+  width: 100%;
+}
+
 .showbizz-newsItem {
-  max-width: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
 }
 
 .showbizz-newsItemTitle {
+  height: 30%;
+  width: 100%;
   color: white;
 }
 
 @media screen and (max-width: 768px) {
   .showbizz-news {
-    display: block;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0.5rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .showbizz-news {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 0.5rem;
+  }
+}
+.showbizz-popularNews {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 0.5rem;
+}
+
+.showbizz-popularNewsItems {
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 1rem;
+}
+
+.showbizz-popularNewsItemsImage {
+  height: 70%;
+  width: 100%;
+}
+
+.showbizz-popularNewsItem {
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.showbizz-popularNewsItemTitle {
+  height: 30%;
+  width: 100%;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .showbizz-popularNews {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0.5rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .showbizz-popularNews {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 0.5rem;
   }
 }
 @media screen and (min-width: 768px) {

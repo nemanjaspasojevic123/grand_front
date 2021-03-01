@@ -7,6 +7,7 @@ import { Poll } from "./Poll";
 import { News } from "./News";
 import { Footer } from '../footer/Footer';
 import { NavTrack } from '../navbar/NavTrack';
+import { PopularNews } from './PopularNews';
 
 export const Showbizz = () => {
     return (
@@ -27,6 +28,9 @@ export const Showbizz = () => {
             </div>
             <div className="showbizz-contentCenterNews">
               <News />
+            </div>
+            <div className="showbizz-contentCenterPopularNews">
+              <PopularNews />
             </div>
             <div className="showbizz-contentCenterFooter">
             <Footer />

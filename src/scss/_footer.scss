@@ -4,13 +4,23 @@
     background-color: $primary-color-4;
 }
 
+.footer-links {
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.footer-link {
+    color: $secondary-color-2;
+    padding: 0.5rem;
+}
+
 .footer-icons {
     width: 25%;
     display: flex;
     color: $secondary-color-2;
     margin: auto;
     justify-content: center;
-    padding-top: 3rem;
+    padding-top: 2rem;
 }
 
 .footer-copyright {

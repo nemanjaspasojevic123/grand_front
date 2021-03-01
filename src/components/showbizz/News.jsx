@@ -8,20 +8,28 @@ export const News = () => {
     return (
         <section className="showbizz-news">
             <div className="showbizz-newsItems">
+            <div className="showbizz-newsItemsImage">
             <img src={chicago} alt="chicago img" className="showbizz-newsItem" />
-            <h5 className="showbizz-newsItemTitle" >Lorem ipsum</h5>
+            </div>
+            <h5 className="showbizz-newsItemTitle" >Nove vesti</h5>
             </div>
             <div className="showbizz-newsItems">
+            <div className="showbizz-newsItemsImage">
             <img src={newyork} alt="newyork img" className="showbizz-newsItem" />
-            <h5 className="showbizz-newsItemTitle" >Lorem ipsum</h5>
+            </div>
+            <h5 className="showbizz-newsItemTitle" >Nove vesti</h5>
             </div>
             <div className="showbizz-newsItems">
+            <div className="showbizz-newsItemsImage">
             <img src={london} alt="london img" className="showbizz-newsItem" />
-            <h5 className="showbizz-newsItemTitle" >Lorem ipsum</h5>
+            </div>
+            <h5 className="showbizz-newsItemTitle" >Nove vesti</h5>
             </div>
             <div className="showbizz-newsItems">
+            <div className="showbizz-newsItemsImage">
             <img src={belgrade} alt="belgrade img" className="showbizz-newsItem" />
-            <h5 className="showbizz-newsItemTitle" >Lorem ipsum</h5>
+            </div>
+            <h5 className="showbizz-newsItemTitle" >Nove vesti</h5>
             </div>
         </section>
     )

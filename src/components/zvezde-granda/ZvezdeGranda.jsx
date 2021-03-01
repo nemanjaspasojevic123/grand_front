@@ -2,12 +2,14 @@ import React from "react";
 import { NavBar } from "../navbar/NavBar";
 import banner_left from "../../assets/images/sanja_levo.jpg";
 import banner_right from "../../assets/images/voja_desno.jpg";
+import { NavTrack } from "../navbar/NavTrack";
 
 export const ZvezdeGranda = () => {
   return (
     <div className="zvezdeGranda">
       <div className="zvezdeGranda-navigation">
         <NavBar />
+        <NavTrack />
       </div>
       <div className="zvezdeGranda-content">
         <div className="zvezdeGranda-leftBanner">
