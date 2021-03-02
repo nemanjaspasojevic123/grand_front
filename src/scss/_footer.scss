@@ -14,9 +14,9 @@
 }
 
 .footer-icons {
+    filter: invert(100%) sepia(99%) saturate(16%) hue-rotate(239deg) brightness(103%) contrast(100%);
     width: 25%;
     display: flex;
-    fill: $primary-color-2;
     margin: auto;
     justify-content: center;
     padding-top: 2rem;

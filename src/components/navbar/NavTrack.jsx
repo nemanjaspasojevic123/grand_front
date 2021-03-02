@@ -8,7 +8,7 @@ export const NavTrack = () => {
     return (
         <div className="nav-track">
         <div className="nav-track-program">
-            Trenutno na programu: Zvezde Granda
+            Trenutno na programu: <span className="nav-track-programItem">Zvezde Granda</span>
         </div>
         <div className="nav-track-social">
             Pratite nas: 

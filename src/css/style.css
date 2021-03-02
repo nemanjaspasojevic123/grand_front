@@ -30,9 +30,9 @@
 }
 
 .footer-icons {
+  filter: invert(100%) sepia(99%) saturate(16%) hue-rotate(239deg) brightness(103%) contrast(100%);
   width: 25%;
   display: flex;
-  fill: #ffffff;
   margin: auto;
   justify-content: center;
   padding-top: 2rem;
@@ -110,31 +110,31 @@
 }
 
 .showbizzLink {
-  border-bottom: 2px solid red;
+  border-bottom: 3px solid red;
 }
 
 .zvezde-grandaLink {
-  border-bottom: 2px solid #dda92f;
+  border-bottom: 3px solid #dda92f;
 }
 
 .nikad-nije-kasnoLink {
-  border-bottom: 2px solid #5a319d;
+  border-bottom: 3px solid #5a319d;
 }
 
 .prakticna-zenaLink {
-  border-bottom: 2px solid #B17216;
+  border-bottom: 3px solid #B17216;
 }
 
 .horoskopLink {
-  border-bottom: 2px solid #3774A6;
+  border-bottom: 3px solid #3774A6;
 }
 
 .receptiLink {
-  border-bottom: 2px solid #886C52;
+  border-bottom: 3px solid #886C52;
 }
 
 .grandLink {
-  border-bottom: 2px solid #B17216;
+  border-bottom: 3px solid #B17216;
 }
 
 .dropdown-menu {
@@ -234,6 +234,10 @@
   z-index: 10;
 }
 
+.nav-track-programItem {
+  font-weight: bold;
+}
+
 .nav-track-social {
   display: flex;
 }
@@ -302,6 +306,7 @@
 
 .showbizz-contentCenter {
   width: 70%;
+  height: 100vh;
   margin: auto;
   box-sizing: border-box;
   padding-top: 1rem;
