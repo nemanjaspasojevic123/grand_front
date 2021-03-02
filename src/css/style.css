@@ -10,13 +10,13 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  background-color: #222222;
+  background-color: #ffffff;
   height: 100vh;
 }
 
 .footer {
   width: 100%;
-  background-color: #141414;
+  background-color: #303030;
 }
 
 .footer-links {
@@ -25,21 +25,21 @@
 }
 
 .footer-link {
-  color: #c5c5c5;
+  color: #ffffff;
   padding: 0.5rem;
 }
 
 .footer-icons {
   width: 25%;
   display: flex;
-  color: #c5c5c5;
+  fill: #ffffff;
   margin: auto;
   justify-content: center;
   padding-top: 2rem;
 }
 
 .footer-copyright {
-  color: #c5c5c5;
+  color: #ffffff;
   text-align: center;
   padding: 1rem;
 }
@@ -53,7 +53,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  background-color: #222222;
+  background-color: #ffffff;
   height: 100vh;
 }
 
@@ -61,7 +61,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  background-color: #222222;
+  background-color: #ffffff;
   height: 100vh;
 }
 
@@ -69,7 +69,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  background-color: #222222;
+  background-color: #ffffff;
   height: 100vh;
 }
 
@@ -84,7 +84,7 @@
 }
 
 .navbar {
-  background-color: #262626 !important;
+  background-color: #cccccc !important;
   width: 100% !important;
   padding: 0 !important;
   flex-flow: wrap !important;
@@ -103,7 +103,7 @@
 }
 
 .nav-link {
-  color: #ffffff !important;
+  color: #000000 !important;
   height: 100%;
   padding-left: 0 !important;
   padding-right: 0 !important;
@@ -138,11 +138,11 @@
 }
 
 .dropdown-menu {
-  background-color: #262626 !important;
+  background-color: #cccccc !important;
 }
 
 .dropdown-item {
-  color: #ffffff !important;
+  color: #000000 !important;
 }
 
 .dropdown-item-grandoskop:hover {
@@ -174,8 +174,8 @@
 }
 
 .navbar-toggler {
-  color: #ffffff !important;
-  border-color: #262626 !important;
+  color: #000000 !important;
+  border-color: #cccccc !important;
 }
 
 .navbar > .container, .navbar > .container-fluid {
@@ -198,7 +198,7 @@
 }
 
 .user-icon {
-  fill: #ffffff !important;
+  fill: #000000 !important;
 }
 
 @media screen and (max-width: 576px) {
@@ -227,9 +227,9 @@
   padding: 4px 17%;
   min-height: 20px;
   width: 100%;
-  background-color: #262626;
-  color: #c5c5c5;
-  border-bottom: 2px solid black;
+  background-color: #cccccc;
+  color: #000000;
+  border-bottom: 1px solid black;
   position: fixed;
   z-index: 10;
 }
@@ -262,7 +262,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  background-color: #222222;
+  background-color: #ffffff;
   height: 100vh;
 }
 
@@ -270,7 +270,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  background-color: #222222;
+  background-color: #ffffff;
   height: 100vh;
 }
 
@@ -278,7 +278,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  background-color: #222222;
+  background-color: #ffffff;
   height: 100vh;
 }
 
@@ -286,7 +286,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  background-color: #222222;
+  background-color: #ffffff;
   height: 100vh;
 }
 
@@ -296,8 +296,8 @@
 
 .showbizz-content {
   width: 100%;
-  background-color: #222222;
-  padding-top: 34px;
+  background-color: #ffffff;
+  padding-top: 33px;
 }
 
 .showbizz-contentCenter {
@@ -389,7 +389,7 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  background-color: #222222;
+  background-color: #ffffff;
   padding-top: 34px;
 }
 
@@ -493,7 +493,7 @@
 .showbizz-newsItemTitle {
   height: 30%;
   width: 100%;
-  color: white;
+  color: #000000;
 }
 
 @media screen and (max-width: 768px) {
@@ -538,7 +538,7 @@
 .showbizz-popularNewsItemTitle {
   height: 30%;
   width: 100%;
-  color: white;
+  color: #000000;
 }
 
 @media screen and (max-width: 768px) {
@@ -555,23 +555,23 @@
     column-gap: 0.5rem;
   }
 }
-.show {
+.shows {
   display: block;
   width: 100%;
 }
 
-.showItems {
+.showsItems {
   max-width: 100%;
   box-sizing: border-box;
   padding: 1rem;
 }
 
-.showItemsImage {
+.showsItemsImage {
   height: 50%;
   width: 100%;
 }
 
-.showItem {
+.showsItem {
   object-fit: cover;
   top: 0;
   left: 0;
@@ -579,14 +579,14 @@
   width: 100%;
 }
 
-.showItemTitle {
+.showsItemTitle {
   height: 30%;
   width: 100%;
-  color: white;
+  color: #000000;
 }
 
 @media screen and (max-width: 576px) {
-  .show {
+  .shows {
     width: 100%;
   }
 }
@@ -618,7 +618,7 @@
 .mostReadNewsItemTitle {
   height: 30%;
   width: 100%;
-  color: white;
+  color: #000000;
 }
 
 @media screen and (max-width: 576px) {

@@ -1,20 +1,20 @@
-.show {
+.shows {
     display: block;
     width: 100%;
 }
 
-.showItems {
+.showsItems {
     max-width: 100%;
     box-sizing: border-box;
     padding: 1rem;
 }
 
-.showItemsImage {
+.showsItemsImage {
     height: 50%;
     width: 100%;
 }
 
-.showItem {
+.showsItem {
     object-fit: cover;
     top: 0;
     left: 0;
@@ -23,14 +23,14 @@
 }
 
 
-.showItemTitle {
+.showsItemTitle {
     height: 30%;
     width: 100%;
-    color: white;
+    color: $secondary-color-1;
 }
 
 @media screen and (max-width: 576px){
-    .show {
+    .shows {
         width: 100%;
     }
 }
