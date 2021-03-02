@@ -1,6 +1,6 @@
 .shows {
     display: block;
-    width: 100%;
+    max-width: 100%;
 }
 
 .showsItems {
@@ -10,7 +10,7 @@
 }
 
 .showsItemsImage {
-    height: 50%;
+    height: 100%;
     width: 100%;
 }
 

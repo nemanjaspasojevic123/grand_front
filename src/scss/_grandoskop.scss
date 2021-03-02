@@ -1,7 +1,56 @@
+.grandoskop {
+    padding-top: 80px;
+}
+
 .grandoskop-content {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
     background-color: $primary-color-2;
-    height: 100vh;
+    padding-top: 33px;
 }
+
+.grandoskop-contentCenter {
+    width: 70%;
+    height: 100vh;
+    margin: auto;
+    box-sizing: border-box;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.grandoskop-leftBanner {
+    height: 100vh;
+    max-width: 15%;
+    position: fixed;
+    left: 0;
+}
+
+.grandoskop-leftBannerImage {
+    width: 100%;
+}
+
+.grandoskop-rightBanner {
+    height: 100vh;
+    max-width: 15%;
+    position: fixed;
+    right: 0;
+}
+
+.grandoskop-rightBannerImage {
+    width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+    .grandoskop-contentCenter {display: block};
+} 
+
+@media screen and (max-width: 1200px) {
+    .grandoskop-leftBanner {display: none};
+}  
+
+
+@media screen and (max-width: 1200px) {
+    .grandoskop-rightBanner {display: none};
+} 

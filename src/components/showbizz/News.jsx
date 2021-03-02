@@ -1,33 +1,33 @@
 import React from 'react';
-import chicago from "../../assets/images/chicago-1791002_1280.jpg";
-import newyork from "../../assets/images/city-1150026_1280.jpg";
-import london from "../../assets/images/london-2393098_1280.jpg";
-import belgrade from "../../assets/images/most-na-adi-4569762_1280.jpg";
+import showbizzImg1 from "../../assets/images/de22b6bc325b4cc3593b7cf7252bf0c156c2b28e.jpg";
+import showbizzImg2 from "../../assets/images/c3b7d134fc9268bee50baab49ec1f2c07b2e2a65.jpg";
+import showbizzImg3 from "../../assets/images/9ee9aae3a19b81f777a5447e81cda96b266999f7.jpg";
+import showbizzImg4 from "../../assets/images/5e457019b10d0855da8ec84e2c61d71d49a10484.jpg";
 
 export const News = () => {
     return (
         <section className="showbizz-news">
             <div className="showbizz-newsItems">
             <div className="showbizz-newsItemsImage">
-            <img src={chicago} alt="chicago img" className="showbizz-newsItem" />
+            <img src={showbizzImg1} alt="showbizz img1" className="showbizz-newsItem" />
             </div>
             <h5 className="showbizz-newsItemTitle" >Nove vesti</h5>
             </div>
             <div className="showbizz-newsItems">
             <div className="showbizz-newsItemsImage">
-            <img src={newyork} alt="newyork img" className="showbizz-newsItem" />
+            <img src={showbizzImg2} alt="showbizz img2" className="showbizz-newsItem" />
             </div>
             <h5 className="showbizz-newsItemTitle" >Nove vesti</h5>
             </div>
             <div className="showbizz-newsItems">
             <div className="showbizz-newsItemsImage">
-            <img src={london} alt="london img" className="showbizz-newsItem" />
+            <img src={showbizzImg3} alt="showbizz img3" className="showbizz-newsItem" />
             </div>
             <h5 className="showbizz-newsItemTitle" >Nove vesti</h5>
             </div>
             <div className="showbizz-newsItems">
             <div className="showbizz-newsItemsImage">
-            <img src={belgrade} alt="belgrade img" className="showbizz-newsItem" />
+            <img src={showbizzImg4} alt="showbizz img4" className="showbizz-newsItem" />
             </div>
             <h5 className="showbizz-newsItemTitle" >Nove vesti</h5>
             </div>

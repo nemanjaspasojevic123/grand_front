@@ -6,14 +6,65 @@
   scroll-behavior: smooth;
 }
 
-.emisije-content {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  background-color: #ffffff;
-  height: 100vh;
+.emisije {
+  padding-top: 80px;
 }
 
+.emisije-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #ffffff;
+  padding-top: 33px;
+}
+
+.emisije-contentCenter {
+  width: 70%;
+  height: 100vh;
+  margin: auto;
+  box-sizing: border-box;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.emisije-leftBanner {
+  height: 100vh;
+  max-width: 15%;
+  position: fixed;
+  left: 0;
+}
+
+.emisije-leftBannerImage {
+  width: 100%;
+}
+
+.emisije-rightBanner {
+  height: 100vh;
+  max-width: 15%;
+  position: fixed;
+  right: 0;
+}
+
+.emisije-rightBannerImage {
+  width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .emisije-contentCenter {
+    display: block;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .emisije-leftBanner {
+    display: none;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .emisije-rightBanner {
+    display: none;
+  }
+}
 .footer {
   width: 100%;
   background-color: #303030;
@@ -49,30 +100,124 @@
     display: inline-block;
   }
 }
-.grand-content {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  background-color: #ffffff;
-  height: 100vh;
+.grandoskop {
+  padding-top: 80px;
 }
 
 .grandoskop-content {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   width: 100%;
   background-color: #ffffff;
+  padding-top: 33px;
+}
+
+.grandoskop-contentCenter {
+  width: 70%;
   height: 100vh;
+  margin: auto;
+  box-sizing: border-box;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.grandoskop-leftBanner {
+  height: 100vh;
+  max-width: 15%;
+  position: fixed;
+  left: 0;
+}
+
+.grandoskop-leftBannerImage {
+  width: 100%;
+}
+
+.grandoskop-rightBanner {
+  height: 100vh;
+  max-width: 15%;
+  position: fixed;
+  right: 0;
+}
+
+.grandoskop-rightBannerImage {
+  width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .grandoskop-contentCenter {
+    display: block;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .grandoskop-leftBanner {
+    display: none;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .grandoskop-rightBanner {
+    display: none;
+  }
+}
+.horoskop {
+  padding-top: 80px;
 }
 
 .horoskop-content {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   width: 100%;
   background-color: #ffffff;
-  height: 100vh;
+  padding-top: 33px;
 }
 
+.horoskop-contentCenter {
+  width: 70%;
+  height: 100vh;
+  margin: auto;
+  box-sizing: border-box;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.horoskop-leftBanner {
+  height: 100vh;
+  max-width: 15%;
+  position: fixed;
+  left: 0;
+}
+
+.horoskop-leftBannerImage {
+  width: 100%;
+}
+
+.horoskop-rightBanner {
+  height: 100vh;
+  max-width: 15%;
+  position: fixed;
+  right: 0;
+}
+
+.horoskop-rightBannerImage {
+  width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .horoskop-contentCenter {
+    display: block;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .horoskop-leftBanner {
+    display: none;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .horoskop-rightBanner {
+    display: none;
+  }
+}
 .navbar-logo-placeholder {
   background-color: #E44326;
   width: 15%;
@@ -162,11 +307,11 @@
 }
 
 .dropdown-horoskop {
-  border: 2px solid #3774A6;
+  border: 3px solid #3774A6;
 }
 
 .dropdown-grand {
-  border: 2px solid #B17216;
+  border: 3px solid #B17216;
 }
 
 .navbar-collapse {
@@ -262,38 +407,238 @@
     padding: 4px 10px;
   }
 }
+.nikadNijeKasno {
+  padding-top: 80px;
+}
+
 .nikadNijeKasno-content {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   width: 100%;
   background-color: #ffffff;
+  padding-top: 33px;
+}
+
+.nikadNijeKasno-contentCenter {
+  width: 70%;
   height: 100vh;
+  margin: auto;
+  box-sizing: border-box;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.nikadNijeKasno-leftBanner {
+  height: 100vh;
+  max-width: 15%;
+  position: fixed;
+  left: 0;
+}
+
+.nikadNijeKasno-leftBannerImage {
+  width: 100%;
+}
+
+.nikadNijeKasno-rightBanner {
+  height: 100vh;
+  max-width: 15%;
+  position: fixed;
+  right: 0;
+}
+
+.nikadNijeKasno-rightBannerImage {
+  width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .nikadNijeKasno-contentCenter {
+    display: block;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .nikadNijeKasno-leftBanner {
+    display: none;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .nikadNijeKasno-rightBanner {
+    display: none;
+  }
+}
+.prakticnaZena {
+  padding-top: 80px;
 }
 
 .prakticnaZena-content {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   width: 100%;
   background-color: #ffffff;
-  height: 100vh;
+  padding-top: 33px;
 }
 
-.programska-sema-content {
+.prakticnaZena-contentCenter {
+  width: 70%;
+  height: 100vh;
+  margin: auto;
+  box-sizing: border-box;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.prakticnaZena-leftBanner {
+  height: 100vh;
+  max-width: 15%;
+  position: fixed;
+  left: 0;
+}
+
+.prakticnaZena-leftBannerImage {
+  width: 100%;
+}
+
+.prakticnaZena-rightBanner {
+  height: 100vh;
+  max-width: 15%;
+  position: fixed;
+  right: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .prakticnaZena-contentCenter {
+    display: block;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .prakticnaZena-leftBanner {
+    display: none;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .prakticnaZena-rightBanner {
+    display: none;
+  }
+}
+.programskaSema {
+  padding-top: 80px;
+}
+
+.programskaSema-content {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   width: 100%;
   background-color: #ffffff;
+  padding-top: 33px;
+}
+
+.programskaSema-contentCenter {
+  width: 70%;
   height: 100vh;
+  margin: auto;
+  box-sizing: border-box;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.programskaSema-leftBanner {
+  height: 100vh;
+  max-width: 15%;
+  position: fixed;
+  left: 0;
+}
+
+.programskaSema-leftBannerImage {
+  width: 100%;
+}
+
+.programskaSema-rightBanner {
+  height: 100vh;
+  max-width: 15%;
+  position: fixed;
+  right: 0;
+}
+
+.programskaSema-rightBannerImage {
+  width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .programskaSema-contentCenter {
+    display: block;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .programskaSema-leftBanner {
+    display: none;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .programskaSema-rightBanner {
+    display: none;
+  }
+}
+.recepti {
+  padding-top: 80px;
 }
 
 .recepti-content {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   width: 100%;
   background-color: #ffffff;
-  height: 100vh;
+  padding-top: 33px;
 }
 
+.recepti-contentCenter {
+  width: 70%;
+  height: 100vh;
+  margin: auto;
+  box-sizing: border-box;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.recepti-leftBanner {
+  height: 100vh;
+  max-width: 15%;
+  position: fixed;
+  left: 0;
+}
+
+.recepti-leftBannerImage {
+  width: 100%;
+}
+
+.recepti-rightBanner {
+  height: 100vh;
+  max-width: 15%;
+  position: fixed;
+  right: 0;
+}
+
+.recepti-rightBannerImage {
+  width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .recepti-contentCenter {
+    display: block;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .recepti-leftBanner {
+    display: none;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .recepti-rightBanner {
+    display: none;
+  }
+}
 .showbizz {
   padding-top: 80px;
 }
@@ -343,7 +688,14 @@
 
 .showbizz-contentCenterSecond {
   display: flex;
-  justify-content: space-between;
+}
+
+.showbizz-contentCenterShows {
+  width: 40%;
+}
+
+.showbizz-contentCenterMostReadNews {
+  width: 60%;
 }
 
 .showbizz-contentCenterFooter {
@@ -385,6 +737,14 @@
   .showbizz-contentCenterSecond {
     display: block;
   }
+
+  .showbizz-contentCenterShows {
+    width: 100%;
+  }
+
+  .showbizz-contentCenterMostReadNews {
+    width: 100%;
+  }
 }
 .zvezdeGranda {
   padding-top: 80px;
@@ -395,20 +755,39 @@
   justify-content: space-between;
   width: 100%;
   background-color: #ffffff;
-  padding-top: 34px;
+  padding-top: 33px;
+}
+
+.zvezdeGranda-contentCenter {
+  width: 70%;
+  height: 100vh;
+  margin: auto;
+  box-sizing: border-box;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .zvezdeGranda-leftBanner {
   height: 100vh;
+  max-width: 15%;
+  position: fixed;
+  left: 0;
+}
+
+.zvezdeGranda-leftBannerImage {
+  width: 100%;
 }
 
 .zvezdeGranda-rightBanner {
   height: 100vh;
+  max-width: 15%;
+  position: fixed;
+  right: 0;
 }
 
-.zvezdeGranda-contentCenterCarousel {
-  display: flex;
-  justify-content: space-between;
+.zvezdeGranda-rightBannerImage {
+  width: 100%;
 }
 
 @media screen and (max-width: 1200px) {
@@ -562,7 +941,7 @@
 }
 .shows {
   display: block;
-  width: 100%;
+  max-width: 100%;
 }
 
 .showsItems {
@@ -572,7 +951,7 @@
 }
 
 .showsItemsImage {
-  height: 50%;
+  height: 100%;
   width: 100%;
 }
 
@@ -608,8 +987,9 @@
 }
 
 .mostReadNewsItemsImage {
-  height: 50%;
-  width: 55%;
+  height: 100%;
+  width: 40%;
+  padding-right: 0.5rem;
 }
 
 .mostReadNewsItem {
@@ -621,7 +1001,6 @@
 }
 
 .mostReadNewsItemTitle {
-  height: 30%;
   width: 100%;
   color: #000000;
 }

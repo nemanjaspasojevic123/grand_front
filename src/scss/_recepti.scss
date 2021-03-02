@@ -1,7 +1,56 @@
+.recepti {
+    padding-top: 80px;
+}
+
 .recepti-content {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
     background-color: $primary-color-2;
-    height: 100vh;
+    padding-top: 33px;
 }
+
+.recepti-contentCenter {
+    width: 70%;
+    height: 100vh;
+    margin: auto;
+    box-sizing: border-box;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.recepti-leftBanner {
+    height: 100vh;
+    max-width: 15%;
+    position: fixed;
+    left: 0;
+}
+
+.recepti-leftBannerImage {
+    width: 100%;
+}
+
+.recepti-rightBanner {
+    height: 100vh;
+    max-width: 15%;
+    position: fixed;
+    right: 0;
+}
+
+.recepti-rightBannerImage {
+    width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+    .recepti-contentCenter {display: block};
+} 
+
+@media screen and (max-width: 1200px) {
+    .recepti-leftBanner {display: none};
+}  
+
+
+@media screen and (max-width: 1200px) {
+    .recepti-rightBanner {display: none};
+} 

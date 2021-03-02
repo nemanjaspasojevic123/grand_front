@@ -13,12 +13,12 @@ export const ZvezdeGranda = () => {
       </div>
       <div className="zvezdeGranda-content">
         <div className="zvezdeGranda-leftBanner">
-          <img src={banner_left} alt="banner_left"></img>
+          <img src={banner_left} alt="banner_left" className="zvezdeGranda-leftBannerImage"></img>
         </div>
         <div className="zvezdeGranda-contentCenter">
         </div>
         <div className="zvezdeGranda-rightBanner">
-          <img src={banner_right} alt="banner_right"></img>
+          <img src={banner_right} alt="banner_right" className="zvezdeGranda-rightBannerImage"></img>
         </div>
       </div>
     </div>

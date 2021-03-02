@@ -1,7 +1,56 @@
-.programska-sema-content {
+.programskaSema {
+    padding-top: 80px;
+}
+
+.programskaSema-content {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
     background-color: $primary-color-2;
-    height: 100vh;
+    padding-top: 33px;
 }
+
+.programskaSema-contentCenter {
+    width: 70%;
+    height: 100vh;
+    margin: auto;
+    box-sizing: border-box;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.programskaSema-leftBanner {
+    height: 100vh;
+    max-width: 15%;
+    position: fixed;
+    left: 0;
+}
+
+.programskaSema-leftBannerImage {
+    width: 100%;
+}
+
+.programskaSema-rightBanner {
+    height: 100vh;
+    max-width: 15%;
+    position: fixed;
+    right: 0;
+}
+
+.programskaSema-rightBannerImage {
+    width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+    .programskaSema-contentCenter {display: block};
+} 
+
+@media screen and (max-width: 1200px) {
+    .programskaSema-leftBanner {display: none};
+}  
+
+
+@media screen and (max-width: 1200px) {
+    .programskaSema-rightBanner {display: none};
+} 

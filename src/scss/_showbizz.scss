@@ -1,5 +1,5 @@
 .showbizz {
-padding-top: 80px;
+    padding-top: 80px;
 }
 
 .showbizz-content {
@@ -48,7 +48,14 @@ padding-top: 80px;
 
 .showbizz-contentCenterSecond {
     display: flex;
-    justify-content: space-between;
+}
+
+.showbizz-contentCenterShows {
+    width: 40%;
+}
+
+.showbizz-contentCenterMostReadNews {
+    width: 60%;
 }
 
 .showbizz-contentCenterFooter {
@@ -89,5 +96,11 @@ padding-top: 80px;
     }
     .showbizz-contentCenterSecond {
         display: block;
+    }
+    .showbizz-contentCenterShows {
+        width: 100%;
+    }
+    .showbizz-contentCenterMostReadNews {
+        width: 100%;
     }
 }  

@@ -1,11 +1,11 @@
 import React from 'react';
-import london from "../../assets/images/london-2393098_1280.jpg";
+import pollImg1 from "../../assets/images/e20a7ff703ca1fe92c18bab2bbf6c1bbd91c3d0f.jpg";
 
 
 export const Poll = () => {
     return (
         <div className="showbizz-poll">
-            <img src={london} alt="belgrade img" className="showbizz-pollItem" />
+            <img src={pollImg1} alt="poll img" className="showbizz-pollItem" />
         </div>
     )
 }

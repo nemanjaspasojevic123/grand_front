@@ -1,7 +1,56 @@
+.horoskop {
+    padding-top: 80px;
+}
+
 .horoskop-content {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
     background-color: $primary-color-2;
-    height: 100vh;
+    padding-top: 33px;
 }
+
+.horoskop-contentCenter {
+    width: 70%;
+    height: 100vh;
+    margin: auto;
+    box-sizing: border-box;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.horoskop-leftBanner {
+    height: 100vh;
+    max-width: 15%;
+    position: fixed;
+    left: 0;
+}
+
+.horoskop-leftBannerImage {
+    width: 100%;
+}
+
+.horoskop-rightBanner {
+    height: 100vh;
+    max-width: 15%;
+    position: fixed;
+    right: 0;
+}
+
+.horoskop-rightBannerImage {
+    width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+    .horoskop-contentCenter {display: block};
+} 
+
+@media screen and (max-width: 1200px) {
+    .horoskop-leftBanner {display: none};
+}  
+
+
+@media screen and (max-width: 1200px) {
+    .horoskop-rightBanner {display: none};
+} 
