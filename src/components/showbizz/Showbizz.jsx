@@ -8,6 +8,8 @@ import { News } from "./News";
 import { Footer } from '../footer/Footer';
 import { NavTrack } from '../navbar/NavTrack';
 import { PopularNews } from './PopularNews';
+import { Shows } from './Shows';
+import { MostReadNews } from './MostReadNews';
 
 export const Showbizz = () => {
     return (
@@ -31,6 +33,14 @@ export const Showbizz = () => {
             </div>
             <div className="showbizz-contentCenterPopularNews">
               <PopularNews />
+            </div>
+            <div className="showbizz-contentCenterSecond">
+            <div className="showbizz-contentCenterShows">
+              <Shows />
+            </div>
+            <div className="showbizz-contentCenterMostReadNews">
+              <MostReadNews />
+            </div>
             </div>
             <div className="showbizz-contentCenterFooter">
             <Footer />

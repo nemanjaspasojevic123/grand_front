@@ -44,6 +44,12 @@ padding-top: 80px;
     justify-content: space-between;
 }
 
+
+.showbizz-contentCenterSecond {
+    display: flex;
+    justify-content: space-between;
+}
+
 .showbizz-contentCenterFooter {
     padding-top: 1rem;
     padding-left: 1rem;
@@ -78,6 +84,9 @@ padding-top: 80px;
         padding-top: 0;
     }
     .showbizz-contentCenterCarousel {
+        display: block;
+    }
+    .showbizz-contentCenterSecond {
         display: block;
     }
 }  

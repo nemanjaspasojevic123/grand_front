@@ -15,7 +15,6 @@
 }
 
 .footer {
-  height: 200px;
   width: 100%;
   background-color: #141414;
 }
@@ -42,9 +41,14 @@
 .footer-copyright {
   color: #c5c5c5;
   text-align: center;
-  padding-top: 2rem;
+  padding: 1rem;
 }
 
+@media screen and (max-width: 768px) {
+  .footer-link {
+    display: inline-block;
+  }
+}
 .grand-content {
   display: flex;
   justify-content: center;
@@ -332,6 +336,11 @@
   justify-content: space-between;
 }
 
+.showbizz-contentCenterSecond {
+  display: flex;
+  justify-content: space-between;
+}
+
 .showbizz-contentCenterFooter {
   padding-top: 1rem;
   padding-left: 1rem;
@@ -365,6 +374,10 @@
   }
 
   .showbizz-contentCenterCarousel {
+    display: block;
+  }
+
+  .showbizz-contentCenterSecond {
     display: block;
   }
 }
@@ -540,6 +553,77 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     column-gap: 0.5rem;
+  }
+}
+.show {
+  display: block;
+  width: 100%;
+}
+
+.showItems {
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 1rem;
+}
+
+.showItemsImage {
+  height: 50%;
+  width: 100%;
+}
+
+.showItem {
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.showItemTitle {
+  height: 30%;
+  width: 100%;
+  color: white;
+}
+
+@media screen and (max-width: 576px) {
+  .show {
+    width: 100%;
+  }
+}
+.mostReadNews {
+  display: block;
+  width: 100%;
+}
+
+.mostReadNewsItems {
+  display: flex;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 1rem;
+}
+
+.mostReadNewsItemsImage {
+  height: 50%;
+  width: 55%;
+}
+
+.mostReadNewsItem {
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.mostReadNewsItemTitle {
+  height: 30%;
+  width: 100%;
+  color: white;
+}
+
+@media screen and (max-width: 576px) {
+  .mostReadNews {
+    width: 100%;
   }
 }
 @media screen and (min-width: 768px) {

@@ -1,0 +1,36 @@
+.show {
+    display: block;
+    width: 100%;
+}
+
+.showItems {
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+.showItemsImage {
+    height: 50%;
+    width: 100%;
+}
+
+.showItem {
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+.showItemTitle {
+    height: 30%;
+    width: 100%;
+    color: white;
+}
+
+@media screen and (max-width: 576px){
+    .show {
+        width: 100%;
+    }
+}

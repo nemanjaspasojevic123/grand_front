@@ -1,0 +1,36 @@
+.mostReadNews {
+    display: block;
+    width: 100%;
+}
+
+.mostReadNewsItems {
+    display: flex;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+.mostReadNewsItemsImage {
+    height: 50%;
+    width: 55%;
+}
+
+.mostReadNewsItem {
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.mostReadNewsItemTitle {
+    height: 30%;
+    width: 100%;
+    color: white;
+}
+
+@media screen and (max-width: 576px){
+    .mostReadNews {
+        width: 100%;
+    }
+}

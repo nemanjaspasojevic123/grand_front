@@ -1,5 +1,4 @@
 .footer {
-    height: 200px;
     width: 100%;
     background-color: $primary-color-4;
 }
@@ -26,5 +25,11 @@
 .footer-copyright {
     color: $secondary-color-2;
     text-align: center;
-    padding-top: 2rem;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 768px){
+    .footer-link {
+        display: inline-block;
+    }
 }
