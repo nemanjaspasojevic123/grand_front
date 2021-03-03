@@ -23,18 +23,48 @@ export const Carousel = () => {
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img className="d-block w-100" src={carouselImg1} alt="First slide" />
+          <div className="carousel-caption">
+            <div className="carousel-captionDateTitle">
+              <p>02.03.2021.</p>
+              <h4>Nepoznati detalji sa svadbe Voje Nedeljkovića: "KAO PAPUČAR sam ušao u ovaj brak!"</h4>
+            </div>
+          </div>
         </div>
         <div className="carousel-item">
           <img className="d-block w-100" src={carouselImg2} alt="Second slide" />
+          <div className="carousel-caption">
+            <div className="carousel-captionDateTitle">
+              <p>02.03.2021.</p>
+              <h4>Nakon kritika da se izoperisala, pevačica poručila hejterima "JA GLEDAM U SVOJE DVORIŠTE A ONI..."</h4>
+            </div>
+          </div>
         </div>
         <div className="carousel-item">
           <img className="d-block w-100" src={carouselImg3} alt="Third slide" />
+          <div className="carousel-caption">
+            <div className="carousel-captionDateTitle">
+              <p>01.03.2021.</p>
+              <h4>SUZE ĆE VAM SAME KRENUTI Darko Lazić novu pesmu posvetio preminulom ocu (VIDEO)</h4>
+            </div>
+          </div>
         </div>
         <div className="carousel-item">
           <img className="d-block w-100" src={carouselImg4} alt="Fourth slide" />
+          <div className="carousel-caption">
+            <div className="carousel-captionDateTitle">
+              <p>01.03.2021.</p>
+              <h4>Ivana Peters otkrila svoj LJUBAVNI STATUS pa izjavila: ''Ljubav je POREMEĆAJ, to je treće stanje''</h4>
+            </div>
+          </div>
         </div>
         <div className="carousel-item">
           <img className="d-block w-100" src={carouselImg5} alt="Fifth slide" />
+          <div className="carousel-caption">
+            <div className="carousel-captionDateTitle">
+              <p>02.03.2021.</p>
+              <h4>Kaća Živković kadrovima iz teretane zapalila internet! Pevačica pokazala izvajano telo</h4>
+            </div>
+          </div>
         </div>
       </div>
       <a

@@ -17,6 +17,22 @@
     min-height: 400px;
 }
 
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.carousel-captionDateTitle {
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.carousel-indicators {
+    margin-bottom: 0;
+}
+
 @media screen and (max-width: 576px) {
     .showbizz-carousel {
         width: 100%;
