@@ -13,7 +13,7 @@ export const MostReadNews = () => {
             <img src={mostReadNewsImg1} alt="mostReadNewsImg1" className="mostReadNewsItem" />
             </div>
             <div className="mostReadNewsTitle">
-            <h5 className="mostReadNewsItemTitle" >Najčitanije vesti</h5>
+            <h5 className="mostReadNewsItemTitle" >JK joj rekla da nema pojma, takmičarka ODGOVORILA: "Nije istina, vi ste KONTRADIKTORNI!"</h5>
             </div>
             </div>
             <div className="mostReadNewsItems">
@@ -21,7 +21,7 @@ export const MostReadNews = () => {
             <img src={mostReadNewsImg2} alt="mostReadNewsImg2" className="mostReadNewsItem" />
             </div>
             <div className="mostReadNewsTitle">
-            <h5 className="mostReadNewsItemTitle" >Najčitanije vesti</h5>
+            <h5 className="mostReadNewsItemTitle" >LJUBI VODITELJKU? Drugarica pokušala da sakrije Sofrinu novu vezu, ali je lako razotkriven u emisiji</h5>
             </div>
             </div>
             <div className="mostReadNewsItems">
@@ -29,7 +29,7 @@ export const MostReadNews = () => {
             <img src={mostReadNewsImg3} alt="mostReadNewsImg3" className="mostReadNewsItem" />
             </div>
             <div className="mostReadNewsTitle">
-            <h5 className="mostReadNewsItemTitle" >Najčitanije vesti</h5>
+            <h5 className="mostReadNewsItemTitle" >Nakon što joj je sin ispao u "Zvezdama Granda" pevačica poručila "On ima svoje dostojanstvo!" (VIDEO)</h5>
             </div>
             </div>
             <div className="mostReadNewsItems">
@@ -37,7 +37,7 @@ export const MostReadNews = () => {
             <img src={mostReadNewsImg4} alt="mostReadNewsImg4" className="mostReadNewsItem" />
             </div>
             <div className="mostReadNewsTitle">
-            <h5 className="mostReadNewsItemTitle" >Najčitanije vesti</h5>
+            <h5 className="mostReadNewsItemTitle" >GODIŠNJI HOROSKOP: Vage, ovo je vaša SREĆNA godina u kojoj vas očekuje PUN KOFER IZNENAĐENJA</h5>
             </div>
             </div>
             <div className="mostReadNewsItems">
@@ -45,7 +45,7 @@ export const MostReadNews = () => {
             <img src={mostReadNewsImg5} alt="mostReadNewsImg5" className="mostReadNewsItem" />
             </div>
             <div className="mostReadNewsTitle">
-            <h5 className="mostReadNewsItemTitle" >Najčitanije vesti</h5>
+            <h5 className="mostReadNewsItemTitle" >Vodi zdrav život ali ipak ima porok VOLIM DA SE KOCKAM kaže Kaća Živković! (FOTO)</h5>
             </div>
             </div>
         </section>

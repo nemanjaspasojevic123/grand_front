@@ -22,11 +22,26 @@
     width: 100%;
 }
 
+.showsItemText {
+    position: relative;
+}
+
+.showsItemCaption {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    padding: .2rem;
+}
 
 .showsItemTitle {
-    height: 30%;
     width: 100%;
-    color: $secondary-color-1;
+    color: $primary-color-2;
+}
+
+.showsItemTime {
+    width: 100%;
+    color: $primary-color-2;
 }
 
 @media screen and (max-width: 576px){

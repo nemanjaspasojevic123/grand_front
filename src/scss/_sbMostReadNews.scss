@@ -12,8 +12,7 @@
 
 .mostReadNewsItemsImage {
     height: 100%;
-    width: 40%;
-    padding-right: .5rem;
+    width: 100%;
 }
 
 .mostReadNewsItem {
@@ -27,6 +26,15 @@
 .mostReadNewsItemTitle {
     width: 100%;
     color: $secondary-color-1;
+    background-color: rgba(201, 201, 201);
+    height: 100%;
+    padding-left: .5rem;
+}
+
+@media screen and (max-width: 1300px){
+    .mostReadNewsItemTitle {
+        font-size: medium;
+    }
 }
 
 @media screen and (max-width: 576px){
