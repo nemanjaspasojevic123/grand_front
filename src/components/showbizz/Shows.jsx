@@ -6,6 +6,9 @@ import showsImg3 from "../../assets/images/80a5df72a537661c12e59ab3947f7f8e.jpg"
 export const Shows = () => {
   return (
     <section className="shows">
+      <div className="showsMainTitle">
+      <h5 className="showsMainTitleText">Emisije</h5>
+      </div>
       <div className="showsItems">
         <div className="showsItemsImage">
           <img src={showsImg1} alt="showsImg1" className="showsItem" />

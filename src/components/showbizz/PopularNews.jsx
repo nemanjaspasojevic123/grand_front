@@ -8,79 +8,101 @@ import popularNewsImg6 from "../../assets/images/39620cb375f2dc62f7cd8df181b09a5
 
 export const PopularNews = () => {
   return (
-    <section className="showbizz-popularNews">
-      <div className="showbizz-popularNewsItems">
-        <div className="showbizz-popularNewsItemsImage">
-          <img
-            src={popularNewsImg1}
-            alt="popularNewsImg1"
-            className="showbizz-popularNewsItem"
-          />
-        </div>
-        <div className="showbizz-popularNewsTitle">
-          <span className="showbizz-popularNewsItemTitle">Kako je Ana Bekuta završila kao manekenka u spotu svog kolege?</span>
-        </div>
+    <>
+      <div className="showbizz-popularNewsMainTitle">
+        <h5 className="showbizz-popularNewsMainTitleText">Popularne vesti</h5>
       </div>
-      <div className="showbizz-popularNewsItems">
-        <div className="showbizz-popularNewsItemsImage">
-          <img
-            src={popularNewsImg2}
-            alt="popularNewsImg2"
-            className="showbizz-popularNewsItem"
-          />
+      <section className="showbizz-popularNews">
+        <div className="showbizz-popularNewsItems">
+          <div className="showbizz-popularNewsItemsImage">
+            <img
+              src={popularNewsImg1}
+              alt="popularNewsImg1"
+              className="showbizz-popularNewsItem"
+            />
+          </div>
+          <div className="showbizz-popularNewsTitle">
+            <span className="showbizz-popularNewsItemTitle">
+              Kako je Ana Bekuta završila kao manekenka u spotu svog kolege?
+            </span>
+          </div>
         </div>
-        <div className="showbizz-popularNewsTitle">
-          <span className="showbizz-popularNewsItemTitle">Odustao od takmičenja, Popović otkrio razlog, ali kad se Ivan pojavio, nastao je HAOS</span>
+        <div className="showbizz-popularNewsItems">
+          <div className="showbizz-popularNewsItemsImage">
+            <img
+              src={popularNewsImg2}
+              alt="popularNewsImg2"
+              className="showbizz-popularNewsItem"
+            />
+          </div>
+          <div className="showbizz-popularNewsTitle">
+            <span className="showbizz-popularNewsItemTitle">
+              Odustao od takmičenja, Popović otkrio razlog, ali kad se Ivan
+              pojavio, nastao je HAOS
+            </span>
+          </div>
         </div>
-      </div>
-      <div className="showbizz-popularNewsItems">
-        <div className="showbizz-popularNewsItemsImage">
-          <img
-            src={popularNewsImg3}
-            alt="popularNewsImg3"
-            className="showbizz-popularNewsItem"
-          />
+        <div className="showbizz-popularNewsItems">
+          <div className="showbizz-popularNewsItemsImage">
+            <img
+              src={popularNewsImg3}
+              alt="popularNewsImg3"
+              className="showbizz-popularNewsItem"
+            />
+          </div>
+          <div className="showbizz-popularNewsTitle">
+            <span className="showbizz-popularNewsItemTitle">
+              ŽESTOKA BORBA: 10 takmičara slavilo prolazak, 8 ispalo iz
+              takmičenja
+            </span>
+          </div>
         </div>
-        <div className="showbizz-popularNewsTitle">
-          <span className="showbizz-popularNewsItemTitle">ŽESTOKA BORBA: 10 takmičara slavilo prolazak, 8 ispalo iz takmičenja</span>
+        <div className="showbizz-popularNewsItems">
+          <div className="showbizz-popularNewsItemsImage">
+            <img
+              src={popularNewsImg4}
+              alt="popularNewsImg4"
+              className="showbizz-popularNewsItem"
+            />
+          </div>
+          <div className="showbizz-popularNewsTitle">
+            <span className="showbizz-popularNewsItemTitle">
+              "Ne valja da zovemo BOGA SAMO KADA NAM NEŠTO TREBA!" Marija
+              Šerifović poslala snažnu poruku u svom vlogu (VIDEO)
+            </span>
+          </div>
         </div>
-      </div>
-      <div className="showbizz-popularNewsItems">
-        <div className="showbizz-popularNewsItemsImage">
-          <img
-            src={popularNewsImg4}
-            alt="popularNewsImg4"
-            className="showbizz-popularNewsItem"
-          />
+        <div className="showbizz-popularNewsItems">
+          <div className="showbizz-popularNewsItemsImage">
+            <img
+              src={popularNewsImg5}
+              alt="popularNewsImg5"
+              className="showbizz-popularNewsItem"
+            />
+          </div>
+          <div className="showbizz-popularNewsTitle">
+            <span className="showbizz-popularNewsItemTitle">
+              NASTAVALJAMO U DOBROM RITMU: U SPECIJAL stižu legende naše muzike
+              (VIDEO)
+            </span>
+          </div>
         </div>
-        <div className="showbizz-popularNewsTitle">
-          <span className="showbizz-popularNewsItemTitle">"Ne valja da zovemo BOGA SAMO KADA NAM NEŠTO TREBA!" Marija Šerifović poslala snažnu poruku u svom vlogu (VIDEO)</span>
+        <div className="showbizz-popularNewsItems">
+          <div className="showbizz-popularNewsItemsImage">
+            <img
+              src={popularNewsImg6}
+              alt="popularNewsImg6"
+              className="showbizz-popularNewsItem"
+            />
+          </div>
+          <div className="showbizz-popularNewsTitle">
+            <span className="showbizz-popularNewsItemTitle">
+              Šoubiznis je SEKSISTIČKI POSAO: ''Ne dozvoli da te muškarci
+              gledaju kao 100 grama mesa!''
+            </span>
+          </div>
         </div>
-      </div>
-      <div className="showbizz-popularNewsItems">
-        <div className="showbizz-popularNewsItemsImage">
-          <img
-            src={popularNewsImg5}
-            alt="popularNewsImg5"
-            className="showbizz-popularNewsItem"
-          />
-        </div>
-        <div className="showbizz-popularNewsTitle">
-          <span className="showbizz-popularNewsItemTitle">NASTAVALJAMO U DOBROM RITMU: U SPECIJAL stižu legende naše muzike (VIDEO)</span>
-        </div>
-      </div>
-      <div className="showbizz-popularNewsItems">
-        <div className="showbizz-popularNewsItemsImage">
-          <img
-            src={popularNewsImg6}
-            alt="popularNewsImg6"
-            className="showbizz-popularNewsItem"
-          />
-        </div>
-        <div className="showbizz-popularNewsTitle">
-          <span className="showbizz-popularNewsItemTitle">Šoubiznis je SEKSISTIČKI POSAO: ''Ne dozvoli da te muškarci gledaju kao 100 grama mesa!''</span>
-        </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 };

@@ -229,7 +229,7 @@
 }
 
 .navbar {
-  background-color: #cccccc !important;
+  background-color: #dbdbdb !important;
   width: 100% !important;
   padding: 0 !important;
   flex-flow: wrap !important;
@@ -283,7 +283,7 @@
 }
 
 .dropdown-menu {
-  background-color: #cccccc !important;
+  background-color: #dbdbdb !important;
 }
 
 .dropdown-item {
@@ -320,7 +320,7 @@
 
 .navbar-toggler {
   color: #000000 !important;
-  border-color: #cccccc !important;
+  border-color: #dbdbdb !important;
 }
 
 .navbar > .container, .navbar > .container-fluid {
@@ -372,7 +372,7 @@
   padding: 4px 17%;
   min-height: 20px;
   width: 100%;
-  background-color: #cccccc;
+  background-color: #dbdbdb;
   color: #000000;
   border-bottom: 1px solid black;
   position: fixed;
@@ -957,6 +957,21 @@
   column-gap: 0.5rem;
 }
 
+.showbizz-popularNewsMainTitle {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.showbizz-popularNewsMainTitleText {
+  background-color: #E44326;
+  color: #ffffff;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+  width: 50%;
+}
+
 .showbizz-popularNewsItems {
   max-width: 100%;
   box-sizing: border-box;
@@ -995,6 +1010,10 @@
     grid-template-columns: repeat(2, 1fr);
     column-gap: 0.5rem;
   }
+
+  .showbizz-popularNewsMainTitleText {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 450px) {
   .showbizz-popularNews {
@@ -1006,6 +1025,21 @@
 .shows {
   display: block;
   max-width: 100%;
+}
+
+.showsMainTitle {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.showsMainTitleText {
+  background-color: #E44326;
+  color: #ffffff;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+  width: 70%;
 }
 
 .showsItems {
@@ -1053,15 +1087,34 @@
   .shows {
     width: 100%;
   }
+
+  .showsMainTitleText {
+    width: 100%;
+  }
 }
 .mostReadNews {
   display: block;
   width: 100%;
 }
 
+.mostReadNewsMainTitle {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.mostReadNewsMainTitleText {
+  background-color: #E44326;
+  color: #ffffff;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+  width: 70%;
+}
+
 .mostReadNewsItems {
   display: flex;
-  max-width: 100%;
+  width: 100%;
   box-sizing: border-box;
   padding: 1rem;
 }
@@ -1082,7 +1135,7 @@
 .mostReadNewsItemTitle {
   width: 100%;
   color: #000000;
-  background-color: #c9c9c9;
+  background-color: #dbdbdb;
   height: 100%;
   padding-left: 0.5rem;
 }
@@ -1094,6 +1147,10 @@
 }
 @media screen and (max-width: 576px) {
   .mostReadNews {
+    width: 100%;
+  }
+
+  .mostReadNewsMainTitleText {
     width: 100%;
   }
 }

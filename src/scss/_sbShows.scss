@@ -3,6 +3,21 @@
     max-width: 100%;
 }
 
+.showsMainTitle {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.showsMainTitleText {
+    background-color: $primary-color-3;
+    color: $primary-color-2;
+    padding: .5rem;
+    box-sizing: border-box;
+    clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+    width: 70%;
+}
+
 .showsItems {
     max-width: 100%;
     box-sizing: border-box;
@@ -46,6 +61,9 @@
 
 @media screen and (max-width: 576px){
     .shows {
+        width: 100%;
+    }
+    .showsMainTitleText {
         width: 100%;
     }
 }

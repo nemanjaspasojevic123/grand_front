@@ -4,6 +4,21 @@
     column-gap: .5rem;
 }
 
+.showbizz-popularNewsMainTitle {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.showbizz-popularNewsMainTitleText {
+    background-color: $primary-color-3;
+    color: $primary-color-2;
+    padding: .5rem;
+    box-sizing: border-box;
+    clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+    width: 50%;
+}
+
 .showbizz-popularNewsItems {
     max-width: 100%;
     box-sizing: border-box;
@@ -41,6 +56,9 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         column-gap: .5rem;
+    }
+    .showbizz-popularNewsMainTitleText {
+        width: 100%;
     }
 }
 
