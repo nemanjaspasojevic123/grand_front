@@ -866,6 +866,17 @@
   position: relative;
 }
 
+.showbizz-pollItemBrandText {
+  color: #ffffff;
+  position: absolute;
+  width: fit-content;
+  box-sizing: border-box;
+  background-color: #5a319d;
+  top: 0;
+  left: 0;
+  padding: 0.3rem;
+}
+
 .showbizz-pollItemLayer {
   color: #ffffff;
   position: absolute;
@@ -913,6 +924,28 @@
 
 .showbizz-newsTitle {
   position: relative;
+}
+
+.showbizz-newsBrand {
+  position: relative;
+}
+
+.showbizz-newsBrandText {
+  color: #ffffff;
+  position: absolute;
+  width: fit-content;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  padding: 0.3rem;
+}
+
+.nikadNijeKasno {
+  background-color: #5a319d;
+}
+
+.grand {
+  background-color: #B17216;
 }
 
 .showbizz-newsItemTitle {
@@ -989,6 +1022,24 @@
   left: 0;
   height: 100%;
   width: 100%;
+}
+
+.showbizz-popularNewsBrand {
+  position: relative;
+}
+
+.showbizz-popularNewsBrandText {
+  color: #ffffff;
+  position: absolute;
+  width: fit-content;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  padding: 0.3rem;
+}
+
+.zvezdeGranda {
+  background-color: #dda92f;
 }
 
 .showbizz-popularNewsTitle {
@@ -1109,7 +1160,7 @@
   padding: 0.5rem;
   box-sizing: border-box;
   clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
-  width: 70%;
+  width: 65%;
 }
 
 .mostReadNewsItems {
@@ -1128,7 +1179,6 @@
   object-fit: cover;
   top: 0;
   left: 0;
-  height: 100%;
   width: 100%;
 }
 
@@ -1140,9 +1190,36 @@
   padding-left: 0.5rem;
 }
 
+.showbizz-mostReadNewsBrand {
+  position: relative;
+}
+
+.showbizz-mostReadNewsBrandText {
+  color: #ffffff;
+  position: absolute;
+  width: fit-content;
+  box-sizing: border-box;
+  bottom: 0;
+  right: 0;
+  padding: 0.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.horoskop {
+  background-color: #3774A6;
+}
+
+.grand {
+  background-color: #B17216;
+}
+
+.zvezdeGranda {
+  background-color: #dda92f;
+}
+
 @media screen and (max-width: 1300px) {
   .mostReadNewsItemTitle {
-    font-size: medium;
+    font-size: small;
   }
 }
 @media screen and (max-width: 576px) {
@@ -1152,6 +1229,7 @@
 
   .mostReadNewsMainTitleText {
     width: 100%;
+    font-size: medium;
   }
 }
 @media screen and (min-width: 768px) {

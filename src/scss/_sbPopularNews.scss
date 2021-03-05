@@ -38,6 +38,24 @@
     width: 100%;
 }
 
+.showbizz-popularNewsBrand {
+    position: relative;
+}
+
+.showbizz-popularNewsBrandText {
+    color: $primary-color-2;
+    position: absolute;
+    width: fit-content;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    padding: .3rem;
+}
+
+.zvezdeGranda {
+    background-color: #dda92f;
+}
+
 .showbizz-popularNewsTitle {
     position: relative;
 }

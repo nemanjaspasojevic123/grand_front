@@ -15,7 +15,7 @@
     padding: .5rem;
     box-sizing: border-box;
     clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
-    width: 70%;
+    width: 65%;
 }
 
 .mostReadNewsItems {
@@ -34,7 +34,6 @@
     object-fit: cover;
     top: 0;
     left: 0;
-    height: 100%;
     width: 100%;
 }
 
@@ -46,9 +45,36 @@
     padding-left: .5rem;
 }
 
+.showbizz-mostReadNewsBrand {
+    position: relative;
+}
+
+.showbizz-mostReadNewsBrandText {
+    color: $primary-color-2;
+    position: absolute;
+    width: fit-content;
+    box-sizing: border-box;
+    bottom: 0;
+    right: 0;
+    padding: .3rem;
+    margin-bottom: .5rem;
+}
+
+.horoskop {
+    background-color: #3774A6;
+}
+
+.grand {
+    background-color: #B17216;
+}
+
+.zvezdeGranda {
+    background-color: #dda92f;
+}
+
 @media screen and (max-width: 1300px){
     .mostReadNewsItemTitle {
-        font-size: medium;
+        font-size: small;
     }
 }
 
@@ -58,5 +84,6 @@
     }
     .mostReadNewsMainTitleText {
         width: 100%;
+        font-size: medium;
     }
 }

@@ -9,6 +9,7 @@ import { ZvezdeGranda } from './components/zvezde-granda/ZvezdeGranda';
 import { Grandoskop } from './components/horoskop/Grandoskop';
 import { Emisije } from './components/grand/Emisije';
 import { ProgramskaSema } from './components/grand/ProgramskaSema';
+import { News } from './components/showbizz/News';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route component={Recepti} exact path="/recepti"></Route>
           <Route component={Emisije} exact path="/emisije"></Route> 
           <Route component={ProgramskaSema} exact path="/programska-sema"></Route>
+          <Route component={News} exact path="/NewsTest"></Route>
           <Redirect from="/" to="showbizz" />  
         </Switch>
       </BrowserRouter>

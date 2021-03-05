@@ -19,6 +19,17 @@
     position: relative;
 }
 
+.showbizz-pollItemBrandText {
+    color: $primary-color-2;
+    position: absolute;
+    width: fit-content;
+    box-sizing: border-box;
+    background-color: #5a319d;
+    top: 0;
+    left: 0;
+    padding: .3rem;
+}
+
 .showbizz-pollItemLayer {
     color: $primary-color-2;
     position: absolute;

@@ -6,6 +6,7 @@ export const Poll = () => {
     <div className="showbizz-poll">
       <div className="showbizz-pollInner">
         <img src={pollImg1} alt="poll img" className="showbizz-pollItem"></img>
+          <p className="showbizz-pollItemBrandText">NIKAD NIJE KASNO</p>
         <div className="showbizz-pollItemLayer">
           <h3>Glasajte za vašeg favorita</h3>
           <div className="form-check">

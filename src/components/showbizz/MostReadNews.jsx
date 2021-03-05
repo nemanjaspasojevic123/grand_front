@@ -24,6 +24,9 @@ export const MostReadNews = () => {
             JK joj rekla da nema pojma, takmičarka ODGOVORILA: "Nije istina, vi
             ste KONTRADIKTORNI!"
           </h5>
+        <div className="showbizz-mostReadNewsBrand">
+          <p className="showbizz-mostReadNewsBrandText zvezdeGranda">ZVEZDE GRANDA</p>
+        </div>
         </div>
       </div>
       <div className="mostReadNewsItems">
@@ -39,6 +42,9 @@ export const MostReadNews = () => {
             LJUBI VODITELJKU? Drugarica pokušala da sakrije Sofrinu novu vezu,
             ali je lako razotkriven u emisiji
           </h5>
+          <div className="showbizz-mostReadNewsBrand">
+          <p className="showbizz-mostReadNewsBrandText grand">GRAND</p>
+        </div>
         </div>
       </div>
       <div className="mostReadNewsItems">
@@ -54,6 +60,9 @@ export const MostReadNews = () => {
             Nakon što joj je sin ispao u "Zvezdama Granda" pevačica poručila "On
             ima svoje dostojanstvo!" (VIDEO)
           </h5>
+          <div className="showbizz-mostReadNewsBrand">
+          <p className="showbizz-mostReadNewsBrandText zvezdeGranda">ZVEZDE GRANDA</p>
+        </div>
         </div>
       </div>
       <div className="mostReadNewsItems">
@@ -69,6 +78,9 @@ export const MostReadNews = () => {
             GODIŠNJI HOROSKOP: Vage, ovo je vaša SREĆNA godina u kojoj vas
             očekuje PUN KOFER IZNENAĐENJA
           </h5>
+          <div className="showbizz-mostReadNewsBrand">
+          <p className="showbizz-mostReadNewsBrandText horoskop">HOROSKOP</p>
+        </div>
         </div>
       </div>
       <div className="mostReadNewsItems">
@@ -84,6 +96,9 @@ export const MostReadNews = () => {
             Vodi zdrav život ali ipak ima porok VOLIM DA SE KOCKAM kaže Kaća
             Živković! (FOTO)
           </h5>
+          <div className="showbizz-mostReadNewsBrand">
+          <p className="showbizz-mostReadNewsBrandText grand">GRAND</p>
+        </div>
         </div>
       </div>
     </section>

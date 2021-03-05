@@ -27,6 +27,28 @@
     position: relative;
 }
 
+.showbizz-newsBrand {
+    position: relative;
+}
+
+.showbizz-newsBrandText {
+    color: $primary-color-2;
+    position: absolute;
+    width: fit-content;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    padding: .3rem;
+}
+
+.nikadNijeKasno {
+    background-color: #5a319d;
+}
+
+.grand {
+    background-color: #B17216;
+}
+
 .showbizz-newsItemTitle {
     position: absolute;
     width: 100%;
