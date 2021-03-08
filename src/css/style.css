@@ -6,6 +6,12 @@
   scroll-behavior: smooth;
 }
 
+@media screen and (max-width: 1200px) {
+  * {
+    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+  }
+}
 .emisije {
   padding-top: 80px;
 }
@@ -1230,6 +1236,77 @@
   .mostReadNewsMainTitleText {
     width: 100%;
     font-size: medium;
+  }
+}
+.newsTest {
+  padding-top: 80px;
+}
+
+.newsTest-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #ffffff;
+  padding-top: 33px;
+}
+
+.newsTest-contentCenter {
+  width: 70%;
+  height: 100vh;
+  margin: auto;
+  box-sizing: border-box;
+  padding: 1rem;
+}
+
+.newsTest-newsItem {
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.newsTest-leftBanner {
+  height: 100vh;
+  max-width: 15%;
+  position: fixed;
+  left: 0;
+}
+
+.newsTest-leftBannerImage {
+  width: 100%;
+}
+
+.newsTest-rightBanner {
+  height: 100vh;
+  max-width: 15%;
+  position: fixed;
+  right: 0;
+}
+
+.newsTest-rightBannerImage {
+  width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .newsTest-contentCenter {
+    display: block;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 575px) {
+  .newsTest {
+    padding-top: 0;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .newsTest-leftBanner {
+    display: none;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .newsTest-rightBanner {
+    display: none;
   }
 }
 @media screen and (min-width: 768px) {

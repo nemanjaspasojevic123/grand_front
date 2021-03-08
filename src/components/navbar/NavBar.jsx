@@ -6,7 +6,7 @@ import user from "../../assets/logos/user.svg";
 export const NavBar = () => {
   return (
     <div className="navigationBar">
-      <nav className="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+      <nav className="navbar fixed-top navbar-expand-sm navbar-light bg-dark">
         <div className="container nav-container">
           <Link className="navbar-logo-placeholder" to="/">
             <img src={logo} alt="no img" className="navbar-logo" />
