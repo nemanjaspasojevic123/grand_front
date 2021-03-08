@@ -4,14 +4,10 @@
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+  font-size: calc(13px + (18 - 14) * ((100vw - 300px) / (1600 - 300)));
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
 }
 
-@media screen and (max-width: 1200px) {
-  * {
-    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
-    line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
-  }
-}
 .emisije {
   padding-top: 80px;
 }
@@ -355,16 +351,6 @@
 @media screen and (max-width: 576px) {
   .navbar {
     height: max-content;
-  }
-}
-@media screen and (max-width: 574px) {
-  .nav-link {
-    font-size: 100% !important;
-  }
-}
-@media screen and (max-width: 840px) {
-  .nav-link {
-    font-size: 60%;
   }
 }
 @media screen and (max-width: 846px) {
@@ -968,15 +954,11 @@
     font-size: small;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1100px) {
   .showbizz-news {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 0.5rem;
-  }
-
-  .showbizz-newsItemTitle {
-    font-size: small;
   }
 }
 @media screen and (max-width: 450px) {
@@ -984,10 +966,6 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     column-gap: 0.5rem;
-  }
-
-  .showbizz-newsItemTitle {
-    font-size: small;
   }
 }
 .showbizz-popularNews {
@@ -1225,10 +1203,14 @@
 
 @media screen and (max-width: 1300px) {
   .mostReadNewsItemTitle {
-    font-size: small;
+    font-size: medium;
   }
 }
 @media screen and (max-width: 576px) {
+  .mostReadNewsItems {
+    display: block;
+  }
+
   .mostReadNews {
     width: 100%;
   }
@@ -1236,6 +1218,10 @@
   .mostReadNewsMainTitleText {
     width: 100%;
     font-size: medium;
+  }
+
+  .mostReadNewsItemTitle {
+    padding-bottom: 2rem;
   }
 }
 .newsTest {
