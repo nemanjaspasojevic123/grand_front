@@ -13,9 +13,9 @@
     height: 100vh;
     margin: auto;
     box-sizing: border-box;
-    padding-top: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-top: .5rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
 }
 
 .showbizz-leftBanner {
@@ -58,13 +58,6 @@
     width: 60%;
 }
 
-.showbizz-contentCenterFooter {
-    padding-top: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    box-sizing: border-box;
-}
-
 @media (max-width: 1200px) {
     .showbizz-contentCenter {
         display: block;
@@ -86,7 +79,7 @@
 
 @media screen and (max-width: 576px) {
     .showbizz {
-        padding-top: 40px;
+        padding-top: 30px;
     }
     .showbizz-content {
         padding-top: 0;

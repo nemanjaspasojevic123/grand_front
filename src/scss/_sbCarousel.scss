@@ -1,8 +1,8 @@
 .showbizz-carousel {
     width: 60%;
     height: 45%;
-    padding: 1rem;
     box-sizing: border-box;
+    padding-right: .5rem;
 }
 
 .carousel .carousel-item {
@@ -36,5 +36,7 @@
 @media screen and (max-width: 576px) {
     .showbizz-carousel {
         width: 100%;
+        padding-right: 0;
+        padding-bottom: .5rem;
     }
 } 
