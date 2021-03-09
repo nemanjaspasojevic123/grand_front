@@ -126,8 +126,6 @@ text-align: -webkit-center;
     background-color: $primary-color-1;
     width: 17.5%;
     text-align: center;
-    padding-top: 1%;
-    height: -webkit-fill-available
 }
 
 .user-icon {
@@ -136,9 +134,10 @@ text-align: -webkit-center;
 
 
 @media screen and (max-width: 576px) {
-    .navbar {height: max-content ;}
+    .navbar {
+        height: max-content
+    }
+    .navbar-user {
+        padding: 1%;
+    }
 }    
-
-@media screen and (max-width: 846px) {
-    .navbar-user {padding-bottom: 2%;}
-} 

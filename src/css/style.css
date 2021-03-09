@@ -340,8 +340,6 @@
   background-color: #dbdbdb;
   width: 17.5%;
   text-align: center;
-  padding-top: 1%;
-  height: -webkit-fill-available;
 }
 
 .user-icon {
@@ -352,10 +350,9 @@
   .navbar {
     height: max-content;
   }
-}
-@media screen and (max-width: 846px) {
+
   .navbar-user {
-    padding-bottom: 2%;
+    padding: 1%;
   }
 }
 .nav-track {
@@ -496,6 +493,10 @@
   max-width: 15%;
   position: fixed;
   right: 0;
+}
+
+.prakticnaZena-rightBannerImage {
+  width: 100%;
 }
 
 @media screen and (max-width: 1200px) {
@@ -1223,15 +1224,13 @@
 }
 
 .newsTest-content {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
   background-color: #ffffff;
   padding-top: 33px;
+  margin: 0 15%;
 }
 
 .newsTest-contentCenter {
-  width: 70%;
+  width: 100%;
   height: 100vh;
   margin: auto;
   box-sizing: border-box;
@@ -1246,28 +1245,6 @@
   width: 100%;
 }
 
-.newsTest-leftBanner {
-  height: 100vh;
-  max-width: 15%;
-  position: fixed;
-  left: 0;
-}
-
-.newsTest-leftBannerImage {
-  width: 100%;
-}
-
-.newsTest-rightBanner {
-  height: 100vh;
-  max-width: 15%;
-  position: fixed;
-  right: 0;
-}
-
-.newsTest-rightBannerImage {
-  width: 100%;
-}
-
 @media screen and (max-width: 1200px) {
   .newsTest-contentCenter {
     display: block;
@@ -1277,16 +1254,6 @@
 @media screen and (max-width: 575px) {
   .newsTest {
     padding-top: 0;
-  }
-}
-@media screen and (max-width: 1200px) {
-  .newsTest-leftBanner {
-    display: none;
-  }
-}
-@media screen and (max-width: 1200px) {
-  .newsTest-rightBanner {
-    display: none;
   }
 }
 @media screen and (min-width: 768px) {
