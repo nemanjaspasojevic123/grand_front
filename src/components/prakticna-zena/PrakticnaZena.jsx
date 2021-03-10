@@ -2,9 +2,11 @@ import React from 'react';
 import { NavBar } from '../navbar/NavBar';
 import banner_left from "../../assets/images/Prakticna_levo.jpg";
 import banner_right from "../../assets/images/Prakticna_desno.jpg";
+import reklama from "../../assets/images/reklama.jpg";
 import { NavTrack } from "../navbar/NavTrack";
 import { PZPopularNews } from './PZPopularNews';
 import { Footer } from '../footer/Footer';
+import { TopNews } from './TopNews';
 
 export const PrakticnaZena = () => {
     return (
@@ -18,6 +20,10 @@ export const PrakticnaZena = () => {
                     <img src={banner_left} alt="banner_left" className="prakticnaZena-leftBannerImage"></img>
                 </div>
                 <div className="prakticnaZena-contentCenter">
+                    <TopNews />
+                    <div className="zvezdeGranda-contentCenterReklama">
+                        <img src={reklama} alt="reklama img" className="zvezdeGranda-reklamaImage"></img>
+                    </div>
                     <PZPopularNews />
                     <div className="showbizz-contentCenterFooter">
                         <Footer />

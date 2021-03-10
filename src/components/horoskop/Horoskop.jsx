@@ -2,9 +2,11 @@ import React from 'react';
 import { NavBar } from '../navbar/NavBar';
 import banner_left from "../../assets/images/horoskop_levo.jpg";
 import banner_right from "../../assets/images/horoskop_desno.jpg";
+import reklama from "../../assets/images/reklama.jpg";
 import { NavTrack } from "../navbar/NavTrack";
 import { HPopularNews } from './HPopularNews';
 import { Footer } from '../footer/Footer';
+import { HTopNews } from './HTopNews';
 
 export const Horoskop = () => {
     return (
@@ -18,6 +20,10 @@ export const Horoskop = () => {
                     <img src={banner_left} alt="banner_left" className="horoskop-leftBannerImage"></img>
                 </div>
                 <div className="horoskop-contentCenter">
+                    <HTopNews />
+                    <div className="zvezdeGranda-contentCenterReklama">
+                        <img src={reklama} alt="reklama img" className="zvezdeGranda-reklamaImage"></img>
+                    </div>
                     <HPopularNews />
                     <div className="showbizz-contentCenterFooter">
                         <Footer />

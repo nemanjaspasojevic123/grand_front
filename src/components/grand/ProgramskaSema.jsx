@@ -2,9 +2,11 @@ import React from 'react';
 import { NavBar } from '../navbar/NavBar';
 import banner_left from "../../assets/images/vesna_levo.jpg";
 import banner_right from "../../assets/images/dragana_desno.jpg";
+import reklama from "../../assets/images/reklama.jpg";
 import { NavTrack } from "../navbar/NavTrack";
 import { PSPopularNews } from './PSPopularNews';
 import { Footer } from '../footer/Footer';
+import { PSTopNews } from './PSTopNews';
 
 export const ProgramskaSema = () => {
     return (
@@ -18,6 +20,10 @@ export const ProgramskaSema = () => {
                     <img src={banner_left} alt="banner_left" className="programskaSema-leftBannerImage"></img>
                 </div>
                 <div className="programskaSema-contentCenter">
+                    <PSTopNews />
+                    <div className="zvezdeGranda-contentCenterReklama">
+                        <img src={reklama} alt="reklama img" className="zvezdeGranda-reklamaImage"></img>
+                    </div>
                     <PSPopularNews />
                     <div className="showbizz-contentCenterFooter">
                         <Footer />

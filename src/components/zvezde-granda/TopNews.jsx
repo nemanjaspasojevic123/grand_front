@@ -1,6 +1,6 @@
 import React from "react";
 import news from "../../data/news";
-import { ZGOneNews } from "./ZGOneNews";
+import { OneTopNews } from "./OneTopNews";
 import SwiperCore, { Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper.scss';
@@ -8,7 +8,7 @@ import 'swiper/components/pagination/pagination.scss';
 
 SwiperCore.use( Pagination );
 
-export const ZGAllNews = () => {
+export const TopNews = () => {
   return (
     <Swiper
     spaceBetween={10}
@@ -27,7 +27,7 @@ export const ZGAllNews = () => {
     pagination={{ clickable: true }}
     >
     <section className="zvezdeGrandaNews">
-        {news.map(el => {return <SwiperSlide key={el.news_id}><ZGOneNews key={el.news_id} oneNews={el}/></SwiperSlide>})}
+        {news.map(el => {return <SwiperSlide key={el.news_id}><OneTopNews key={el.news_id} oneNews={el}/></SwiperSlide>})}
     </section>
     </Swiper>
   );

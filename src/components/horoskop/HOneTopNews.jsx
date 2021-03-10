@@ -1,6 +1,6 @@
 import React from "react";
 
-export const ZGOneNews = ({oneNews}) => {
+export const HOneTopNews = ({oneNews}) => {
   return (
       <div className="zvezdeGrandaNewsItem">
         <div className="zvezdeGrandaNews-image">

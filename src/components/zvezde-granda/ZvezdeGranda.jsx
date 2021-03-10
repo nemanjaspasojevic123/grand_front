@@ -5,7 +5,7 @@ import banner_right from "../../assets/images/voja_desno.jpg";
 import reklama from "../../assets/images/reklama.jpg";
 import { NavTrack } from "../navbar/NavTrack";
 import { ZGPopularNews } from "./ZGPopularNews";
-import { ZGAllNews } from "./ZGAllNews";
+import { TopNews } from "./TopNews";
 import { Footer } from "../footer/Footer";
 
 export const ZvezdeGranda = () => {
@@ -20,7 +20,7 @@ export const ZvezdeGranda = () => {
           <img src={banner_left} alt="banner_left" className="zvezdeGranda-leftBannerImage"></img>
         </div>
         <div className="zvezdeGranda-contentCenter">
-          <ZGAllNews />
+          <TopNews />
           <div className="zvezdeGranda-contentCenterReklama">
             <img src={reklama} alt="reklama img" className="zvezdeGranda-reklamaImage"></img>
           </div>
