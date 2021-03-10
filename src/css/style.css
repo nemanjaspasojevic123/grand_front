@@ -55,6 +55,7 @@
 @media screen and (max-width: 1200px) {
   .emisije-contentCenter {
     display: block;
+    width: 100%;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -65,6 +66,15 @@
 @media screen and (max-width: 1200px) {
   .emisije-rightBanner {
     display: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  .emisije {
+    padding-top: 30px;
+  }
+
+  .emisije-content {
+    padding-top: 0;
   }
 }
 .emisije-popularNewsMainTitle {
@@ -207,6 +217,7 @@
 @media screen and (max-width: 1200px) {
   .grandoskop-contentCenter {
     display: block;
+    width: 100%;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -217,6 +228,15 @@
 @media screen and (max-width: 1200px) {
   .grandoskop-rightBanner {
     display: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  .grandoskop {
+    padding-top: 30px;
+  }
+
+  .grandoskop-content {
+    padding-top: 0;
   }
 }
 .horoskop {
@@ -266,6 +286,7 @@
 @media screen and (max-width: 1200px) {
   .horoskop-contentCenter {
     display: block;
+    width: 100%;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -276,6 +297,15 @@
 @media screen and (max-width: 1200px) {
   .horoskop-rightBanner {
     display: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  .horoskop {
+    padding-top: 30px;
+  }
+
+  .horoskop-content {
+    padding-top: 0;
   }
 }
 .grandoskop-popularNewsMainTitle {
@@ -617,6 +647,7 @@
 @media screen and (max-width: 1200px) {
   .nikadNijeKasno-contentCenter {
     display: block;
+    width: 100%;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -627,6 +658,15 @@
 @media screen and (max-width: 1200px) {
   .nikadNijeKasno-rightBanner {
     display: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  .nikadNijeKasno {
+    padding-top: 30px;
+  }
+
+  .nikadNijeKasno-content {
+    padding-top: 0;
   }
 }
 .nikadNijeKasno-popularNewsMainTitle {
@@ -734,6 +774,7 @@
 @media screen and (max-width: 1200px) {
   .prakticnaZena-contentCenter {
     display: block;
+    width: 100%;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -744,6 +785,15 @@
 @media screen and (max-width: 1200px) {
   .prakticnaZena-rightBanner {
     display: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  .prakticnaZena {
+    padding-top: 30px;
+  }
+
+  .prakticnaZena-content {
+    padding-top: 0;
   }
 }
 .prakticnaZena-popularNewsMainTitle {
@@ -851,6 +901,7 @@
 @media screen and (max-width: 1200px) {
   .programskaSema-contentCenter {
     display: block;
+    width: 100%;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -861,6 +912,15 @@
 @media screen and (max-width: 1200px) {
   .programskaSema-rightBanner {
     display: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  .programskaSema {
+    padding-top: 30px;
+  }
+
+  .programskaSema-content {
+    padding-top: 0;
   }
 }
 .programskaSema-popularNewsMainTitle {
@@ -968,6 +1028,7 @@
 @media screen and (max-width: 1200px) {
   .recepti-contentCenter {
     display: block;
+    width: 100%;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -978,6 +1039,15 @@
 @media screen and (max-width: 1200px) {
   .recepti-rightBanner {
     display: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  .recepti {
+    padding-top: 30px;
+  }
+
+  .recepti-content {
+    padding-top: 0;
   }
 }
 .recepti-popularNewsMainTitle {
@@ -1278,8 +1348,9 @@
 }
 
 .zvezdeGrandaNews-image {
-  height: 100%;
-  width: 100%;
+  height: 100px;
+  width: 300px;
+  padding-right: 0.5rem;
 }
 
 .zvezdeGrandaNews-imageItem {
@@ -1291,7 +1362,15 @@
 }
 
 .zvezdeGrandaNews-titleText {
-  font-size: 10px;
+  font-size: 14px;
+}
+
+.swiper-container {
+  padding-bottom: 2rem !important;
+}
+
+.swiper-pagination {
+  bottom: 0 !important;
 }
 
 .showbizz-carousel {

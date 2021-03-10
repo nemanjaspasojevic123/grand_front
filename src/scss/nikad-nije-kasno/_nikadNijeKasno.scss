@@ -43,14 +43,29 @@
 }
 
 @media screen and (max-width: 1200px) {
-    .nikadNijeKasno-contentCenter {display: block};
+    .nikadNijeKasno-contentCenter {
+        display: block;
+        width: 100%;
+    }
 } 
 
 @media screen and (max-width: 1200px) {
-    .nikadNijeKasno-leftBanner {display: none};
+    .nikadNijeKasno-leftBanner {
+        display: none
+    }
 }  
 
-
 @media screen and (max-width: 1200px) {
-    .nikadNijeKasno-rightBanner {display: none};
-} 
+    .nikadNijeKasno-rightBanner {
+        display: none
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .nikadNijeKasno {
+        padding-top: 30px;
+    }
+    .nikadNijeKasno-content {
+        padding-top: 0;
+    }
+}

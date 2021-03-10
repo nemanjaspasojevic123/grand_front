@@ -43,14 +43,29 @@
 }
 
 @media screen and (max-width: 1200px) {
-    .recepti-contentCenter {display: block};
+    .recepti-contentCenter {
+        display: block;
+        width: 100%;
+    }
 } 
 
 @media screen and (max-width: 1200px) {
-    .recepti-leftBanner {display: none};
+    .recepti-leftBanner {
+        display: none
+    }
 }  
 
-
 @media screen and (max-width: 1200px) {
-    .recepti-rightBanner {display: none};
+    .recepti-rightBanner {
+        display: none
+    }
 } 
+
+@media screen and (max-width: 576px) {
+    .recepti {
+        padding-top: 30px;
+    }
+    .recepti-content {
+        padding-top: 0;
+    }
+}

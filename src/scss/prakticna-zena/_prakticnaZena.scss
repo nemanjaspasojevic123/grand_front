@@ -43,14 +43,29 @@
 }
 
 @media screen and (max-width: 1200px) {
-    .prakticnaZena-contentCenter {display: block};
+    .prakticnaZena-contentCenter {
+        display: block;
+        width: 100%;
+    }
 } 
 
 @media screen and (max-width: 1200px) {
-    .prakticnaZena-leftBanner {display: none};
+    .prakticnaZena-leftBanner {
+        display: none
+    }
 }  
 
-
 @media screen and (max-width: 1200px) {
-    .prakticnaZena-rightBanner {display: none};
+    .prakticnaZena-rightBanner {
+        display: none
+    }
 } 
+
+@media screen and (max-width: 576px) {
+    .prakticnaZena {
+        padding-top: 30px;
+    }
+    .prakticnaZena-content {
+        padding-top: 0;
+    }
+}

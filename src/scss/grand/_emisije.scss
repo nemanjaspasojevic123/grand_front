@@ -43,14 +43,29 @@
 }
 
 @media screen and (max-width: 1200px) {
-    .emisije-contentCenter {display: block};
+    .emisije-contentCenter {
+        display: block;
+        width: 100%;
+    }
 } 
 
 @media screen and (max-width: 1200px) {
-    .emisije-leftBanner {display: none};
+    .emisije-leftBanner {
+        display: none
+    }
 }  
 
-
 @media screen and (max-width: 1200px) {
-    .emisije-rightBanner {display: none};
+    .emisije-rightBanner {
+        display: none
+    }
 } 
+
+@media screen and (max-width: 576px) {
+    .emisije {
+        padding-top: 30px;
+    }
+    .emisije-content {
+        padding-top: 0;
+    }
+}

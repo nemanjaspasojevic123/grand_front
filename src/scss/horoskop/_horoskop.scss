@@ -43,14 +43,29 @@
 }
 
 @media screen and (max-width: 1200px) {
-    .horoskop-contentCenter {display: block};
+    .horoskop-contentCenter {
+        display: block;
+        width: 100%;
+    }
 } 
 
 @media screen and (max-width: 1200px) {
-    .horoskop-leftBanner {display: none};
+    .horoskop-leftBanner {
+        display: none
+    }
 }  
 
-
 @media screen and (max-width: 1200px) {
-    .horoskop-rightBanner {display: none};
+    .horoskop-rightBanner {
+        display: none
+    }
 } 
+
+@media screen and (max-width: 576px) {
+    .horoskop {
+        padding-top: 30px;
+    }
+    .horoskop-content {
+        padding-top: 0;
+    }
+}

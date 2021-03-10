@@ -43,14 +43,29 @@
 }
 
 @media screen and (max-width: 1200px) {
-    .programskaSema-contentCenter {display: block};
+    .programskaSema-contentCenter {
+        display: block;
+        width: 100%;
+    }
 } 
 
 @media screen and (max-width: 1200px) {
-    .programskaSema-leftBanner {display: none};
+    .programskaSema-leftBanner {
+        display: none
+    }
 }  
 
-
 @media screen and (max-width: 1200px) {
-    .programskaSema-rightBanner {display: none};
+    .programskaSema-rightBanner {
+        display: none
+    }
 } 
+
+@media screen and (max-width: 576px) {
+    .programskaSema {
+        padding-top: 30px;
+    }
+    .programskaSema-content {
+        padding-top: 0;
+    }
+}

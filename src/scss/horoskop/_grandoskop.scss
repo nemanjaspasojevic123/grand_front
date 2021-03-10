@@ -43,14 +43,29 @@
 }
 
 @media screen and (max-width: 1200px) {
-    .grandoskop-contentCenter {display: block};
+    .grandoskop-contentCenter {
+        display: block;
+        width: 100%
+    }
 } 
 
 @media screen and (max-width: 1200px) {
-    .grandoskop-leftBanner {display: none};
+    .grandoskop-leftBanner {
+        display: none
+    }
 }  
 
-
 @media screen and (max-width: 1200px) {
-    .grandoskop-rightBanner {display: none};
+    .grandoskop-rightBanner {
+        display: none
+    }
 } 
+
+@media screen and (max-width: 576px) {
+    .grandoskop {
+        padding-top: 30px;
+    }
+    .grandoskop-content {
+        padding-top: 0;
+    }
+}
