@@ -2,6 +2,7 @@ import React from "react";
 import { NavBar } from "../navbar/NavBar";
 import banner_left from "../../assets/images/sanja_levo.jpg";
 import banner_right from "../../assets/images/voja_desno.jpg";
+import reklama from "../../assets/images/reklama.jpg";
 import { NavTrack } from "../navbar/NavTrack";
 import { ZGPopularNews } from "./ZGPopularNews";
 import { ZGAllNews } from "./ZGAllNews";
@@ -20,6 +21,9 @@ export const ZvezdeGranda = () => {
         </div>
         <div className="zvezdeGranda-contentCenter">
           <ZGAllNews />
+          <div className="zvezdeGranda-contentCenterReklama">
+            <img src={reklama} alt="reklama img" className="zvezdeGranda-reklamaImage"></img>
+          </div>
           <ZGPopularNews />
           <div className="showbizz-contentCenterFooter">
             <Footer />

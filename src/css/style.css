@@ -101,7 +101,7 @@
 }
 
 .emisijePopularNews-image {
-  height: 55%;
+  height: 50%;
   width: 100%;
 }
 
@@ -332,7 +332,7 @@
 }
 
 .grandoskopPopularNews-image {
-  height: 55%;
+  height: 50%;
   width: 100%;
 }
 
@@ -390,7 +390,7 @@
 }
 
 .horoskopPopularNews-image {
-  height: 55%;
+  height: 50%;
   width: 100%;
 }
 
@@ -693,7 +693,7 @@
 }
 
 .nikadNijeKasnoPopularNews-image {
-  height: 55%;
+  height: 50%;
   width: 100%;
 }
 
@@ -820,7 +820,7 @@
 }
 
 .prakticnaZenaPopularNews-image {
-  height: 55%;
+  height: 50%;
   width: 100%;
 }
 
@@ -947,7 +947,7 @@
 }
 
 .programskaSemaPopularNews-image {
-  height: 55%;
+  height: 50%;
   width: 100%;
 }
 
@@ -1074,7 +1074,7 @@
 }
 
 .receptiPopularNews-image {
-  height: 55%;
+  height: 50%;
   width: 100%;
 }
 
@@ -1230,6 +1230,20 @@
   padding-right: 0.5rem;
 }
 
+.zvezdeGranda-contentCenterReklama {
+  width: 100%;
+  padding-bottom: 0.5rem;
+  text-align: center;
+}
+
+.zvezdeGranda-reklamaImage {
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 80%;
+}
+
 .zvezdeGranda-leftBanner {
   height: 100vh;
   max-width: 15%;
@@ -1301,7 +1315,7 @@
 }
 
 .zvezdeGrandaPopularNews-image {
-  height: 55%;
+  height: 50%;
   width: 100%;
 }
 
