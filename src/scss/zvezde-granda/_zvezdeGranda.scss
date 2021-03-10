@@ -15,9 +15,9 @@
     height: 100vh;
     margin: auto;
     box-sizing: border-box;
-    padding-top: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-top: .5rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
 }
 
 .zvezdeGranda-leftBanner {
@@ -43,14 +43,30 @@
 }
 
 @media screen and (max-width: 1200px) {
-    .zvezdeGranda-contentCenter {display: block};
+    .zvezdeGranda-contentCenter {
+        display: block;
+        width: 100%
+    }
 } 
 
 @media screen and (max-width: 1200px) {
-    .zvezdeGranda-leftBanner {display: none};
+    .zvezdeGranda-leftBanner {
+        display: none
+    }
 }  
 
 
 @media screen and (max-width: 1200px) {
-    .zvezdeGranda-rightBanner {display: none};
+    .zvezdeGranda-rightBanner {
+        display: none
+    }
 } 
+
+@media screen and (max-width: 576px) {
+    .zvezdeGranda {
+        padding-top: 30px;
+    }
+    .zvezdeGranda-content {
+        padding-top: 0;
+    }
+}

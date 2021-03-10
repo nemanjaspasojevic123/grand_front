@@ -3,6 +3,8 @@ import { NavBar } from '../navbar/NavBar';
 import banner_left from "../../assets/images/Prakticna_levo.jpg";
 import banner_right from "../../assets/images/Prakticna_desno.jpg";
 import { NavTrack } from "../navbar/NavTrack";
+import { PZPopularNews } from './PZPopularNews';
+import { Footer } from '../footer/Footer';
 
 export const PrakticnaZena = () => {
     return (
@@ -16,6 +18,10 @@ export const PrakticnaZena = () => {
                     <img src={banner_left} alt="banner_left" className="prakticnaZena-leftBannerImage"></img>
                 </div>
                 <div className="prakticnaZena-contentCenter">
+                    <PZPopularNews />
+                    <div className="showbizz-contentCenterFooter">
+                        <Footer />
+                    </div>
                 </div>
                 <div className="prakticnaZena-rightBanner">
                     <img src={banner_right} alt="banner_right" className="prakticnaZena-rightBannerImage"></img>

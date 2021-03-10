@@ -3,6 +3,8 @@ import { NavBar } from '../navbar/NavBar';
 import banner_left from "../../assets/images/horoskop_levo.jpg";
 import banner_right from "../../assets/images/horoskop_desno.jpg";
 import { NavTrack } from "../navbar/NavTrack";
+import { HPopularNews } from './HPopularNews';
+import { Footer } from '../footer/Footer';
 
 export const Horoskop = () => {
     return (
@@ -16,6 +18,10 @@ export const Horoskop = () => {
                     <img src={banner_left} alt="banner_left" className="horoskop-leftBannerImage"></img>
                 </div>
                 <div className="horoskop-contentCenter">
+                    <HPopularNews />
+                    <div className="showbizz-contentCenterFooter">
+                        <Footer />
+                    </div>
                 </div>
                 <div className="horoskop-rightBanner">
                     <img src={banner_right} alt="banner_right" className="horoskop-rightBannerImage"></img>

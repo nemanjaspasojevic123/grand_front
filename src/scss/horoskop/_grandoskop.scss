@@ -1,8 +1,8 @@
-.emisije {
+.grandoskop {
     padding-top: 80px;
 }
 
-.emisije-content {
+.grandoskop-content {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -10,47 +10,47 @@
     padding-top: 33px;
 }
 
-.emisije-contentCenter {
+.grandoskop-contentCenter {
     width: 70%;
     height: 100vh;
     margin: auto;
     box-sizing: border-box;
-    padding-top: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-top: .5rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
 }
 
-.emisije-leftBanner {
+.grandoskop-leftBanner {
     height: 100vh;
     max-width: 15%;
     position: fixed;
     left: 0;
 }
 
-.emisije-leftBannerImage {
+.grandoskop-leftBannerImage {
     width: 100%;
 }
 
-.emisije-rightBanner {
+.grandoskop-rightBanner {
     height: 100vh;
     max-width: 15%;
     position: fixed;
     right: 0;
 }
 
-.emisije-rightBannerImage {
+.grandoskop-rightBannerImage {
     width: 100%;
 }
 
 @media screen and (max-width: 1200px) {
-    .emisije-contentCenter {display: block};
+    .grandoskop-contentCenter {display: block};
 } 
 
 @media screen and (max-width: 1200px) {
-    .emisije-leftBanner {display: none};
+    .grandoskop-leftBanner {display: none};
 }  
 
 
 @media screen and (max-width: 1200px) {
-    .emisije-rightBanner {display: none};
+    .grandoskop-rightBanner {display: none};
 } 

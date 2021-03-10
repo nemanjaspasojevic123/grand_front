@@ -3,6 +3,8 @@ import { NavBar } from '../navbar/NavBar';
 import banner_left from "../../assets/images/vesna_levo.jpg";
 import banner_right from "../../assets/images/dragana_desno.jpg";
 import { NavTrack } from "../navbar/NavTrack";
+import { PSPopularNews } from './PSPopularNews';
+import { Footer } from '../footer/Footer';
 
 export const ProgramskaSema = () => {
     return (
@@ -16,6 +18,10 @@ export const ProgramskaSema = () => {
                     <img src={banner_left} alt="banner_left" className="programskaSema-leftBannerImage"></img>
                 </div>
                 <div className="programskaSema-contentCenter">
+                    <PSPopularNews />
+                    <div className="showbizz-contentCenterFooter">
+                        <Footer />
+                    </div>
                 </div>
                 <div className="programskaSema-rightBanner">
                     <img src={banner_right} alt="banner_right" className="programskaSema-rightBannerImage"></img>

@@ -1,8 +1,8 @@
-.recepti {
+.nikadNijeKasno {
     padding-top: 80px;
 }
 
-.recepti-content {
+.nikadNijeKasno-content {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -10,47 +10,47 @@
     padding-top: 33px;
 }
 
-.recepti-contentCenter {
+.nikadNijeKasno-contentCenter {
     width: 70%;
     height: 100vh;
     margin: auto;
     box-sizing: border-box;
-    padding-top: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-top: .5rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
 }
 
-.recepti-leftBanner {
+.nikadNijeKasno-leftBanner {
     height: 100vh;
     max-width: 15%;
     position: fixed;
     left: 0;
 }
 
-.recepti-leftBannerImage {
+.nikadNijeKasno-leftBannerImage {
     width: 100%;
 }
 
-.recepti-rightBanner {
+.nikadNijeKasno-rightBanner {
     height: 100vh;
     max-width: 15%;
     position: fixed;
     right: 0;
 }
 
-.recepti-rightBannerImage {
+.nikadNijeKasno-rightBannerImage {
     width: 100%;
 }
 
 @media screen and (max-width: 1200px) {
-    .recepti-contentCenter {display: block};
+    .nikadNijeKasno-contentCenter {display: block};
 } 
 
 @media screen and (max-width: 1200px) {
-    .recepti-leftBanner {display: none};
+    .nikadNijeKasno-leftBanner {display: none};
 }  
 
 
 @media screen and (max-width: 1200px) {
-    .recepti-rightBanner {display: none};
+    .nikadNijeKasno-rightBanner {display: none};
 } 

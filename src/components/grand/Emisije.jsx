@@ -3,6 +3,8 @@ import { NavBar } from '../navbar/NavBar';
 import banner_left from "../../assets/images/vesna_levo.jpg";
 import banner_right from "../../assets/images/dragana_desno.jpg";
 import { NavTrack } from "../navbar/NavTrack";
+import { EPopularNews } from './EPopularNews';
+import { Footer } from '../footer/Footer';
 
 export const Emisije = () => {
     return (
@@ -16,6 +18,10 @@ export const Emisije = () => {
                     <img src={banner_left} alt="banner_left" className="emisije-leftBannerImage"></img>
                 </div>
                 <div className="emisije-contentCenter">
+                    <EPopularNews />
+                    <div className="showbizz-contentCenterFooter">
+                        <Footer />
+                    </div>
                 </div>
                 <div className="emisije-rightBanner">
                     <img src={banner_right} alt="banner_right" className="emisije-rightBannerImage"></img>

@@ -25,9 +25,9 @@
   height: 100vh;
   margin: auto;
   box-sizing: border-box;
-  padding-top: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .emisije-leftBanner {
@@ -65,6 +65,64 @@
 @media screen and (max-width: 1200px) {
   .emisije-rightBanner {
     display: none;
+  }
+}
+.emisije-popularNewsMainTitle {
+  padding-right: 0.5rem;
+}
+
+.emisije-popularNewsMainTitleText {
+  background-color: #B17216;
+  color: #ffffff;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+  width: 40%;
+}
+
+.emisije-popularNewsItems {
+  width: 70%;
+}
+
+.emisije-popularNewsItems {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1rem;
+}
+
+.emisijePopularNews-image {
+  height: 55%;
+  width: 100%;
+}
+
+.emisijePopularNews-imageItem {
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.emisijePopularNews-titleText {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .emisije-popularNewsItems {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0.5rem;
+  }
+
+  .emisije-popularNewsMainTitleText {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .emisije-popularNewsItems {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 0.5rem;
   }
 }
 .footer {
@@ -119,9 +177,9 @@
   height: 100vh;
   margin: auto;
   box-sizing: border-box;
-  padding-top: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .grandoskop-leftBanner {
@@ -178,9 +236,9 @@
   height: 100vh;
   margin: auto;
   box-sizing: border-box;
-  padding-top: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .horoskop-leftBanner {
@@ -218,6 +276,122 @@
 @media screen and (max-width: 1200px) {
   .horoskop-rightBanner {
     display: none;
+  }
+}
+.grandoskop-popularNewsMainTitle {
+  padding-right: 0.5rem;
+}
+
+.grandoskop-popularNewsMainTitleText {
+  background-color: #3774A6;
+  color: #ffffff;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+  width: 40%;
+}
+
+.grandoskop-popularNewsItems {
+  width: 70%;
+}
+
+.grandoskop-popularNewsItems {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1rem;
+}
+
+.grandoskopPopularNews-image {
+  height: 55%;
+  width: 100%;
+}
+
+.grandoskopPopularNews-imageItem {
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.grandoskopPopularNews-titleText {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .grandoskop-popularNewsItems {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0.5rem;
+  }
+
+  .grandoskop-popularNewsMainTitleText {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .grandoskop-popularNewsItems {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 0.5rem;
+  }
+}
+.horoskop-popularNewsMainTitle {
+  padding-right: 0.5rem;
+}
+
+.horoskop-popularNewsMainTitleText {
+  background-color: #3774A6;
+  color: #ffffff;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+  width: 40%;
+}
+
+.horoskop-popularNewsItems {
+  width: 70%;
+}
+
+.horoskop-popularNewsItems {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1rem;
+}
+
+.horoskopPopularNews-image {
+  height: 55%;
+  width: 100%;
+}
+
+.horoskopPopularNews-imageItem {
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.horoskopPopularNews-titleText {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .horoskop-popularNewsItems {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0.5rem;
+  }
+
+  .horoskop-popularNewsMainTitleText {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .horoskop-popularNewsItems {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 0.5rem;
   }
 }
 .navbar-logo-placeholder {
@@ -413,9 +587,9 @@
   height: 100vh;
   margin: auto;
   box-sizing: border-box;
-  padding-top: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .nikadNijeKasno-leftBanner {
@@ -455,6 +629,64 @@
     display: none;
   }
 }
+.nikadNijeKasno-popularNewsMainTitle {
+  padding-right: 0.5rem;
+}
+
+.nikadNijeKasno-popularNewsMainTitleText {
+  background-color: #5a319d;
+  color: #ffffff;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+  width: 40%;
+}
+
+.nikadNijeKasno-popularNewsItems {
+  width: 70%;
+}
+
+.nikadNijeKasno-popularNewsItems {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1rem;
+}
+
+.nikadNijeKasnoPopularNews-image {
+  height: 55%;
+  width: 100%;
+}
+
+.nikadNijeKasnoPopularNews-imageItem {
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.nikadNijeKasnoPopularNews-titleText {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .nikadNijeKasno-popularNewsItems {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0.5rem;
+  }
+
+  .nikadNijeKasno-popularNewsMainTitleText {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .nikadNijeKasno-popularNewsItems {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 0.5rem;
+  }
+}
 .prakticnaZena {
   padding-top: 80px;
 }
@@ -472,9 +704,9 @@
   height: 100vh;
   margin: auto;
   box-sizing: border-box;
-  padding-top: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .prakticnaZena-leftBanner {
@@ -514,6 +746,64 @@
     display: none;
   }
 }
+.prakticnaZena-popularNewsMainTitle {
+  padding-right: 0.5rem;
+}
+
+.prakticnaZena-popularNewsMainTitleText {
+  background-color: #B17216;
+  color: #ffffff;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+  width: 40%;
+}
+
+.prakticnaZena-popularNewsItems {
+  width: 70%;
+}
+
+.prakticnaZena-popularNewsItems {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1rem;
+}
+
+.prakticnaZenaPopularNews-image {
+  height: 55%;
+  width: 100%;
+}
+
+.prakticnaZenaPopularNews-imageItem {
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.prakticnaZenaPopularNews-titleText {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .prakticnaZena-popularNewsItems {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0.5rem;
+  }
+
+  .prakticnaZena-popularNewsMainTitleText {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .prakticnaZena-popularNewsItems {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 0.5rem;
+  }
+}
 .programskaSema {
   padding-top: 80px;
 }
@@ -531,9 +821,9 @@
   height: 100vh;
   margin: auto;
   box-sizing: border-box;
-  padding-top: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .programskaSema-leftBanner {
@@ -573,6 +863,64 @@
     display: none;
   }
 }
+.programskaSema-popularNewsMainTitle {
+  padding-right: 0.5rem;
+}
+
+.programskaSema-popularNewsMainTitleText {
+  background-color: #B17216;
+  color: #ffffff;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+  width: 40%;
+}
+
+.programskaSema-popularNewsItems {
+  width: 70%;
+}
+
+.programskaSema-popularNewsItems {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1rem;
+}
+
+.programskaSemaPopularNews-image {
+  height: 55%;
+  width: 100%;
+}
+
+.programskaSemaPopularNews-imageItem {
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.programskaSemaPopularNews-titleText {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .programskaSema-popularNewsItems {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0.5rem;
+  }
+
+  .programskaSema-popularNewsMainTitleText {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .programskaSema-popularNewsItems {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 0.5rem;
+  }
+}
 .recepti {
   padding-top: 80px;
 }
@@ -590,9 +938,9 @@
   height: 100vh;
   margin: auto;
   box-sizing: border-box;
-  padding-top: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .recepti-leftBanner {
@@ -630,6 +978,64 @@
 @media screen and (max-width: 1200px) {
   .recepti-rightBanner {
     display: none;
+  }
+}
+.recepti-popularNewsMainTitle {
+  padding-right: 0.5rem;
+}
+
+.recepti-popularNewsMainTitleText {
+  background-color: #886C52;
+  color: #ffffff;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+  width: 40%;
+}
+
+.recepti-popularNewsItems {
+  width: 70%;
+}
+
+.recepti-popularNewsItems {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1rem;
+}
+
+.receptiPopularNews-image {
+  height: 55%;
+  width: 100%;
+}
+
+.receptiPopularNews-imageItem {
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.receptiPopularNews-titleText {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .recepti-popularNewsItems {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0.5rem;
+  }
+
+  .recepti-popularNewsMainTitleText {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .recepti-popularNewsItems {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 0.5rem;
   }
 }
 .showbizz {
@@ -749,9 +1155,9 @@
   height: 100vh;
   margin: auto;
   box-sizing: border-box;
-  padding-top: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .zvezdeGranda-leftBanner {
@@ -779,6 +1185,7 @@
 @media screen and (max-width: 1200px) {
   .zvezdeGranda-contentCenter {
     display: block;
+    width: 100%;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -791,6 +1198,102 @@
     display: none;
   }
 }
+@media screen and (max-width: 576px) {
+  .zvezdeGranda {
+    padding-top: 30px;
+  }
+
+  .zvezdeGranda-content {
+    padding-top: 0;
+  }
+}
+.zvezdeGranda-popularNewsMainTitle {
+  padding-right: 0.5rem;
+}
+
+.zvezdeGranda-popularNewsMainTitleText {
+  background-color: #dda92f;
+  color: #ffffff;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+  width: 40%;
+}
+
+.zvezdeGranda-popularNewsItems {
+  width: 70%;
+}
+
+.zvezdeGranda-popularNewsItems {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1rem;
+}
+
+.zvezdeGrandaPopularNews-image {
+  height: 55%;
+  width: 100%;
+}
+
+.zvezdeGrandaPopularNews-imageItem {
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.zvezdeGrandaPopularNews-titleText {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .zvezdeGranda-popularNewsItems {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0.5rem;
+  }
+
+  .zvezdeGranda-popularNewsMainTitleText {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .zvezdeGranda-popularNewsItems {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 0.5rem;
+  }
+}
+.zvezdeGrandaNews {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  padding-bottom: 0.5rem;
+}
+
+.zvezdeGrandaNewsItem {
+  display: flex;
+  width: 100%;
+}
+
+.zvezdeGrandaNews-image {
+  height: 100%;
+  width: 100%;
+}
+
+.zvezdeGrandaNews-imageItem {
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.zvezdeGrandaNews-titleText {
+  font-size: 10px;
+}
+
 .showbizz-carousel {
   width: 60%;
   height: 45%;

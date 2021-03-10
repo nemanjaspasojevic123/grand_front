@@ -1,8 +1,8 @@
-.prakticnaZena {
+.horoskop {
     padding-top: 80px;
 }
 
-.prakticnaZena-content {
+.horoskop-content {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -10,47 +10,47 @@
     padding-top: 33px;
 }
 
-.prakticnaZena-contentCenter {
+.horoskop-contentCenter {
     width: 70%;
     height: 100vh;
     margin: auto;
     box-sizing: border-box;
-    padding-top: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-top: .5rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
 }
 
-.prakticnaZena-leftBanner {
+.horoskop-leftBanner {
     height: 100vh;
     max-width: 15%;
     position: fixed;
     left: 0;
 }
 
-.prakticnaZena-leftBannerImage {
+.horoskop-leftBannerImage {
     width: 100%;
 }
 
-.prakticnaZena-rightBanner {
+.horoskop-rightBanner {
     height: 100vh;
     max-width: 15%;
     position: fixed;
     right: 0;
 }
 
-.prakticnaZena-rightBannerImage {
+.horoskop-rightBannerImage {
     width: 100%;
 }
 
 @media screen and (max-width: 1200px) {
-    .prakticnaZena-contentCenter {display: block};
+    .horoskop-contentCenter {display: block};
 } 
 
 @media screen and (max-width: 1200px) {
-    .prakticnaZena-leftBanner {display: none};
+    .horoskop-leftBanner {display: none};
 }  
 
 
 @media screen and (max-width: 1200px) {
-    .prakticnaZena-rightBanner {display: none};
+    .horoskop-rightBanner {display: none};
 } 
