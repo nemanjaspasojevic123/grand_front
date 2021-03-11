@@ -7,6 +7,9 @@ import { NavTrack } from "../navbar/NavTrack";
 import { HPopularNews } from './HPopularNews';
 import { Footer } from '../footer/Footer';
 import { HTopNews } from './HTopNews';
+import { Premijera } from './Premijera';
+import { SlikaDana } from './SlikaDana';
+import { Facebook } from './Facebook';
 
 export const Horoskop = () => {
     return (
@@ -24,7 +27,16 @@ export const Horoskop = () => {
                     <div className="zvezdeGranda-contentCenterReklama">
                         <img src={reklama} alt="reklama img" className="zvezdeGranda-reklamaImage"></img>
                     </div>
-                    <HPopularNews />
+                    <div className="horoskop-contentCenterMain">
+                        <div className="horoskop-contentCenterMainNews">
+                            <HPopularNews />
+                        </div>
+                        <div className="horoskop-contentCenterPromotions">
+                            <Premijera />
+                            <SlikaDana />
+                            <Facebook />
+                        </div>
+                    </div>
                     <div className="showbizz-contentCenterFooter">
                         <Footer />
                     </div>

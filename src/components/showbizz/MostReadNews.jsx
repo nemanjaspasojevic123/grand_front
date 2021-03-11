@@ -25,7 +25,7 @@ export const MostReadNews = () => {
             ste KONTRADIKTORNI!"
           </h5>
         <div className="showbizz-mostReadNewsBrand">
-          <p className="showbizz-mostReadNewsBrandText zvezdeGranda">ZVEZDE GRANDA</p>
+          <p className="showbizz-mostReadNewsBrandText showbizz-zvezdeGranda">ZVEZDE GRANDA</p>
         </div>
         </div>
       </div>
@@ -43,7 +43,7 @@ export const MostReadNews = () => {
             ali je lako razotkriven u emisiji
           </h5>
           <div className="showbizz-mostReadNewsBrand">
-          <p className="showbizz-mostReadNewsBrandText grand">GRAND</p>
+          <p className="showbizz-mostReadNewsBrandText showbizz-grand">GRAND</p>
         </div>
         </div>
       </div>
@@ -61,7 +61,7 @@ export const MostReadNews = () => {
             ima svoje dostojanstvo!" (VIDEO)
           </h5>
           <div className="showbizz-mostReadNewsBrand">
-          <p className="showbizz-mostReadNewsBrandText zvezdeGranda">ZVEZDE GRANDA</p>
+          <p className="showbizz-mostReadNewsBrandText showbizz-zvezdeGranda">ZVEZDE GRANDA</p>
         </div>
         </div>
       </div>
@@ -79,7 +79,7 @@ export const MostReadNews = () => {
             očekuje PUN KOFER IZNENAĐENJA
           </h5>
           <div className="showbizz-mostReadNewsBrand">
-          <p className="showbizz-mostReadNewsBrandText horoskop">HOROSKOP</p>
+          <p className="showbizz-mostReadNewsBrandText showbizz-horoskop">HOROSKOP</p>
         </div>
         </div>
       </div>
@@ -97,7 +97,7 @@ export const MostReadNews = () => {
             Živković! (FOTO)
           </h5>
           <div className="showbizz-mostReadNewsBrand">
-          <p className="showbizz-mostReadNewsBrandText grand">GRAND</p>
+          <p className="showbizz-mostReadNewsBrandText showbizz-grand">GRAND</p>
         </div>
         </div>
       </div>

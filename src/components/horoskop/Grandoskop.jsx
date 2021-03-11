@@ -7,6 +7,9 @@ import { NavTrack } from "../navbar/NavTrack";
 import { GPopularNews } from './GPopularNews';
 import { Footer } from '../footer/Footer';
 import { GTopNews } from './GTopNews';
+import { Premijera } from './Premijera';
+import { SlikaDana } from './SlikaDana';
+import { Facebook } from './Facebook';
 
 export const Grandoskop = () => {
     return (
@@ -24,7 +27,16 @@ export const Grandoskop = () => {
                     <div className="zvezdeGranda-contentCenterReklama">
                         <img src={reklama} alt="reklama img" className="zvezdeGranda-reklamaImage"></img>
                     </div>
-                    <GPopularNews />
+                    <div className="horoskop-contentCenterMain">
+                        <div className="horoskop-contentCenterMainNews">
+                            <GPopularNews />
+                        </div>
+                        <div className="horoskop-contentCenterPromotions">
+                            <Premijera />
+                            <SlikaDana />
+                            <Facebook />
+                        </div>
+                    </div>
                     <div className="showbizz-contentCenterFooter">
                         <Footer />
                     </div>

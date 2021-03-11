@@ -20,6 +20,18 @@
     padding-right: .5rem;
 }
 
+.recepti-contentCenterMain {
+    display: flex;
+}
+
+.recepti-contentCenterMainNews {
+    width: 70%;
+}
+
+.recepti-contentCenterPromotions {
+    width: 30%;
+}
+
 .recepti-leftBanner {
     height: 100vh;
     max-width: 15%;

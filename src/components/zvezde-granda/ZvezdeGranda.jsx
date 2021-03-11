@@ -7,6 +7,9 @@ import { NavTrack } from "../navbar/NavTrack";
 import { ZGPopularNews } from "./ZGPopularNews";
 import { TopNews } from "./TopNews";
 import { Footer } from "../footer/Footer";
+import { ZGPremijera } from "./ZGPremijera";
+import { ZGFacebook } from "./ZGFacebook";
+import { ZGSlikaDana } from "./ZGSlikaDana";
 
 export const ZvezdeGranda = () => {
   return (
@@ -24,7 +27,16 @@ export const ZvezdeGranda = () => {
           <div className="zvezdeGranda-contentCenterReklama">
             <img src={reklama} alt="reklama img" className="zvezdeGranda-reklamaImage"></img>
           </div>
-          <ZGPopularNews />
+          <div className="zvezdeGranda-contentCenterMain">
+            <div className="zvezdeGranda-contentCenterMainNews">
+              <ZGPopularNews />
+            </div>
+            <div className="zvezdeGranda-contentCenterPromotions">
+              <ZGPremijera />
+              <ZGSlikaDana />
+              <ZGFacebook />
+            </div>
+          </div>
           <div className="showbizz-contentCenterFooter">
             <Footer />
           </div>

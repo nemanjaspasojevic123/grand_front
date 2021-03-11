@@ -7,6 +7,9 @@ import { NavTrack } from "../navbar/NavTrack";
 import { PZPopularNews } from './PZPopularNews';
 import { Footer } from '../footer/Footer';
 import { TopNews } from './TopNews';
+import { PZFacebook } from './PZFacebook';
+import { PZSlikaDana } from './PZSlikaDana';
+import { PZPremijera } from './PZPremijera';
 
 export const PrakticnaZena = () => {
     return (
@@ -24,7 +27,16 @@ export const PrakticnaZena = () => {
                     <div className="zvezdeGranda-contentCenterReklama">
                         <img src={reklama} alt="reklama img" className="zvezdeGranda-reklamaImage"></img>
                     </div>
-                    <PZPopularNews />
+                    <div className="prakticnaZena-contentCenterMain">
+                        <div className="prakticnaZena-contentCenterMainNews">
+                            <PZPopularNews />
+                        </div>
+                        <div className="prakticnaZena-contentCenterPromotions">
+                            <PZPremijera />
+                            <PZSlikaDana />
+                            <PZFacebook />
+                        </div>
+                    </div>
                     <div className="showbizz-contentCenterFooter">
                         <Footer />
                     </div>

@@ -1,0 +1,29 @@
+.horoskop-premijera {
+    width: 100%;
+    padding-left: .5rem;
+}
+
+.horoskop-premijeraMainTitle {
+    padding-right: .5rem;
+}
+
+.horoskop-premijeraMainTitleText {
+    background-color: $horoskop-color;
+    color: $primary-color-2;
+    padding: .5rem;
+    box-sizing: border-box;
+    clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+    width: 100%;
+}
+
+.horoskop-premijeraImageItem {
+    width: 100%;
+}
+
+.horoskop-premijeraImage {
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}

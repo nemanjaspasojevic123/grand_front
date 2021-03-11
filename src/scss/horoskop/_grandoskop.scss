@@ -20,6 +20,18 @@
     padding-right: .5rem;
 }
 
+.horoskop-contentCenterMain {
+    display: flex;
+}
+
+.horoskop-contentCenterMainNews {
+    width: 70%;
+}
+
+.horoskop-contentCenterPromotions {
+    width: 30%;
+}
+
 .grandoskop-leftBanner {
     height: 100vh;
     max-width: 15%;

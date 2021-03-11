@@ -30,6 +30,18 @@
   padding-right: 0.5rem;
 }
 
+.emisije-contentCenterMain {
+  display: flex;
+}
+
+.emisije-contentCenterMainNews {
+  width: 70%;
+}
+
+.emisije-contentCenterPromotions {
+  width: 30%;
+}
+
 .emisije-leftBanner {
   height: 100vh;
   max-width: 15%;
@@ -77,6 +89,10 @@
     padding-top: 0;
   }
 }
+.emisije-popularNews {
+  width: 100%;
+}
+
 .emisije-popularNewsMainTitle {
   padding-right: 0.5rem;
 }
@@ -88,10 +104,6 @@
   box-sizing: border-box;
   clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
   width: 40%;
-}
-
-.emisije-popularNewsItems {
-  width: 70%;
 }
 
 .emisije-popularNewsItems {
@@ -192,6 +204,18 @@
   padding-right: 0.5rem;
 }
 
+.horoskop-contentCenterMain {
+  display: flex;
+}
+
+.horoskop-contentCenterMainNews {
+  width: 70%;
+}
+
+.horoskop-contentCenterPromotions {
+  width: 30%;
+}
+
 .grandoskop-leftBanner {
   height: 100vh;
   max-width: 15%;
@@ -261,6 +285,18 @@
   padding-right: 0.5rem;
 }
 
+.horoskop-contentCenterMain {
+  display: flex;
+}
+
+.horoskop-contentCenterMainNews {
+  width: 70%;
+}
+
+.horoskop-contentCenterPromotions {
+  width: 30%;
+}
+
 .horoskop-leftBanner {
   height: 100vh;
   max-width: 15%;
@@ -308,6 +344,10 @@
     padding-top: 0;
   }
 }
+.grandoskop-popularNews {
+  width: 100%;
+}
+
 .grandoskop-popularNewsMainTitle {
   padding-right: 0.5rem;
 }
@@ -319,10 +359,6 @@
   box-sizing: border-box;
   clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
   width: 40%;
-}
-
-.grandoskop-popularNewsItems {
-  width: 70%;
 }
 
 .grandoskop-popularNewsItems {
@@ -366,6 +402,10 @@
     column-gap: 0.5rem;
   }
 }
+.horoskop-popularNews {
+  width: 100%;
+}
+
 .horoskop-popularNewsMainTitle {
   padding-right: 0.5rem;
 }
@@ -377,10 +417,6 @@
   box-sizing: border-box;
   clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
   width: 40%;
-}
-
-.horoskop-popularNewsItems {
-  width: 70%;
 }
 
 .horoskop-popularNewsItems {
@@ -424,6 +460,48 @@
     column-gap: 0.5rem;
   }
 }
+.horoskop-facebook {
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.horoskop-facebookMain {
+  height: 500px;
+  width: 100%;
+  border: none;
+  overflow: hidden;
+}
+
+.horoskop-premijera {
+  width: 100%;
+  padding-left: 0.5rem;
+}
+
+.horoskop-premijeraMainTitle {
+  padding-right: 0.5rem;
+}
+
+.horoskop-premijeraMainTitleText {
+  background-color: #3774A6;
+  color: #ffffff;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+  width: 100%;
+}
+
+.horoskop-premijeraImageItem {
+  width: 100%;
+}
+
+.horoskop-premijeraImage {
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
 .navbar-logo-placeholder {
   background-color: #E44326;
   width: 15%;
@@ -622,6 +700,18 @@
   padding-right: 0.5rem;
 }
 
+.nikadNijeKasno-contentCenterMain {
+  display: flex;
+}
+
+.nikadNijeKasno-contentCenterMainNews {
+  width: 70%;
+}
+
+.nikadNijeKasno-contentCenterPromotions {
+  width: 30%;
+}
+
 .nikadNijeKasno-leftBanner {
   height: 100vh;
   max-width: 15%;
@@ -669,6 +759,10 @@
     padding-top: 0;
   }
 }
+.nikadNijeKasno-popularNews {
+  width: 100%;
+}
+
 .nikadNijeKasno-popularNewsMainTitle {
   padding-right: 0.5rem;
 }
@@ -680,10 +774,6 @@
   box-sizing: border-box;
   clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
   width: 40%;
-}
-
-.nikadNijeKasno-popularNewsItems {
-  width: 70%;
 }
 
 .nikadNijeKasno-popularNewsItems {
@@ -727,6 +817,48 @@
     column-gap: 0.5rem;
   }
 }
+.nikadNijeKasno-premijera {
+  width: 100%;
+  padding-left: 0.5rem;
+}
+
+.nikadNijeKasno-premijeraMainTitle {
+  padding-right: 0.5rem;
+}
+
+.nikadNijeKasno-premijeraMainTitleText {
+  background-color: #5a319d;
+  color: #ffffff;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+  width: 100%;
+}
+
+.nikadNijeKasno-premijeraImageItem {
+  width: 100%;
+}
+
+.nikadNijeKasno-premijeraImage {
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.nikadNijeKasno-facebook {
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.nikadNijeKasno-facebookMain {
+  height: 500px;
+  width: 100%;
+  border: none;
+  overflow: hidden;
+}
+
 .prakticnaZena {
   padding-top: 80px;
 }
@@ -747,6 +879,18 @@
   padding-top: 0.5rem;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+
+.prakticnaZena-contentCenterMain {
+  display: flex;
+}
+
+.prakticnaZena-contentCenterMainNews {
+  width: 70%;
+}
+
+.prakticnaZena-contentCenterPromotions {
+  width: 30%;
 }
 
 .prakticnaZena-leftBanner {
@@ -796,6 +940,10 @@
     padding-top: 0;
   }
 }
+.prakticnaZena-popularNews {
+  width: 100%;
+}
+
 .prakticnaZena-popularNewsMainTitle {
   padding-right: 0.5rem;
 }
@@ -807,10 +955,6 @@
   box-sizing: border-box;
   clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
   width: 40%;
-}
-
-.prakticnaZena-popularNewsItems {
-  width: 70%;
 }
 
 .prakticnaZena-popularNewsItems {
@@ -854,6 +998,48 @@
     column-gap: 0.5rem;
   }
 }
+.prakticnaZena-facebook {
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.prakticnaZena-facebookMain {
+  height: 500px;
+  width: 100%;
+  border: none;
+  overflow: hidden;
+}
+
+.prakticnaZena-premijera {
+  width: 100%;
+  padding-left: 0.5rem;
+}
+
+.prakticnaZena-premijeraMainTitle {
+  padding-right: 0.5rem;
+}
+
+.prakticnaZena-premijeraMainTitleText {
+  background-color: #B17216;
+  color: #ffffff;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+  width: 100%;
+}
+
+.prakticnaZena-premijeraImageItem {
+  width: 100%;
+}
+
+.prakticnaZena-premijeraImage {
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
 .programskaSema {
   padding-top: 80px;
 }
@@ -874,6 +1060,18 @@
   padding-top: 0.5rem;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+
+.emisije-contentCenterMain {
+  display: flex;
+}
+
+.emisije-contentCenterMainNews {
+  width: 70%;
+}
+
+.emisije-contentCenterPromotions {
+  width: 30%;
 }
 
 .programskaSema-leftBanner {
@@ -923,6 +1121,10 @@
     padding-top: 0;
   }
 }
+.programskaSema-popularNews {
+  width: 100%;
+}
+
 .programskaSema-popularNewsMainTitle {
   padding-right: 0.5rem;
 }
@@ -934,10 +1136,6 @@
   box-sizing: border-box;
   clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
   width: 40%;
-}
-
-.programskaSema-popularNewsItems {
-  width: 70%;
 }
 
 .programskaSema-popularNewsItems {
@@ -981,6 +1179,48 @@
     column-gap: 0.5rem;
   }
 }
+.emisije-facebook {
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.emisije-facebookMain {
+  height: 500px;
+  width: 100%;
+  border: none;
+  overflow: hidden;
+}
+
+.emisije-premijera {
+  width: 100%;
+  padding-left: 0.5rem;
+}
+
+.emisije-premijeraMainTitle {
+  padding-right: 0.5rem;
+}
+
+.emisije-premijeraMainTitleText {
+  background-color: #B17216;
+  color: #ffffff;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+  width: 100%;
+}
+
+.emisije-premijeraImageItem {
+  width: 100%;
+}
+
+.emisije-premijeraImage {
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
 .recepti {
   padding-top: 80px;
 }
@@ -1001,6 +1241,18 @@
   padding-top: 0.5rem;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+
+.recepti-contentCenterMain {
+  display: flex;
+}
+
+.recepti-contentCenterMainNews {
+  width: 70%;
+}
+
+.recepti-contentCenterPromotions {
+  width: 30%;
 }
 
 .recepti-leftBanner {
@@ -1050,6 +1302,10 @@
     padding-top: 0;
   }
 }
+.recepti-popularNews {
+  width: 100%;
+}
+
 .recepti-popularNewsMainTitle {
   padding-right: 0.5rem;
 }
@@ -1061,10 +1317,6 @@
   box-sizing: border-box;
   clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
   width: 40%;
-}
-
-.recepti-popularNewsItems {
-  width: 70%;
 }
 
 .recepti-popularNewsItems {
@@ -1108,6 +1360,48 @@
     column-gap: 0.5rem;
   }
 }
+.recepti-facebook {
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.recepti-facebookMain {
+  height: 500px;
+  width: 100%;
+  border: none;
+  overflow: hidden;
+}
+
+.recepti-premijera {
+  width: 100%;
+  padding-left: 0.5rem;
+}
+
+.recepti-premijeraMainTitle {
+  padding-right: 0.5rem;
+}
+
+.recepti-premijeraMainTitleText {
+  background-color: #886C52;
+  color: #ffffff;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+  width: 100%;
+}
+
+.recepti-premijeraImageItem {
+  width: 100%;
+}
+
+.recepti-premijeraImage {
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
 .showbizz {
   padding-top: 80px;
 }
@@ -1230,6 +1524,18 @@
   padding-right: 0.5rem;
 }
 
+.zvezdeGranda-contentCenterMain {
+  display: flex;
+}
+
+.zvezdeGranda-contentCenterMainNews {
+  width: 70%;
+}
+
+.zvezdeGranda-contentCenterPromotions {
+  width: 30%;
+}
+
 .zvezdeGranda-contentCenterReklama {
   width: 100%;
   padding-bottom: 0.5rem;
@@ -1291,6 +1597,10 @@
     padding-top: 0;
   }
 }
+.zvezdeGranda-popularNews {
+  width: 100%;
+}
+
 .zvezdeGranda-popularNewsMainTitle {
   padding-right: 0.5rem;
 }
@@ -1302,10 +1612,6 @@
   box-sizing: border-box;
   clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
   width: 40%;
-}
-
-.zvezdeGranda-popularNewsItems {
-  width: 70%;
 }
 
 .zvezdeGranda-popularNewsItems {
@@ -1385,6 +1691,48 @@
 
 .swiper-pagination {
   bottom: 0 !important;
+}
+
+.zvezdeGranda-premijera {
+  width: 100%;
+  padding-left: 0.5rem;
+}
+
+.zvezdeGranda-premijeraMainTitle {
+  padding-right: 0.5rem;
+}
+
+.zvezdeGranda-premijeraMainTitleText {
+  background-color: #dda92f;
+  color: #ffffff;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+  width: 100%;
+}
+
+.zvezdeGranda-premijeraImageItem {
+  width: 100%;
+}
+
+.zvezdeGranda-premijeraImage {
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.zvezdeGranda-facebook {
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.zvezdeGranda-facebookMain {
+  height: 500px;
+  width: 100%;
+  border: none;
+  overflow: hidden;
 }
 
 .showbizz-carousel {
@@ -1523,11 +1871,11 @@
   padding: 0.3rem;
 }
 
-.nikadNijeKasno {
+.showbizz-nikadNijeKasno {
   background-color: #5a319d;
 }
 
-.grand {
+.showbizz-grand {
   background-color: #B17216;
 }
 
@@ -1613,7 +1961,7 @@
   padding: 0.3rem;
 }
 
-.zvezdeGranda {
+.showbizz-zvezdeGranda {
   background-color: #dda92f;
 }
 
@@ -1780,15 +2128,15 @@
   margin-bottom: 0.5rem;
 }
 
-.horoskop {
+.showbizz-horoskop {
   background-color: #3774A6;
 }
 
-.grand {
+.showbizz-grand {
   background-color: #B17216;
 }
 
-.zvezdeGranda {
+.showbizz-zvezdeGranda {
   background-color: #dda92f;
 }
 

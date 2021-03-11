@@ -7,6 +7,9 @@ import { NavTrack } from "../navbar/NavTrack";
 import { EPopularNews } from './EPopularNews';
 import { Footer } from '../footer/Footer';
 import { ETopNews } from './ETopNews';
+import { Premijera } from './Premijera';
+import { SlikaDana } from './SlikaDana';
+import { Facebook } from './Facebook';
 
 export const Emisije = () => {
     return (
@@ -24,7 +27,16 @@ export const Emisije = () => {
                     <div className="zvezdeGranda-contentCenterReklama">
                         <img src={reklama} alt="reklama img" className="zvezdeGranda-reklamaImage"></img>
                     </div>
-                    <EPopularNews />
+                    <div className="emisije-contentCenterMain">
+                        <div className="emisije-contentCenterMainNews">
+                            <EPopularNews />
+                        </div>
+                        <div className="emisije-contentCenterPromotions">
+                            <Premijera />
+                            <SlikaDana />
+                            <Facebook />
+                        </div>
+                    </div>
                     <div className="showbizz-contentCenterFooter">
                         <Footer />
                     </div>

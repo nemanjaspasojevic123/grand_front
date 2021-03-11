@@ -15,7 +15,7 @@ export const PopularNews = () => {
       <section className="showbizz-popularNews">
         <div className="showbizz-popularNewsItems">
         <div className="showbizz-popularNewsBrand">
-          <p className="showbizz-popularNewsBrandText zvezdeGranda">ZVEZDE GRANDA</p>
+          <p className="showbizz-popularNewsBrandText showbizz-zvezdeGranda">ZVEZDE GRANDA</p>
         </div>
           <div className="showbizz-popularNewsItemsImage">
             <img
@@ -32,7 +32,7 @@ export const PopularNews = () => {
         </div>
         <div className="showbizz-popularNewsItems">
         <div className="showbizz-popularNewsBrand">
-          <p className="showbizz-popularNewsBrandText zvezdeGranda">ZVEZDE GRANDA</p>
+          <p className="showbizz-popularNewsBrandText showbizz-zvezdeGranda">ZVEZDE GRANDA</p>
         </div>
           <div className="showbizz-popularNewsItemsImage">
             <img
@@ -50,7 +50,7 @@ export const PopularNews = () => {
         </div>
         <div className="showbizz-popularNewsItems">
         <div className="showbizz-popularNewsBrand">
-          <p className="showbizz-popularNewsBrandText zvezdeGranda">ZVEZDE GRANDA</p>
+          <p className="showbizz-popularNewsBrandText showbizz-zvezdeGranda">ZVEZDE GRANDA</p>
         </div>
           <div className="showbizz-popularNewsItemsImage">
             <img
@@ -68,7 +68,7 @@ export const PopularNews = () => {
         </div>
         <div className="showbizz-popularNewsItems">
         <div className="showbizz-popularNewsBrand">
-          <p className="showbizz-popularNewsBrandText zvezdeGranda">ZVEZDE GRANDA</p>
+          <p className="showbizz-popularNewsBrandText showbizz-zvezdeGranda">ZVEZDE GRANDA</p>
         </div>
           <div className="showbizz-popularNewsItemsImage">
             <img
@@ -86,7 +86,7 @@ export const PopularNews = () => {
         </div>
         <div className="showbizz-popularNewsItems">
         <div className="showbizz-popularNewsBrand">
-          <p className="showbizz-popularNewsBrandText zvezdeGranda">ZVEZDE GRANDA</p>
+          <p className="showbizz-popularNewsBrandText showbizz-zvezdeGranda">ZVEZDE GRANDA</p>
         </div>
           <div className="showbizz-popularNewsItemsImage">
             <img
@@ -104,7 +104,7 @@ export const PopularNews = () => {
         </div>
         <div className="showbizz-popularNewsItems">
         <div className="showbizz-popularNewsBrand">
-          <p className="showbizz-popularNewsBrandText zvezdeGranda">ZVEZDE GRANDA</p>
+          <p className="showbizz-popularNewsBrandText showbizz-zvezdeGranda">ZVEZDE GRANDA</p>
         </div>
           <div className="showbizz-popularNewsItemsImage">
             <img

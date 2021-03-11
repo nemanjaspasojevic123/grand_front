@@ -7,6 +7,9 @@ import { NavTrack } from "../navbar/NavTrack";
 import { RPopularNews } from './RPopularNews';
 import { Footer } from '../footer/Footer';
 import { TopNews } from './TopNews';
+import { RPremijera } from './RPremijera';
+import { RSlikaDana } from './RSlikaDana';
+import { RFacebook } from './RFacebook';
 
 export const Recepti = () => {
     return (
@@ -24,7 +27,16 @@ export const Recepti = () => {
                     <div className="zvezdeGranda-contentCenterReklama">
                         <img src={reklama} alt="reklama img" className="zvezdeGranda-reklamaImage"></img>
                     </div>
-                    <RPopularNews />
+                    <div className="recepti-contentCenterMain">
+                        <div className="recepti-contentCenterMainNews">
+                            <RPopularNews />
+                        </div>
+                        <div className="recepti-contentCenterPromotions">
+                            <RPremijera />
+                            <RSlikaDana />
+                            <RFacebook />
+                        </div>
+                    </div>
                     <div className="showbizz-contentCenterFooter">
                         <Footer />
                     </div>

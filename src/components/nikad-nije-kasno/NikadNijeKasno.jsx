@@ -7,6 +7,9 @@ import { NavTrack } from "../navbar/NavTrack";
 import { NNKPopularNews } from './NNKPopularNews';
 import { Footer } from '../footer/Footer';
 import { TopNews } from './TopNews';
+import { NNKPremijera } from './NNKPremijera';
+import { NNKSlikaDana } from './NNKSlikaDana';
+import { NNKFacebook } from './NNKFacebook';
 
 export const NikadNijeKasno = () => {
     return (
@@ -24,7 +27,16 @@ export const NikadNijeKasno = () => {
                     <div className="zvezdeGranda-contentCenterReklama">
                         <img src={reklama} alt="reklama img" className="zvezdeGranda-reklamaImage"></img>
                     </div>
-                    <NNKPopularNews />
+                    <div className="nikadNijeKasno-contentCenterMain">
+                        <div className="nikadNijeKasno-contentCenterMainNews">
+                            <NNKPopularNews />
+                        </div>
+                        <div className="nikadNijeKasno-contentCenterPromotions">
+                            <NNKPremijera />
+                            <NNKSlikaDana />
+                            <NNKFacebook />
+                        </div>
+                    </div>
                     <div className="showbizz-contentCenterFooter">
                         <Footer />
                     </div>

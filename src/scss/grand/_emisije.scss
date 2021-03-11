@@ -20,6 +20,18 @@
     padding-right: .5rem;
 }
 
+.emisije-contentCenterMain {
+    display: flex;
+}
+
+.emisije-contentCenterMainNews {
+    width: 70%;
+}
+
+.emisije-contentCenterPromotions {
+    width: 30%;
+}
+
 .emisije-leftBanner {
     height: 100vh;
     max-width: 15%;

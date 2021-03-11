@@ -7,6 +7,9 @@ import { NavTrack } from "../navbar/NavTrack";
 import { PSPopularNews } from './PSPopularNews';
 import { Footer } from '../footer/Footer';
 import { PSTopNews } from './PSTopNews';
+import { Premijera } from './Premijera';
+import { SlikaDana } from './SlikaDana';
+import { Facebook } from './Facebook';
 
 export const ProgramskaSema = () => {
     return (
@@ -24,7 +27,16 @@ export const ProgramskaSema = () => {
                     <div className="zvezdeGranda-contentCenterReklama">
                         <img src={reklama} alt="reklama img" className="zvezdeGranda-reklamaImage"></img>
                     </div>
-                    <PSPopularNews />
+                    <div className="emisije-contentCenterMain">
+                        <div className="emisije-contentCenterMainNews">
+                            <PSPopularNews />
+                        </div>
+                        <div className="emisije-contentCenterPromotions">
+                            <Premijera />
+                            <SlikaDana />
+                            <Facebook />
+                        </div>
+                    </div>
                     <div className="showbizz-contentCenterFooter">
                         <Footer />
                     </div>

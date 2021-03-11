@@ -11,7 +11,7 @@ export const News = () => {
       <div className="showbizz-newsItems">
       <Link to="/newsTest">
         <div className="showbizz-newsBrand">
-          <p className="showbizz-newsBrandText nikadNijeKasno">NIKAD NIJE KASNO</p>
+          <p className="showbizz-newsBrandText showbizz-nikadNijeKasno">NIKAD NIJE KASNO</p>
         </div>
         <div className="showbizz-newsItemsImage">
           <img
@@ -27,7 +27,7 @@ export const News = () => {
       </div>
       <div className="showbizz-newsItems">
         <div className="showbizz-newsBrand">
-          <p className="showbizz-newsBrandText grand">GRAND</p>
+          <p className="showbizz-newsBrandText showbizz-grand">GRAND</p>
         </div>
         <div className="showbizz-newsItemsImage">
           <img
@@ -42,7 +42,7 @@ export const News = () => {
       </div>
       <div className="showbizz-newsItems">
         <div className="showbizz-newsBrand">
-          <p className="showbizz-newsBrandText grand">GRAND</p>
+          <p className="showbizz-newsBrandText showbizz-grand">GRAND</p>
         </div>
         <div className="showbizz-newsItemsImage">
           <img
@@ -57,7 +57,7 @@ export const News = () => {
       </div>
       <div className="showbizz-newsItems">
         <div className="showbizz-newsBrand">
-          <p className="showbizz-newsBrandText grand">GRAND</p>
+          <p className="showbizz-newsBrandText showbizz-grand">GRAND</p>
         </div>
         <div className="showbizz-newsItemsImage">
           <img
