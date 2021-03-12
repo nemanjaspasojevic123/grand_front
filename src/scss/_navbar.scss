@@ -1,6 +1,7 @@
 .navbar-logo-placeholder {
     background-color: $primary-color-3;
     width: 15%;
+    margin: .5rem;
 }
 
 .navbar-logo {
@@ -22,52 +23,52 @@
 }
 
 .nav-item {
-    margin: 0 auto;
     padding-left: .5em;
     padding-right: .5em;
 }
 
 .nav-link {
-    color: $secondary-color-1!important;
+    color: $primary-color-2!important;
     height: 100%;
     padding-left: 0!important;
     padding-right: 0!important;
 }
 
 .showbizzLink {
-    border-bottom: 3px solid red;
+    border-bottom: 4px solid red;
 }
 
 .zvezde-grandaLink {
-    border-bottom: 3px solid #dda92f;
+    border-bottom: 4px solid #dda92f;
 }
 
 .nikad-nije-kasnoLink {
-    border-bottom: 3px solid #5a319d;
+    border-bottom: 4px solid #5a319d;
 }
 
 .prakticna-zenaLink {
-    border-bottom: 3px solid #B17216;
+    border-bottom: 4px solid #B17216;
 }
 
 .horoskopLink {
-    border-bottom: 3px solid #3774A6;
+    border-bottom: 4px solid #3774A6;
 }
 
 .receptiLink {
-    border-bottom: 3px solid #886C52;
+    border-bottom: 4px solid #886C52;
 }
 
 .grandLink {
-    border-bottom: 3px solid #B17216;
+    border-bottom: 4px solid #B17216;
 }
 
 .dropdown-menu {
     background-color: $primary-color-1!important;
+    text-align: center;
 }
 
 .dropdown-item {
-    color: $secondary-color-1!important;
+    color: $primary-color-2!important;
 }
 
 .dropdown-item-grandoskop {
@@ -111,6 +112,11 @@ text-align: -webkit-center;
     border-color: $primary-color-1!important;
 }
 
+.navbar-toggler-icon {
+    width: 2em!important;
+    height: 2em!important;
+}
+
 .navbar>.container, .navbar>.container-fluid {
     align-items:initial;
     min-width: 100%;
@@ -139,5 +145,14 @@ text-align: -webkit-center;
     }
     .navbar-user {
         padding: 1%;
+    }
+    .nav-link {
+        font-size: large;
+    }
+    .dropdown-item {
+        font-size: large;
+    }
+    .dropdown-toggle::after {
+        vertical-align: 0;
     }
 }    

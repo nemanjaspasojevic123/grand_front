@@ -6,7 +6,7 @@ import user from "../../assets/logos/user.svg";
 export const NavBar = () => {
   return (
     <div className="navigationBar">
-      <nav className="navbar fixed-top navbar-expand-sm navbar-light bg-dark">
+      <nav className="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
         <div className="container nav-container">
           <Link className="navbar-logo-placeholder" to="/">
             <img src={logo} alt="no img" className="navbar-logo" />
@@ -21,28 +21,28 @@ export const NavBar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ml-auto">
-              <li className="nav-item">
-                <Link className="nav-link showbizzLink" to="/showbizz">
+              <li className="nav-item showbizzLink">
+                <Link className="nav-link" to="/showbizz">
                   Showbizz
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link zvezde-grandaLink" to="/zvezde-granda">
+              <li className="nav-item zvezde-grandaLink">
+                <Link className="nav-link" to="/zvezde-granda">
                   Zvezde Granda
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link nikad-nije-kasnoLink" to="/nikad-nije-kasno">
+              <li className="nav-item nikad-nije-kasnoLink">
+                <Link className="nav-link" to="/nikad-nije-kasno">
                   Nikad nije kasno
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link prakticna-zenaLink" to="/prakticna-zena">
+              <li className="nav-item prakticna-zenaLink">
+                <Link className="nav-link" to="/prakticna-zena">
                   Praktična žena
                 </Link>
               </li>
-              <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle horoskopLink" href="/horoskop" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+              <li className="nav-item dropdown horoskopLink">
+                                <a className="nav-link dropdown-toggle" href="/horoskop" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
                                     Horoskop
                                 </a>
                                 <div className="dropdown-menu dropdown-horoskop" aria-labelledby="navbarDropdown">
@@ -50,13 +50,13 @@ export const NavBar = () => {
                                     <Link className="dropdown-item dropdown-item-horoskop" to="/horoskop">Horoskop</Link>
                                 </div>
                             </li>
-              <li className="nav-item">
-                <Link className="nav-link receptiLink" to="/recepti">
+              <li className="nav-item receptiLink">
+                <Link className="nav-link" to="/recepti">
                   Recepti
                 </Link>
               </li>
-              <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle grandLink" href="/grand" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <li className="nav-item dropdown grandLink">
+                                <a className="nav-link dropdown-toggle" href="/grand" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Grand
                                 </a>
                                 <div className="dropdown-menu dropdown-grand" aria-labelledby="navbarDropdown">

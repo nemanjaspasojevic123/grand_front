@@ -86,7 +86,7 @@
   }
 
   .emisije-content {
-    padding-top: 0;
+    padding-top: 2%;
   }
 
   .emisije-contentCenterMain {
@@ -277,7 +277,7 @@
   }
 
   .grandoskop-content {
-    padding-top: 0;
+    padding-top: 2%;
   }
 
   .horoskop-contentCenterMain {
@@ -370,7 +370,7 @@
   }
 
   .horoskop-content {
-    padding-top: 0;
+    padding-top: 2%;
   }
 
   .horoskop-contentCenterMain {
@@ -556,6 +556,7 @@
 .navbar-logo-placeholder {
   background-color: #E44326;
   width: 15%;
+  margin: 0.5rem;
 }
 
 .navbar-logo {
@@ -564,7 +565,7 @@
 }
 
 .navbar {
-  background-color: #dbdbdb !important;
+  background-color: #222222 !important;
   width: 100% !important;
   padding: 0 !important;
   flex-flow: wrap !important;
@@ -577,52 +578,52 @@
 }
 
 .nav-item {
-  margin: 0 auto;
   padding-left: 0.5em;
   padding-right: 0.5em;
 }
 
 .nav-link {
-  color: #000000 !important;
+  color: #ffffff !important;
   height: 100%;
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
 
 .showbizzLink {
-  border-bottom: 3px solid red;
+  border-bottom: 4px solid red;
 }
 
 .zvezde-grandaLink {
-  border-bottom: 3px solid #dda92f;
+  border-bottom: 4px solid #dda92f;
 }
 
 .nikad-nije-kasnoLink {
-  border-bottom: 3px solid #5a319d;
+  border-bottom: 4px solid #5a319d;
 }
 
 .prakticna-zenaLink {
-  border-bottom: 3px solid #B17216;
+  border-bottom: 4px solid #B17216;
 }
 
 .horoskopLink {
-  border-bottom: 3px solid #3774A6;
+  border-bottom: 4px solid #3774A6;
 }
 
 .receptiLink {
-  border-bottom: 3px solid #886C52;
+  border-bottom: 4px solid #886C52;
 }
 
 .grandLink {
-  border-bottom: 3px solid #B17216;
+  border-bottom: 4px solid #B17216;
 }
 
 .dropdown-menu {
-  background-color: #dbdbdb !important;
+  background-color: #222222 !important;
+  text-align: center;
 }
 
 .dropdown-item {
-  color: #000000 !important;
+  color: #ffffff !important;
 }
 
 .dropdown-item-grandoskop:hover {
@@ -655,7 +656,12 @@
 
 .navbar-toggler {
   color: #000000 !important;
-  border-color: #dbdbdb !important;
+  border-color: #222222 !important;
+}
+
+.navbar-toggler-icon {
+  width: 2em !important;
+  height: 2em !important;
 }
 
 .navbar > .container, .navbar > .container-fluid {
@@ -670,7 +676,7 @@
 }
 
 .navbar-user {
-  background-color: #dbdbdb;
+  background-color: #222222;
   width: 17.5%;
   text-align: center;
 }
@@ -687,6 +693,18 @@
   .navbar-user {
     padding: 1%;
   }
+
+  .nav-link {
+    font-size: large;
+  }
+
+  .dropdown-item {
+    font-size: large;
+  }
+
+  .dropdown-toggle::after {
+    vertical-align: 0;
+  }
 }
 .nav-track {
   display: flex;
@@ -694,7 +712,7 @@
   padding: 4px 17%;
   min-height: 20px;
   width: 100%;
-  background-color: #dbdbdb;
+  background-color: #d6d6d6;
   color: #000000;
   border-bottom: 1px solid black;
   position: fixed;
@@ -807,7 +825,7 @@
   }
 
   .nikadNijeKasno-content {
-    padding-top: 0;
+    padding-top: 2%;
   }
 
   .nikadNijeKasno-contentCenterMain {
@@ -1005,7 +1023,7 @@
   }
 
   .prakticnaZena-content {
-    padding-top: 0;
+    padding-top: 2%;
   }
 
   .prakticnaZena-contentCenterMain {
@@ -1203,7 +1221,7 @@
   }
 
   .programskaSema-content {
-    padding-top: 0;
+    padding-top: 2%;
   }
 
   .emisije-contentCenterMain {
@@ -1401,7 +1419,7 @@
   }
 
   .recepti-content {
-    padding-top: 0;
+    padding-top: 2%;
   }
 
   .recepti-contentCenterMain {
@@ -1602,7 +1620,7 @@
   }
 
   .showbizz-content {
-    padding-top: 0;
+    padding-top: 2%;
   }
 
   .showbizz-contentCenterCarousel {
@@ -2244,7 +2262,7 @@
 .mostReadNewsItemTitle {
   width: 100%;
   color: #000000;
-  background-color: #dbdbdb;
+  background-color: #222222;
   height: 100%;
   padding-left: 0.5rem;
 }
