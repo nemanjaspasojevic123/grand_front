@@ -88,6 +88,18 @@
   .emisije-content {
     padding-top: 0;
   }
+
+  .emisije-contentCenterMain {
+    display: block;
+  }
+
+  .emisije-contentCenterMainNews {
+    width: 100%;
+  }
+
+  .emisije-contentCenterPromotions {
+    width: 100%;
+  }
 }
 .emisije-popularNews {
   width: 100%;
@@ -145,6 +157,11 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     column-gap: 0.5rem;
+  }
+
+  .emisijePopularNews-image {
+    height: 75%;
+    width: 100%;
   }
 }
 .footer {
@@ -262,6 +279,18 @@
   .grandoskop-content {
     padding-top: 0;
   }
+
+  .horoskop-contentCenterMain {
+    display: block;
+  }
+
+  .horoskop-contentCenterMainNews {
+    width: 100%;
+  }
+
+  .horoskop-contentCenterPromotions {
+    width: 100%;
+  }
 }
 .horoskop {
   padding-top: 80px;
@@ -343,6 +372,18 @@
   .horoskop-content {
     padding-top: 0;
   }
+
+  .horoskop-contentCenterMain {
+    display: block;
+  }
+
+  .horoskop-contentCenterMainNews {
+    width: 100%;
+  }
+
+  .horoskop-contentCenterPromotions {
+    width: 100%;
+  }
 }
 .grandoskop-popularNews {
   width: 100%;
@@ -401,6 +442,11 @@
     grid-template-columns: repeat(1, 1fr);
     column-gap: 0.5rem;
   }
+
+  .grandoskopPopularNews-image {
+    height: 75%;
+    width: 100%;
+  }
 }
 .horoskop-popularNews {
   width: 100%;
@@ -458,6 +504,11 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     column-gap: 0.5rem;
+  }
+
+  .horoskopPopularNews-image {
+    height: 75%;
+    width: 100%;
   }
 }
 .horoskop-facebook {
@@ -758,6 +809,18 @@
   .nikadNijeKasno-content {
     padding-top: 0;
   }
+
+  .nikadNijeKasno-contentCenterMain {
+    display: block;
+  }
+
+  .nikadNijeKasno-contentCenterMainNews {
+    width: 100%;
+  }
+
+  .nikadNijeKasno-contentCenterPromotions {
+    width: 100%;
+  }
 }
 .nikadNijeKasno-popularNews {
   width: 100%;
@@ -815,6 +878,11 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     column-gap: 0.5rem;
+  }
+
+  .nikadNijeKasnoPopularNews-image {
+    height: 75%;
+    width: 100%;
   }
 }
 .nikadNijeKasno-premijera {
@@ -939,6 +1007,18 @@
   .prakticnaZena-content {
     padding-top: 0;
   }
+
+  .prakticnaZena-contentCenterMain {
+    display: inline-block;
+  }
+
+  .prakticnaZena-contentCenterMainNews {
+    width: 100%;
+  }
+
+  .prakticnaZena-contentCenterPromotions {
+    width: 100%;
+  }
 }
 .prakticnaZena-popularNews {
   width: 100%;
@@ -996,6 +1076,11 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     column-gap: 0.5rem;
+  }
+
+  .prakticnaZenaPopularNews-image {
+    height: 75%;
+    width: 100%;
   }
 }
 .prakticnaZena-facebook {
@@ -1120,6 +1205,18 @@
   .programskaSema-content {
     padding-top: 0;
   }
+
+  .emisije-contentCenterMain {
+    display: block;
+  }
+
+  .emisije-contentCenterMainNews {
+    width: 100%;
+  }
+
+  .emisije-contentCenterPromotions {
+    width: 100%;
+  }
 }
 .programskaSema-popularNews {
   width: 100%;
@@ -1177,6 +1274,11 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     column-gap: 0.5rem;
+  }
+
+  .programskaSemaPopularNews-image {
+    height: 75%;
+    width: 100%;
   }
 }
 .emisije-facebook {
@@ -1301,6 +1403,18 @@
   .recepti-content {
     padding-top: 0;
   }
+
+  .recepti-contentCenterMain {
+    display: block;
+  }
+
+  .recepti-contentCenterMainNews {
+    width: 100%;
+  }
+
+  .recepti-contentCenterPromotions {
+    width: 100%;
+  }
 }
 .recepti-popularNews {
   width: 100%;
@@ -1358,6 +1472,11 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     column-gap: 0.5rem;
+  }
+
+  .receptiPopularNews-image {
+    height: 75%;
+    width: 100%;
   }
 }
 .recepti-facebook {
@@ -1596,6 +1715,18 @@
   .zvezdeGranda-content {
     padding-top: 0;
   }
+
+  .zvezdeGranda-contentCenterMain {
+    display: block;
+  }
+
+  .zvezdeGranda-contentCenterMainNews {
+    width: 100%;
+  }
+
+  .zvezdeGranda-contentCenterPromotions {
+    width: 100%;
+  }
 }
 .zvezdeGranda-popularNews {
   width: 100%;
@@ -1653,6 +1784,11 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     column-gap: 0.5rem;
+  }
+
+  .zvezdeGrandaPopularNews-image {
+    height: 75%;
+    width: 100%;
   }
 }
 .zvezdeGrandaNews {
