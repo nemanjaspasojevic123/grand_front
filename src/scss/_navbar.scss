@@ -1,7 +1,6 @@
 .navbar-logo-placeholder {
     background-color: $primary-color-3;
     width: 15%;
-    margin: .5rem;
 }
 
 .navbar-logo {
@@ -110,6 +109,7 @@ text-align: -webkit-center;
 .navbar-toggler {
     color: $secondary-color-1!important;
     border-color: $primary-color-1!important;
+    margin: .25rem
 }
 
 .navbar-toggler-icon {
@@ -124,7 +124,6 @@ text-align: -webkit-center;
     padding-right: 0;
     margin-left: 0;
     margin-right: 0;
-    border-bottom: 1px solid black;
     height: 100%;
 }
 

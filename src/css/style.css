@@ -90,7 +90,7 @@
   }
 
   .emisije-content {
-    padding-top: 2%;
+    padding-top: 3%;
   }
 
   .emisije-contentCenterMain {
@@ -281,7 +281,7 @@
   }
 
   .grandoskop-content {
-    padding-top: 2%;
+    padding-top: 3%;
   }
 
   .horoskop-contentCenterMain {
@@ -374,7 +374,7 @@
   }
 
   .horoskop-content {
-    padding-top: 2%;
+    padding-top: 3%;
   }
 
   .horoskop-contentCenterMain {
@@ -560,7 +560,6 @@
 .navbar-logo-placeholder {
   background-color: #E44326;
   width: 15%;
-  margin: 0.5rem;
 }
 
 .navbar-logo {
@@ -661,6 +660,7 @@
 .navbar-toggler {
   color: #000000 !important;
   border-color: #222222 !important;
+  margin: 0.25rem;
 }
 
 .navbar-toggler-icon {
@@ -675,7 +675,6 @@
   padding-right: 0;
   margin-left: 0;
   margin-right: 0;
-  border-bottom: 1px solid black;
   height: 100%;
 }
 
@@ -829,7 +828,7 @@
   }
 
   .nikadNijeKasno-content {
-    padding-top: 2%;
+    padding-top: 3%;
   }
 
   .nikadNijeKasno-contentCenterMain {
@@ -1027,7 +1026,7 @@
   }
 
   .prakticnaZena-content {
-    padding-top: 2%;
+    padding-top: 3%;
   }
 
   .prakticnaZena-contentCenterMain {
@@ -1225,7 +1224,7 @@
   }
 
   .programskaSema-content {
-    padding-top: 2%;
+    padding-top: 3%;
   }
 
   .emisije-contentCenterMain {
@@ -1423,7 +1422,7 @@
   }
 
   .recepti-content {
-    padding-top: 2%;
+    padding-top: 3%;
   }
 
   .recepti-contentCenterMain {
@@ -1624,7 +1623,7 @@
   }
 
   .showbizz-content {
-    padding-top: 2%;
+    padding-top: 3%;
   }
 
   .showbizz-contentCenterCarousel {
@@ -1735,7 +1734,7 @@
   }
 
   .zvezdeGranda-content {
-    padding-top: 2%;
+    padding-top: 3%;
   }
 
   .zvezdeGranda-reklamaImage {
