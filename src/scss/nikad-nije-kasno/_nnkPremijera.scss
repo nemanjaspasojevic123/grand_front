@@ -1,10 +1,10 @@
 .nikadNijeKasno-premijera {
     width: 100%;
-    padding-left: .5rem;
+    padding-left: 1rem;
 }
 
 .nikadNijeKasno-premijeraMainTitle {
-    padding-right: .5rem;
+    padding-bottom: .5rem;
 }
 
 .nikadNijeKasno-premijeraMainTitleText {
@@ -26,4 +26,14 @@
     left: 0;
     height: 100%;
     width: 100%;
+}
+
+.nikadNijeKasno-premijeraTitleText {
+    padding-bottom: .5rem;
+}
+
+@media screen and (max-width: 576px) {
+    .nikadNijeKasno-premijera {
+        padding-left: 0;
+    }
 }

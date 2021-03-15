@@ -1,10 +1,10 @@
 .horoskop-premijera {
     width: 100%;
-    padding-left: .5rem;
+    padding-left: 1rem;
 }
 
 .horoskop-premijeraMainTitle {
-    padding-right: .5rem;
+    padding-bottom: .5rem;
 }
 
 .horoskop-premijeraMainTitleText {
@@ -26,4 +26,14 @@
     left: 0;
     height: 100%;
     width: 100%;
+}
+
+.horoskop-premijeraTitleText {
+    padding-bottom: .5rem;
+}
+
+@media screen and (max-width: 576px) {
+    .horoskop-premijera {
+        padding-left: 0;
+    }
 }

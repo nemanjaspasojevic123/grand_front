@@ -1,10 +1,10 @@
 .recepti-premijera {
     width: 100%;
-    padding-left: .5rem;
+    padding-left: 1rem;
 }
 
 .recepti-premijeraMainTitle {
-    padding-right: .5rem;
+    padding-bottom: .5rem;
 }
 
 .recepti-premijeraMainTitleText {
@@ -26,4 +26,14 @@
     left: 0;
     height: 100%;
     width: 100%;
+}
+
+.recepti-premijeraTitleText {
+    padding-bottom: .5rem;
+}
+
+@media screen and (max-width: 576px) {
+    .recepti-premijera {
+        padding-left: 0;
+    }
 }

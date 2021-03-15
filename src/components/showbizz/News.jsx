@@ -4,10 +4,35 @@ import showbizzImg2 from "../../assets/images/c3b7d134fc9268bee50baab49ec1f2c07b
 import showbizzImg3 from "../../assets/images/9ee9aae3a19b81f777a5447e81cda96b266999f7.jpg";
 import showbizzImg4 from "../../assets/images/5e457019b10d0855da8ec84e2c61d71d49a10484.jpg";
 import { Link } from "react-router-dom";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/swiper.scss';
 
 export const News = () => {
   return (
+    <Swiper
+    spaceBetween={10}
+    breakpoints={{
+      // when window width is >= 640px
+      640: {
+        width: 640,
+        slidesPerView: 2,
+      },
+      // when window width is >= 768px
+      768: {
+        width: 768,
+        slidesPerView: 3,
+        watchOverflow: true,
+      },
+       // when window width is >= 1200px
+       1200: {
+        width: 1200,
+        slidesPerView: 4,
+        watchOverflow: true,
+      },
+    }}
+    >
     <section className="showbizz-news">
+    <SwiperSlide>
       <div className="showbizz-newsItems">
       <Link to="/newsTest">
         <div className="showbizz-newsBrand">
@@ -21,10 +46,12 @@ export const News = () => {
           />
         </div>
         <div className="showbizz-newsTitle">
-          <span className="showbizz-newsItemTitle">Znamo ga kao markantnog, ali nekada je furao TOTALNO DRUGI STIL! Pogledajte kako je Mare izgledao ranije</span>
+          <span className="showbizz-newsItemTitle">Znamo ga kao markantnog, ali nekada je furao TOTALNO DRUGI STIL!</span>
         </div>
       </Link>
       </div>
+      </SwiperSlide>
+      <SwiperSlide>
       <div className="showbizz-newsItems">
         <div className="showbizz-newsBrand">
           <p className="showbizz-newsBrandText showbizz-grand">GRAND</p>
@@ -40,6 +67,8 @@ export const News = () => {
             <span className="showbizz-newsItemTitle">Zoran Pejić Peja otvoreno o braku: "Žena mi UVEK OBUVA ČARAPE!"</span>
         </div>
       </div>
+      </SwiperSlide>
+      <SwiperSlide>
       <div className="showbizz-newsItems">
         <div className="showbizz-newsBrand">
           <p className="showbizz-newsBrandText showbizz-grand">GRAND</p>
@@ -52,9 +81,11 @@ export const News = () => {
           />
         </div>
         <div className="showbizz-newsTitle">
-            <span className="showbizz-newsItemTitle">PONOVO NA NOGAMA! Amadeus bend se DIŽE IZ PEPELA i nastavlja u novom sastavu!</span>
+            <span className="showbizz-newsItemTitle">PONOVO NA NOGAMA! Amadeus bend se DIŽE IZ PEPELA i nastavlja</span>
         </div>
       </div>
+      </SwiperSlide>
+      <SwiperSlide>
       <div className="showbizz-newsItems">
         <div className="showbizz-newsBrand">
           <p className="showbizz-newsBrandText showbizz-grand">GRAND</p>
@@ -67,9 +98,11 @@ export const News = () => {
           />
         </div>
         <div className="showbizz-newsTitle">
-            <span className="showbizz-newsItemTitle">Pevač godinu dana živi u KOLIBI, završio u ZATVORU i zakukao „Nadam se da ću uskoro doći u Srbiju“</span>
+            <span className="showbizz-newsItemTitle">Pevač godinu dana živi u KOLIBI, završio u ZATVORU i zakukao</span>
         </div>
       </div>
+      </SwiperSlide>
     </section>
+    </Swiper>
   );
 };

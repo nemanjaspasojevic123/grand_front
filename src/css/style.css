@@ -29,9 +29,9 @@
   height: 100vh;
   margin: auto;
   box-sizing: border-box;
-  padding-top: 0.5rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .emisije-contentCenterMain {
@@ -111,6 +111,7 @@
 
 .emisije-popularNewsMainTitle {
   padding-right: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .emisije-popularNewsMainTitleText {
@@ -149,7 +150,7 @@
   .emisije-popularNewsItems {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 0.5rem;
+    column-gap: 1rem;
   }
 
   .emisije-popularNewsMainTitleText {
@@ -160,7 +161,7 @@
   .emisije-popularNewsItems {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    column-gap: 0.5rem;
+    column-gap: 1rem;
   }
 
   .emisijePopularNews-image {
@@ -220,9 +221,9 @@
   height: 100vh;
   margin: auto;
   box-sizing: border-box;
-  padding-top: 0.5rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .horoskop-contentCenterMain {
@@ -313,9 +314,9 @@
   height: 100vh;
   margin: auto;
   box-sizing: border-box;
-  padding-top: 0.5rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .horoskop-contentCenterMain {
@@ -395,6 +396,7 @@
 
 .grandoskop-popularNewsMainTitle {
   padding-right: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .grandoskop-popularNewsMainTitleText {
@@ -433,7 +435,7 @@
   .grandoskop-popularNewsItems {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 0.5rem;
+    column-gap: 1rem;
   }
 
   .grandoskop-popularNewsMainTitleText {
@@ -444,7 +446,7 @@
   .grandoskop-popularNewsItems {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    column-gap: 0.5rem;
+    column-gap: 1rem;
   }
 
   .grandoskopPopularNews-image {
@@ -458,6 +460,7 @@
 
 .horoskop-popularNewsMainTitle {
   padding-right: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .horoskop-popularNewsMainTitleText {
@@ -496,7 +499,7 @@
   .horoskop-popularNewsItems {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 0.5rem;
+    column-gap: 1rem;
   }
 
   .horoskop-popularNewsMainTitleText {
@@ -507,7 +510,7 @@
   .horoskop-popularNewsItems {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    column-gap: 0.5rem;
+    column-gap: 1rem;
   }
 
   .horoskopPopularNews-image {
@@ -516,8 +519,8 @@
   }
 }
 .horoskop-facebook {
-  padding-left: 0.5rem;
-  padding-top: 0.5rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
 }
 
 .horoskop-facebookMain {
@@ -527,13 +530,18 @@
   overflow: hidden;
 }
 
+@media screen and (max-width: 576px) {
+  .horoskop-facebook {
+    padding-left: 0;
+  }
+}
 .horoskop-premijera {
   width: 100%;
-  padding-left: 0.5rem;
+  padding-left: 1rem;
 }
 
 .horoskop-premijeraMainTitle {
-  padding-right: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .horoskop-premijeraMainTitleText {
@@ -557,6 +565,15 @@
   width: 100%;
 }
 
+.horoskop-premijeraTitleText {
+  padding-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 576px) {
+  .horoskop-premijera {
+    padding-left: 0;
+  }
+}
 .navbar-logo-placeholder {
   background-color: #E44326;
   width: 15%;
@@ -767,9 +784,9 @@
   height: 100vh;
   margin: auto;
   box-sizing: border-box;
-  padding-top: 0.5rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .nikadNijeKasno-contentCenterMain {
@@ -849,6 +866,7 @@
 
 .nikadNijeKasno-popularNewsMainTitle {
   padding-right: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .nikadNijeKasno-popularNewsMainTitleText {
@@ -887,7 +905,7 @@
   .nikadNijeKasno-popularNewsItems {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 0.5rem;
+    column-gap: 1rem;
   }
 
   .nikadNijeKasno-popularNewsMainTitleText {
@@ -898,7 +916,7 @@
   .nikadNijeKasno-popularNewsItems {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    column-gap: 0.5rem;
+    column-gap: 1rem;
   }
 
   .nikadNijeKasnoPopularNews-image {
@@ -908,11 +926,11 @@
 }
 .nikadNijeKasno-premijera {
   width: 100%;
-  padding-left: 0.5rem;
+  padding-left: 1rem;
 }
 
 .nikadNijeKasno-premijeraMainTitle {
-  padding-right: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .nikadNijeKasno-premijeraMainTitleText {
@@ -936,9 +954,18 @@
   width: 100%;
 }
 
+.nikadNijeKasno-premijeraTitleText {
+  padding-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 576px) {
+  .nikadNijeKasno-premijera {
+    padding-left: 0;
+  }
+}
 .nikadNijeKasno-facebook {
-  padding-left: 0.5rem;
-  padding-top: 0.5rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
 }
 
 .nikadNijeKasno-facebookMain {
@@ -948,6 +975,11 @@
   overflow: hidden;
 }
 
+@media screen and (max-width: 576px) {
+  .nikadNijeKasno-facebook {
+    padding-left: 0;
+  }
+}
 .prakticnaZena {
   padding-top: 80px;
 }
@@ -965,9 +997,9 @@
   height: 100vh;
   margin: auto;
   box-sizing: border-box;
-  padding-top: 0.5rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .prakticnaZena-contentCenterMain {
@@ -1047,6 +1079,7 @@
 
 .prakticnaZena-popularNewsMainTitle {
   padding-right: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .prakticnaZena-popularNewsMainTitleText {
@@ -1085,7 +1118,7 @@
   .prakticnaZena-popularNewsItems {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 0.5rem;
+    column-gap: 1rem;
   }
 
   .prakticnaZena-popularNewsMainTitleText {
@@ -1096,7 +1129,7 @@
   .prakticnaZena-popularNewsItems {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    column-gap: 0.5rem;
+    column-gap: 1rem;
   }
 
   .prakticnaZenaPopularNews-image {
@@ -1105,8 +1138,8 @@
   }
 }
 .prakticnaZena-facebook {
-  padding-left: 0.5rem;
-  padding-top: 0.5rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
 }
 
 .prakticnaZena-facebookMain {
@@ -1116,13 +1149,18 @@
   overflow: hidden;
 }
 
+@media screen and (max-width: 576px) {
+  .prakticnaZena-facebook {
+    padding-left: 0;
+  }
+}
 .prakticnaZena-premijera {
   width: 100%;
-  padding-left: 0.5rem;
+  padding-left: 1rem;
 }
 
 .prakticnaZena-premijeraMainTitle {
-  padding-right: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .prakticnaZena-premijeraMainTitleText {
@@ -1146,6 +1184,15 @@
   width: 100%;
 }
 
+.prakticnaZena-premijeraTitleText {
+  padding-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 576px) {
+  .prakticnaZena-premijera {
+    padding-left: 0;
+  }
+}
 .programskaSema {
   padding-top: 80px;
 }
@@ -1163,9 +1210,9 @@
   height: 100vh;
   margin: auto;
   box-sizing: border-box;
-  padding-top: 0.5rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .emisije-contentCenterMain {
@@ -1245,6 +1292,7 @@
 
 .programskaSema-popularNewsMainTitle {
   padding-right: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .programskaSema-popularNewsMainTitleText {
@@ -1283,7 +1331,7 @@
   .programskaSema-popularNewsItems {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 0.5rem;
+    column-gap: 1rem;
   }
 
   .programskaSema-popularNewsMainTitleText {
@@ -1294,7 +1342,7 @@
   .programskaSema-popularNewsItems {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    column-gap: 0.5rem;
+    column-gap: 1rem;
   }
 
   .programskaSemaPopularNews-image {
@@ -1303,8 +1351,8 @@
   }
 }
 .emisije-facebook {
-  padding-left: 0.5rem;
-  padding-top: 0.5rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
 }
 
 .emisije-facebookMain {
@@ -1314,13 +1362,18 @@
   overflow: hidden;
 }
 
+@media screen and (max-width: 576px) {
+  .emisije-facebook {
+    padding-left: 0;
+  }
+}
 .emisije-premijera {
   width: 100%;
-  padding-left: 0.5rem;
+  padding-left: 1rem;
 }
 
 .emisije-premijeraMainTitle {
-  padding-right: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .emisije-premijeraMainTitleText {
@@ -1344,6 +1397,15 @@
   width: 100%;
 }
 
+.emisije-premijeraTitleText {
+  padding-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 576px) {
+  .emisije-premijera {
+    padding-left: 0;
+  }
+}
 .recepti {
   padding-top: 80px;
 }
@@ -1361,9 +1423,9 @@
   height: 100vh;
   margin: auto;
   box-sizing: border-box;
-  padding-top: 0.5rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .recepti-contentCenterMain {
@@ -1443,6 +1505,7 @@
 
 .recepti-popularNewsMainTitle {
   padding-right: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .recepti-popularNewsMainTitleText {
@@ -1481,7 +1544,7 @@
   .recepti-popularNewsItems {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 0.5rem;
+    column-gap: 1rem;
   }
 
   .recepti-popularNewsMainTitleText {
@@ -1492,7 +1555,7 @@
   .recepti-popularNewsItems {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    column-gap: 0.5rem;
+    column-gap: 1rem;
   }
 
   .receptiPopularNews-image {
@@ -1501,8 +1564,8 @@
   }
 }
 .recepti-facebook {
-  padding-left: 0.5rem;
-  padding-top: 0.5rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
 }
 
 .recepti-facebookMain {
@@ -1512,13 +1575,18 @@
   overflow: hidden;
 }
 
+@media screen and (max-width: 576px) {
+  .recepti-facebook {
+    padding-left: 0;
+  }
+}
 .recepti-premijera {
   width: 100%;
-  padding-left: 0.5rem;
+  padding-left: 1rem;
 }
 
 .recepti-premijeraMainTitle {
-  padding-right: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .recepti-premijeraMainTitleText {
@@ -1542,6 +1610,15 @@
   width: 100%;
 }
 
+.recepti-premijeraTitleText {
+  padding-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 576px) {
+  .recepti-premijera {
+    padding-left: 0;
+  }
+}
 .showbizz {
   padding-top: 80px;
 }
@@ -1557,9 +1634,9 @@
   height: 100vh;
   margin: auto;
   box-sizing: border-box;
-  padding-top: 0.5rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .showbizz-leftBanner {
@@ -1659,9 +1736,9 @@
   height: 100vh;
   margin: auto;
   box-sizing: border-box;
-  padding-top: 0.5rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .zvezdeGranda-contentCenterMain {
@@ -1678,7 +1755,7 @@
 
 .zvezdeGranda-contentCenterReklama {
   width: 100%;
-  padding-bottom: 0.5rem;
+  padding-bottom: 1rem;
   text-align: center;
 }
 
@@ -1759,6 +1836,7 @@
 
 .zvezdeGranda-popularNewsMainTitle {
   padding-right: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .zvezdeGranda-popularNewsMainTitleText {
@@ -1797,7 +1875,7 @@
   .zvezdeGranda-popularNewsItems {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 0.5rem;
+    column-gap: 1rem;
   }
 
   .zvezdeGranda-popularNewsMainTitleText {
@@ -1808,7 +1886,7 @@
   .zvezdeGranda-popularNewsItems {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    column-gap: 0.5rem;
+    column-gap: 1rem;
   }
 
   .zvezdeGrandaPopularNews-image {
@@ -1820,7 +1898,7 @@
   display: flex;
   width: 100%;
   box-sizing: border-box;
-  padding-bottom: 0.5rem;
+  padding-bottom: 1rem;
 }
 
 .zvezdeGrandaNewsItem {
@@ -1847,20 +1925,16 @@
 }
 
 .swiper-container {
-  padding-bottom: 2rem !important;
-}
-
-.swiper-pagination {
-  bottom: 0 !important;
+  padding-bottom: 1rem !important;
 }
 
 .zvezdeGranda-premijera {
   width: 100%;
-  padding-left: 0.5rem;
+  padding-left: 1rem;
 }
 
 .zvezdeGranda-premijeraMainTitle {
-  padding-right: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .zvezdeGranda-premijeraMainTitleText {
@@ -1884,9 +1958,18 @@
   width: 100%;
 }
 
+.zvezdeGranda-premijeraTitleText {
+  padding-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 576px) {
+  .zvezdeGranda-premijera {
+    padding-left: 0;
+  }
+}
 .zvezdeGranda-facebook {
-  padding-left: 0.5rem;
-  padding-top: 0.5rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
 }
 
 .zvezdeGranda-facebookMain {
@@ -1896,11 +1979,16 @@
   overflow: hidden;
 }
 
+@media screen and (max-width: 576px) {
+  .zvezdeGranda-facebook {
+    padding-left: 0;
+  }
+}
 .showbizz-carousel {
   width: 60%;
   height: 45%;
   box-sizing: border-box;
-  padding-right: 0.5rem;
+  padding-right: 1rem;
 }
 
 .carousel .carousel-item {
@@ -1935,7 +2023,7 @@
   .showbizz-carousel {
     width: 100%;
     padding-right: 0;
-    padding-bottom: 0.5rem;
+    padding-bottom: 1rem;
   }
 }
 .showbizz-poll {
@@ -1992,13 +2080,13 @@
 .showbizz-news {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  column-gap: 0.5rem;
+  column-gap: 1rem;
 }
 
 .showbizz-newsItems {
   max-width: 100%;
   box-sizing: border-box;
-  padding-top: 0.5rem;
+  padding-top: 1rem;
 }
 
 .showbizz-newsItemsImage {
@@ -2059,26 +2147,25 @@
   .showbizz-news {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 0.5rem;
+    column-gap: 1rem;
   }
 }
 @media screen and (max-width: 450px) {
   .showbizz-news {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    column-gap: 0.5rem;
+    column-gap: 1rem;
   }
 }
 .showbizz-popularNews {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  column-gap: 0.5rem;
-  row-gap: 0.5rem;
+  column-gap: 1rem;
+  row-gap: 1rem;
 }
 
 .showbizz-popularNewsMainTitle {
-  padding-top: 0.5rem;
-  padding-right: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .showbizz-popularNewsMainTitleText {
@@ -2143,29 +2230,22 @@
   .showbizz-popularNews {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 0.5rem;
+    column-gap: 1rem;
   }
 
   .showbizz-popularNewsMainTitleText {
     width: 100%;
   }
 }
-@media screen and (max-width: 450px) {
-  .showbizz-popularNews {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    column-gap: 0.5rem;
-  }
-}
 .shows {
   display: block;
   max-width: 100%;
-  padding-right: 0.5rem;
+  padding-right: 1rem;
 }
 
 .showsMainTitle {
-  padding-top: 0.5rem;
-  padding-right: 0.5rem;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
 }
 
 .showsMainTitleText {
@@ -2180,7 +2260,7 @@
 .showsItems {
   max-width: 100%;
   box-sizing: border-box;
-  padding-bottom: 0.5rem;
+  padding-bottom: 1rem;
 }
 
 .showsItemsImage {
@@ -2234,8 +2314,8 @@
 }
 
 .mostReadNewsMainTitle {
-  padding-top: 0.5rem;
-  padding-right: 0.5rem;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
 }
 
 .mostReadNewsMainTitleText {
@@ -2251,7 +2331,7 @@
   display: flex;
   width: 100%;
   box-sizing: border-box;
-  padding-bottom: 0.5rem;
+  padding-bottom: 1rem;
 }
 
 .mostReadNewsItemsImage {
@@ -2322,6 +2402,10 @@
 
   .mostReadNewsItemTitle {
     padding-bottom: 2rem;
+  }
+
+  .mostReadNewsMainTitle {
+    padding-top: 0;
   }
 }
 .newsTest {
