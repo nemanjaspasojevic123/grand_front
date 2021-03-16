@@ -39,6 +39,23 @@
     font-weight: bold;
 }
 
+.zvezdeGranda-popularMainNewsItems {
+    display: block;
+}
+
+.zvezdeGrandaOneMainPopularNews-image {
+    height: 50%;
+    width: 100%;
+}
+
+.zvezdeGrandaOneMainPopularNews-imageItem {
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
 @media screen and (max-width: 768px){
     .zvezdeGranda-popularNewsItems {
         display: grid;

@@ -10,6 +10,7 @@ import { Footer } from "../footer/Footer";
 import { ZGPremijera } from "./ZGPremijera";
 import { ZGFacebook } from "./ZGFacebook";
 import { ZGSlikaDana } from "./ZGSlikaDana";
+import { MainPopularNews } from "./MainPopularNews";
 
 export const ZvezdeGranda = () => {
   return (
@@ -29,6 +30,7 @@ export const ZvezdeGranda = () => {
           </div>
           <div className="zvezdeGranda-contentCenterMain">
             <div className="zvezdeGranda-contentCenterMainNews">
+              <MainPopularNews />
               <ZGPopularNews />
             </div>
             <div className="zvezdeGranda-contentCenterPromotions">
