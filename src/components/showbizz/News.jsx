@@ -30,7 +30,7 @@ export const News = () => {
       },
        // when window width is >= 1200px
        1200: {
-        width: 1040,
+        width: 1000,
         slidesPerView: 4,
         watchOverflow: true,
       },
