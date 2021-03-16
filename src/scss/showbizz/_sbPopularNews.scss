@@ -67,6 +67,19 @@
     padding: .2rem;
 }
 
+.showbizz-popularNewsbtnWrap {
+    width: 100%;
+    text-align: end;
+    padding-top: 1rem;
+}
+
+.showbizz-popularNewsbtn {
+    border: 1px solid red;
+    box-sizing: border-box;
+    padding: .5rem;
+    
+}
+
 @media screen and (max-width: 768px){
     .showbizz-popularNews {
         display: grid;
@@ -75,6 +88,12 @@
     }
     .showbizz-popularNewsMainTitleText {
         width: 100%;
+    }
+    .showbizz-popularNewsItemTitle {
+        font-size: 10px;
+    }
+    .showbizz-popularNewsBrandText {
+        font-size: 10px;
     }
 }
 

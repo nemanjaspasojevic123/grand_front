@@ -2090,7 +2090,6 @@
 }
 
 .showbizz-newsItemsImage {
-  height: 100%;
   width: 100%;
 }
 
@@ -2226,6 +2225,18 @@
   padding: 0.2rem;
 }
 
+.showbizz-popularNewsbtnWrap {
+  width: 100%;
+  text-align: end;
+  padding-top: 1rem;
+}
+
+.showbizz-popularNewsbtn {
+  border: 1px solid red;
+  box-sizing: border-box;
+  padding: 0.5rem;
+}
+
 @media screen and (max-width: 768px) {
   .showbizz-popularNews {
     display: grid;
@@ -2235,6 +2246,14 @@
 
   .showbizz-popularNewsMainTitleText {
     width: 100%;
+  }
+
+  .showbizz-popularNewsItemTitle {
+    font-size: 10px;
+  }
+
+  .showbizz-popularNewsBrandText {
+    font-size: 10px;
   }
 }
 .shows {
@@ -2381,23 +2400,14 @@
   background-color: #dda92f;
 }
 
-@media screen and (max-width: 1300px) {
-  .mostReadNewsItemTitle {
-    font-size: medium;
-  }
-}
 @media screen and (max-width: 576px) {
-  .mostReadNewsItems {
-    display: block;
-  }
-
   .mostReadNews {
     width: 100%;
   }
 
   .mostReadNewsMainTitleText {
     width: 100%;
-    font-size: medium;
+    font-size: 8px;
   }
 
   .mostReadNewsItemTitle {
@@ -2406,6 +2416,10 @@
 
   .mostReadNewsMainTitle {
     padding-top: 0;
+  }
+
+  .showbizz-mostReadNewsBrandText {
+    font-size: 10px;
   }
 }
 .newsTest {

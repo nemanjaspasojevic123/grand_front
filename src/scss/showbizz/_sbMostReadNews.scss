@@ -71,27 +71,21 @@
     background-color: #dda92f;
 }
 
-@media screen and (max-width: 1300px){
-    .mostReadNewsItemTitle {
-        font-size: medium;
-    }
-}
-
 @media screen and (max-width: 576px){
-    .mostReadNewsItems {
-        display: block;
-    }
     .mostReadNews {
         width: 100%;
     }
     .mostReadNewsMainTitleText {
         width: 100%;
-        font-size: medium;
+        font-size: 8px;
     }
     .mostReadNewsItemTitle {
         padding-bottom: 2rem;
     }
     .mostReadNewsMainTitle {
         padding-top: 0;
+    }
+    .showbizz-mostReadNewsBrandText {
+        font-size: 10px;
     }
 }

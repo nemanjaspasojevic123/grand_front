@@ -11,7 +11,7 @@ export const PZOnePopularNews = ({oneNews}) => {
           />
         </div>
         <div className="prakticnaZenaPopularNews-title">
-            <span className="prakticnaZenaPopularNews-titleText">{oneNews.news_title}</span>
+            <span className="prakticnaZenaPopularNews-titleText">{oneNews.news_title.substring(0, 90)}</span>
         </div>
         <div className="prakticnaZenaPopularNews-date">
             <span className="prakticnaZenaPopularNews-dateText">{oneNews.news_date}</span>

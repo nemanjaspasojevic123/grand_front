@@ -121,6 +121,9 @@ export const PopularNews = () => {
           </div>
         </div>
       </section>
+        <div className="showbizz-popularNewsbtnWrap">
+        <button className="showbizz-popularNewsbtn">Pogledaj još</button>
+        </div>
     </>
   );
 };
