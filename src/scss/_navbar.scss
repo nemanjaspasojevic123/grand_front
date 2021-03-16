@@ -34,31 +34,38 @@
 }
 
 .showbizzLink {
-    border-bottom: 4px solid red;
+    border-bottom: 1px solid $secondary-color-1;
+    border-left: 15px solid red;
 }
 
 .zvezde-grandaLink {
-    border-bottom: 4px solid #dda92f;
+    border-bottom: 1px solid $secondary-color-1;
+    border-left: 15px solid $zvezdeGranda-color;
 }
 
 .nikad-nije-kasnoLink {
-    border-bottom: 4px solid #5a319d;
+    border-bottom: 1px solid $secondary-color-1;
+    border-left: 15px solid $nikadNijeKasno-color;
 }
 
 .prakticna-zenaLink {
-    border-bottom: 4px solid #B17216;
+    border-bottom: 1px solid $secondary-color-1;
+    border-left: 15px solid $prakticnaZena-color;
 }
 
 .horoskopLink {
-    border-bottom: 4px solid #3774A6;
+    border-bottom: 1px solid $secondary-color-1;
+    border-left: 15px solid $horoskop-color;
 }
 
 .receptiLink {
-    border-bottom: 4px solid #886C52;
+    border-bottom: 1px solid $secondary-color-1;
+    border-left: 15px solid $recepti-color;
 }
 
 .grandLink {
-    border-bottom: 4px solid #B17216;
+    border-bottom: 1px solid $secondary-color-1;
+    border-left: 15px solid $grand-color;
 }
 
 .dropdown-menu {
@@ -72,34 +79,34 @@
 
 .dropdown-item-grandoskop {
     &:hover {
-        background-color: #3774A6!important;
+        background-color: $horoskop-color!important;
     }
 }
 
 .dropdown-item-horoskop {
     &:hover {
-        background-color: #3774A6!important;
+        background-color: $horoskop-color!important;
     }
 }
 
 .dropdown-item-emisije {
     &:hover {
-        background-color: #B17216!important;
+        background-color: $grand-color!important;
     }
 }
 
 .dropdown-item-programska-sema {
     &:hover {
-        background-color: #B17216!important;
+        background-color: $grand-color!important;
     }
 }
 
 .dropdown-horoskop {
-    border: 3px solid #3774A6;
+    border: 3px solid $horoskop-color;
 }
 
 .dropdown-grand {
-    border: 3px solid #B17216;
+    border: 3px solid $grand-color;
 }
 
 .navbar-collapse {

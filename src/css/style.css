@@ -610,31 +610,38 @@
 }
 
 .showbizzLink {
-  border-bottom: 4px solid red;
+  border-bottom: 1px solid #000000;
+  border-left: 15px solid red;
 }
 
 .zvezde-grandaLink {
-  border-bottom: 4px solid #dda92f;
+  border-bottom: 1px solid #000000;
+  border-left: 15px solid #dda92f;
 }
 
 .nikad-nije-kasnoLink {
-  border-bottom: 4px solid #5a319d;
+  border-bottom: 1px solid #000000;
+  border-left: 15px solid #793BE0;
 }
 
 .prakticna-zenaLink {
-  border-bottom: 4px solid #B17216;
+  border-bottom: 1px solid #000000;
+  border-left: 15px solid #B17216;
 }
 
 .horoskopLink {
-  border-bottom: 4px solid #3774A6;
+  border-bottom: 1px solid #000000;
+  border-left: 15px solid #3774A6;
 }
 
 .receptiLink {
-  border-bottom: 4px solid #886C52;
+  border-bottom: 1px solid #000000;
+  border-left: 15px solid #886C52;
 }
 
 .grandLink {
-  border-bottom: 4px solid #B17216;
+  border-bottom: 1px solid #000000;
+  border-left: 15px solid #B17216;
 }
 
 .dropdown-menu {
@@ -870,7 +877,7 @@
 }
 
 .nikadNijeKasno-popularNewsMainTitleText {
-  background-color: #5a319d;
+  background-color: #793BE0;
   color: #ffffff;
   padding: 0.5rem;
   box-sizing: border-box;
@@ -934,7 +941,7 @@
 }
 
 .nikadNijeKasno-premijeraMainTitleText {
-  background-color: #5a319d;
+  background-color: #793BE0;
   color: #ffffff;
   padding: 0.5rem;
   box-sizing: border-box;
