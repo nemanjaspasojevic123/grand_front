@@ -2,7 +2,6 @@ import React from "react";
 import { NavBar } from "../navbar/NavBar";
 import banner_left from "../../assets/images/sanja_levo.jpg";
 import banner_right from "../../assets/images/voja_desno.jpg";
-import { Carousel } from "./Carousel";
 import { Poll } from "./Poll";
 import { News } from "./News";
 import { Footer } from "../footer/Footer";
@@ -10,6 +9,7 @@ import { NavTrack } from "../navbar/NavTrack";
 import { PopularNews } from "./PopularNews";
 import { Shows } from "./Shows";
 import { MostReadNews } from "./MostReadNews";
+import { ShowbizzCarousel } from "./ShowbizzCarousel";
 
 export const Showbizz = () => {
   return (
@@ -33,7 +33,7 @@ export const Showbizz = () => {
         </div>
         <div className="showbizz-contentCenter">
           <div className="showbizz-contentCenterCarousel">
-            <Carousel />
+            <ShowbizzCarousel />
             <Poll />
           </div>
           <div className="showbizz-contentCenterNews">

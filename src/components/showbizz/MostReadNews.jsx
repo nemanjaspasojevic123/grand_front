@@ -9,7 +9,7 @@ export const MostReadNews = () => {
   return (
     <section className="mostReadNews">
       <div className="mostReadNewsMainTitle">
-        <h6 className="mostReadNewsMainTitleText">Najčitanije vesti</h6>
+        <h5 className="mostReadNewsMainTitleText">Najčitanije vesti</h5>
       </div>
       <div className="mostReadNewsItems">
         <div className="mostReadNewsItemsImage">

@@ -12,6 +12,11 @@ export const News = () => {
     <Swiper
     spaceBetween={10}
     breakpoints={{
+      // when window width is >= 250px
+      250: {
+        width: 250,
+        slidesPerView: 2,
+      },
       // when window width is >= 640px
       640: {
         width: 640,
