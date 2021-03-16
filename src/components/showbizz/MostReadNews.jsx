@@ -4,8 +4,23 @@ import mostReadNewsImg2 from "../../assets/images/71d271556d0074e42f9ad0f523efa1
 import mostReadNewsImg3 from "../../assets/images/9e0c70e1ac2cd29d08aec6f52d3a1dcb287ada5f.jpg";
 import mostReadNewsImg4 from "../../assets/images/92b390fa36213d62ede8a66cdebb5f2bfc64815a.jpg";
 import mostReadNewsImg5 from "../../assets/images/1ed247dcccdc41ce99e5196b1130a7be8ac89a9b.jpg";
+import Pagination from 'react-bootstrap-4-pagination';
+
 
 export const MostReadNews = () => {
+
+  let paginationConfig = {
+    totalPages: 7,
+    currentPage: 3,
+    showMax: 5,
+    size: "sm",
+    activeBorderColor: 'black',
+    activeBgColor: 'grey',
+    onClick: function (page) {
+       console.log(page);
+     }
+  };
+
   return (
     <section className="mostReadNews">
       <div className="mostReadNewsMainTitle">
@@ -101,6 +116,7 @@ export const MostReadNews = () => {
         </div>
         </div>
       </div>
+      <Pagination {...paginationConfig} />
     </section>
   );
 };

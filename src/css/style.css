@@ -2097,7 +2097,7 @@
   object-fit: cover;
   top: 0;
   left: 0;
-  height: 100%;
+  height: auto;
   width: 100%;
 }
 
@@ -2353,7 +2353,7 @@
   padding: 0.5rem;
   box-sizing: border-box;
   clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
-  width: 65%;
+  width: 100%;
 }
 
 .mostReadNewsItems {
@@ -2364,8 +2364,7 @@
 }
 
 .mostReadNewsItemsImage {
-  height: 100%;
-  width: 100%;
+  height: auto;
 }
 
 .mostReadNewsItem {
@@ -2421,6 +2420,7 @@
 
   .mostReadNewsItemTitle {
     padding-bottom: 2rem;
+    font-size: 2vh;
   }
 
   .mostReadNewsMainTitle {
@@ -2429,6 +2429,20 @@
 
   .showbizz-mostReadNewsBrandText {
     font-size: 10px;
+  }
+
+  .mostReadNewsItem {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .mostReadNewsItem {
+    width: 150px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .mostReadNewsItem {
+    width: 250px;
   }
 }
 .newsTest {
