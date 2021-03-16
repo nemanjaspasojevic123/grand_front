@@ -15,7 +15,7 @@ export const News = () => {
       // when window width is >= 250px
       250: {
         width: 250,
-        slidesPerView: 2,
+        slidesPerView: 1.5,
       },
       // when window width is >= 640px
       640: {
