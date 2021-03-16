@@ -16,6 +16,7 @@ export const MostReadNews = () => {
     size: "sm",
     activeBorderColor: 'black',
     activeBgColor: 'grey',
+    color: 'grey',
     onClick: function (page) {
        console.log(page);
      }
