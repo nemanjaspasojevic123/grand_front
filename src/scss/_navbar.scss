@@ -34,38 +34,31 @@
 }
 
 .showbizzLink {
-    border-bottom: 1px solid $secondary-color-1;
-    border-left: 15px solid red;
+    border-bottom: 4px solid red;
 }
 
 .zvezde-grandaLink {
-    border-bottom: 1px solid $secondary-color-1;
-    border-left: 15px solid $zvezdeGranda-color;
+    border-bottom: 4px solid $zvezdeGranda-color;
 }
 
 .nikad-nije-kasnoLink {
-    border-bottom: 1px solid $secondary-color-1;
-    border-left: 15px solid $nikadNijeKasno-color;
+    border-bottom: 4px solid $nikadNijeKasno-color;
 }
 
 .prakticna-zenaLink {
-    border-bottom: 1px solid $secondary-color-1;
-    border-left: 15px solid $prakticnaZena-color;
+    border-bottom: 4px solid $prakticnaZena-color;
 }
 
 .horoskopLink {
-    border-bottom: 1px solid $secondary-color-1;
-    border-left: 15px solid $horoskop-color;
+    border-bottom: 4px solid $horoskop-color;
 }
 
 .receptiLink {
-    border-bottom: 1px solid $secondary-color-1;
-    border-left: 15px solid $recepti-color;
+    border-bottom: 4px solid $recepti-color;
 }
 
 .grandLink {
-    border-bottom: 1px solid $secondary-color-1;
-    border-left: 15px solid $grand-color;
+    border-bottom: 4px solid $grand-color;
 }
 
 .dropdown-menu {
@@ -160,5 +153,44 @@ text-align: -webkit-center;
     }
     .dropdown-toggle::after {
         vertical-align: 0;
+    }
+    .showbizzLink {
+        border-bottom: 1px solid $secondary-color-1;
+        border-left: 15px solid red;
+    }
+    
+    .zvezde-grandaLink {
+        border-bottom: 1px solid $secondary-color-1;
+        border-left: 15px solid $zvezdeGranda-color;
+    }
+    
+    .nikad-nije-kasnoLink {
+        border-bottom: 1px solid $secondary-color-1;
+        border-left: 15px solid $nikadNijeKasno-color;
+    }
+    
+    .prakticna-zenaLink {
+        border-bottom: 1px solid $secondary-color-1;
+        border-left: 15px solid $prakticnaZena-color;
+    }
+    
+    .horoskopLink {
+        border-bottom: 1px solid $secondary-color-1;
+        border-left: 15px solid $horoskop-color;
+    }
+    
+    .receptiLink {
+        border-bottom: 1px solid $secondary-color-1;
+        border-left: 15px solid $recepti-color;
+    }
+    
+    .grandLink {
+        border-bottom: 1px solid $secondary-color-1;
+        border-left: 15px solid $grand-color;
+    }
+    .navbar-user {
+        border-bottom: 1px solid $secondary-color-1;
+        border-left: 15px solid #E44326;
+        width: 100%;
     }
 }    

@@ -7,6 +7,7 @@ import carouselImg5 from "../../assets/images/0f4bbac0aae9422ed4b6a8073d3de27120
 import Carousel from 'react-bootstrap/Carousel'
 
 export const ShowbizzCarousel = () => {
+
   return (
     <div className="showbizz-carousel">
       <Carousel slide={true} interval={5000}>
