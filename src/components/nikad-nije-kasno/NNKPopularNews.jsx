@@ -21,7 +21,7 @@ export const NNKPopularNews = () => {
   return (
       <section className="nikadNijeKasno-popularNews">
         <div className="nikadNijeKasno-popularNewsItems">
-          {popularNews.map(el => {return <NNKOnePopularNews key={el.news_id} oneNews={el}/>}).slice(0, 10)}
+          {popularNews.map(el => {return <NNKOnePopularNews key={el.news_id} oneNews={el}/>}).slice(0, 12)}
         </div>
         <Pagination {...paginationConfig} />
       </section>

@@ -21,7 +21,7 @@ export const GPopularNews = () => {
   return (
       <section className="grandoskop-popularNews">
         <div className="grandoskop-popularNewsItems">
-          {popularNews.map(el => {return <GOnePopularNews key={el.news_id} oneNews={el}/>}).slice(0, 10)}
+          {popularNews.map(el => {return <GOnePopularNews key={el.news_id} oneNews={el}/>}).slice(0, 12)}
         </div>
         <Pagination {...paginationConfig} />
       </section>

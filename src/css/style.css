@@ -1836,7 +1836,14 @@
 }
 
 .zvezdeGranda-popularMainNewsItems {
-  display: block;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1rem;
+  padding-bottom: 4rem;
+}
+
+.zvezdeGranda-popularMainNewsItems :first-child {
+  grid-column: 1/-1;
 }
 
 .zvezdeGrandaOneMainPopularNewsItem {
@@ -1844,7 +1851,7 @@
 }
 
 .zvezdeGrandaOneMainPopularNews-image {
-  height: 50%;
+  height: 90%;
   width: 100%;
 }
 
@@ -1866,6 +1873,20 @@
 
   .zvezdeGranda-popularNewsMainTitleText {
     width: 100%;
+  }
+
+  .zvezdeGranda-popularMainNewsItems {
+    display: block;
+    padding-bottom: 0;
+  }
+
+  .zvezdeGrandaOneMainPopularNews-image {
+    height: 50%;
+    width: 100%;
+  }
+
+  .zvezdeGrandaOneMainPopularNewsItem {
+    padding-bottom: 1rem;
   }
 }
 .zvezdeGrandaNews {

@@ -21,7 +21,7 @@ export const PSPopularNews = () => {
   return (
       <section className="programskaSema-popularNews">
         <div className="programskaSema-popularNewsItems">
-          {popularNews.map(el => {return <PSOnePopularNews key={el.news_id} oneNews={el}/>}).slice(0, 10)}
+          {popularNews.map(el => {return <PSOnePopularNews key={el.news_id} oneNews={el}/>}).slice(0, 12)}
         </div>
         <Pagination {...paginationConfig} />
       </section>

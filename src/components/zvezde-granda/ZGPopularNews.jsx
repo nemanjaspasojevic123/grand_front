@@ -21,7 +21,7 @@ export const ZGPopularNews = () => {
   return (
       <section className="zvezdeGranda-popularNews">
         <div className="zvezdeGranda-popularNewsItems">
-          {popularNews.map(el => {return <ZGOnePopularNews key={el.news_id} oneNews={el}/>}).slice(0, 10)}
+          {popularNews.map(el => {return <ZGOnePopularNews key={el.news_id} oneNews={el}/>}).slice(0, 12)}
         </div>
         <Pagination {...paginationConfig} />
       </section>
