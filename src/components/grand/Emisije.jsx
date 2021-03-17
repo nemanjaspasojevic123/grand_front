@@ -10,6 +10,7 @@ import { ETopNews } from './ETopNews';
 import { Premijera } from './Premijera';
 import { SlikaDana } from './SlikaDana';
 import { Facebook } from './Facebook';
+import { EMainPopularNews } from './EMainPopularNews';
 
 export const Emisije = () => {
     return (
@@ -29,6 +30,7 @@ export const Emisije = () => {
                     </div>
                     <div className="emisije-contentCenterMain">
                         <div className="emisije-contentCenterMainNews">
+                            <EMainPopularNews />
                             <EPopularNews />
                         </div>
                         <div className="emisije-contentCenterPromotions">

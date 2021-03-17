@@ -10,6 +10,7 @@ import { TopNews } from './TopNews';
 import { RPremijera } from './RPremijera';
 import { RSlikaDana } from './RSlikaDana';
 import { RFacebook } from './RFacebook';
+import { MainPopularNews } from './MainPopularNews';
 
 export const Recepti = () => {
     return (
@@ -29,6 +30,7 @@ export const Recepti = () => {
                     </div>
                     <div className="recepti-contentCenterMain">
                         <div className="recepti-contentCenterMainNews">
+                            <MainPopularNews />
                             <RPopularNews />
                         </div>
                         <div className="recepti-contentCenterPromotions">

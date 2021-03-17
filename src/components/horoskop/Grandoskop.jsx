@@ -10,6 +10,7 @@ import { GTopNews } from './GTopNews';
 import { Premijera } from './Premijera';
 import { SlikaDana } from './SlikaDana';
 import { Facebook } from './Facebook';
+import { GMainPopularNews } from './GMainPopularNews';
 
 export const Grandoskop = () => {
     return (
@@ -29,6 +30,7 @@ export const Grandoskop = () => {
                     </div>
                     <div className="horoskop-contentCenterMain">
                         <div className="horoskop-contentCenterMainNews">
+                            <GMainPopularNews />
                             <GPopularNews />
                         </div>
                         <div className="horoskop-contentCenterPromotions">

@@ -10,6 +10,7 @@ import { HTopNews } from './HTopNews';
 import { Premijera } from './Premijera';
 import { SlikaDana } from './SlikaDana';
 import { Facebook } from './Facebook';
+import { HMainPopularNews } from './HMainPopularNews';
 
 export const Horoskop = () => {
     return (
@@ -29,6 +30,7 @@ export const Horoskop = () => {
                     </div>
                     <div className="horoskop-contentCenterMain">
                         <div className="horoskop-contentCenterMainNews">
+                            <HMainPopularNews />
                             <HPopularNews />
                         </div>
                         <div className="horoskop-contentCenterPromotions">

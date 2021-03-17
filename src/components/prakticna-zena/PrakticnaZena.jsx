@@ -10,6 +10,7 @@ import { TopNews } from './TopNews';
 import { PZFacebook } from './PZFacebook';
 import { PZSlikaDana } from './PZSlikaDana';
 import { PZPremijera } from './PZPremijera';
+import { MainPopularNews } from './MainPopularNews';
 
 export const PrakticnaZena = () => {
     return (
@@ -29,6 +30,7 @@ export const PrakticnaZena = () => {
                     </div>
                     <div className="prakticnaZena-contentCenterMain">
                         <div className="prakticnaZena-contentCenterMainNews">
+                            <MainPopularNews />
                             <PZPopularNews />
                         </div>
                         <div className="prakticnaZena-contentCenterPromotions">

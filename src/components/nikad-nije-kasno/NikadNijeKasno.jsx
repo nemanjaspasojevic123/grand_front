@@ -10,6 +10,7 @@ import { TopNews } from './TopNews';
 import { NNKPremijera } from './NNKPremijera';
 import { NNKSlikaDana } from './NNKSlikaDana';
 import { NNKFacebook } from './NNKFacebook';
+import { MainPopularNews } from './MainPopularNews';
 
 export const NikadNijeKasno = () => {
     return (
@@ -29,6 +30,7 @@ export const NikadNijeKasno = () => {
                     </div>
                     <div className="nikadNijeKasno-contentCenterMain">
                         <div className="nikadNijeKasno-contentCenterMainNews">
+                            <MainPopularNews />
                             <NNKPopularNews />
                         </div>
                         <div className="nikadNijeKasno-contentCenterPromotions">

@@ -10,6 +10,7 @@ import { PSTopNews } from './PSTopNews';
 import { Premijera } from './Premijera';
 import { SlikaDana } from './SlikaDana';
 import { Facebook } from './Facebook';
+import { PSMainPopularNews } from './PSMainPopularNews';
 
 export const ProgramskaSema = () => {
     return (
@@ -29,6 +30,7 @@ export const ProgramskaSema = () => {
                     </div>
                     <div className="emisije-contentCenterMain">
                         <div className="emisije-contentCenterMainNews">
+                            <PSMainPopularNews />
                             <PSPopularNews />
                         </div>
                         <div className="emisije-contentCenterPromotions">
